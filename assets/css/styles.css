@@ -141,6 +141,14 @@ iframe {
   margin-top: 0;
   margin-bottom: 15px;
 }
+.header .profile-content .desc2 {
+  color: #778492;
+  font-family: "Lato", arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
 .header .profile-content .social a {
   background: #b0b7bf;
   width: 36px;
