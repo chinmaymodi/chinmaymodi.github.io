@@ -429,6 +429,29 @@ function finishPractice() {
   window.scrollTo(0, 0);
 }
 
+// ============================================================
+// THEME TOGGLE (dark/light mode with localStorage persistence)
+// ============================================================
+
+function toggleTheme() {
+  var body = document.body;
+  body.classList.toggle('dark');
+  setData('bcbr_theme', body.classList.contains('dark') ? 'dark' : 'light');
+}
+
+function initTheme() {
+  var saved = getData('bcbr_theme');
+  if (saved === 'light') {
+    return; // user explicitly switched to light, respect it
+  }
+  document.body.classList.add('dark');
+  if (!saved) {
+    setData('bcbr_theme', 'dark');
+  }
+}
+
+initTheme();
+
 function exitPractice() {
   if (confirm('Exit practice? Your progress for this session will be lost.')) {
     document.getElementById('practiceLayout').classList.add('hidden');
