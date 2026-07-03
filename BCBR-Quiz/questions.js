@@ -1,3 +1,6 @@
+// BCBR Question Bank - All 23 Assignments
+// Auto-generated with numerical variants
+
 var ALL_QUESTIONS = [
   {
     "assignment": 1,
@@ -2630,26 +2633,106 @@ var ALL_QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "01",
+        "text": "4.01",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "53",
+        "text": "5.53",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "35",
+        "text": "3.35",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "71",
+        "text": "4.71",
         "correct": true
       }
     ],
-    "correct": "d"
+    "correct": "d",
+    "variants": [
+      {
+        "stem": "In a population of 100000 children aged 5-10 years, 401 children were diagnosed with autistic disorder. Calculate the prevalence of autism per 1000 children.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "4.01",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "5.53",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.35",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "4.71",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "In a population of 100000 children aged 5-10 years, 553 children were diagnosed with autistic disorder. Calculate the prevalence of autism per 1000 children.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "4.01",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "5.53",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "3.35",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "4.71",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "In a population of 100000 children aged 5-10 years, 335 children were diagnosed with autistic disorder. Calculate the prevalence of autism per 1000 children.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "4.01",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "5.53",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.35",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "4.71",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      }
+    ]
   },
   {
     "assignment": 4,
@@ -2882,26 +2965,106 @@ var ALL_QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "2",
+        "text": "5.2",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "2",
+        "text": "4.2",
         "correct": true
       },
       {
         "letter": "c",
-        "text": "2",
+        "text": "3.2",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "2",
+        "text": "2.2",
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Among 10000 population in a city, 52 residents were identified with Hepatitis B infection. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5.2",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "4.2",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.2",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "2.2",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Among 10000 population in a city, 32 residents were identified with Hepatitis B infection. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5.2",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "4.2",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.2",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "2.2",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Among 10000 population in a city, 22 residents were identified with Hepatitis B infection. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5.2",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "4.2",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.2",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "2.2",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 4,
@@ -2966,17 +3129,17 @@ var ALL_QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "2",
+        "text": "0.2",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "5",
+        "text": "0.5",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "5",
+        "text": "2.5",
         "correct": true
       },
       {
@@ -2985,7 +3148,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "In a rural block with 50000 population, 10 residents were identified with cardiovascular disease. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.2",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "0.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "2.5",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "In a rural block with 50000 population, 25 residents were identified with cardiovascular disease. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.2",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.5",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "2.5",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "In a rural block with 2000 population, 50 residents were identified with cardiovascular disease. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.2",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "2.5",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 4,
@@ -3027,7 +3270,7 @@ var ALL_QUESTIONS = [
       },
       {
         "letter": "b",
-        "text": "2 episodes per child year",
+        "text": "0.2 episodes per child year",
         "correct": false
       },
       {
@@ -3037,11 +3280,91 @@ var ALL_QUESTIONS = [
       },
       {
         "letter": "d",
-        "text": "5 episodes per child year",
+        "text": "0.5 episodes per child year",
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": "a",
+    "variants": [
+      {
+        "stem": "In a study, 300 children were followed up for one year to determine the burden of acute respiratory infections (ARI). Calculate the incidence density if the total number of ARI episodes recorded was 60.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.2 episodes per child year",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "3 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.5 episodes per child year",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "In a study, 300 children were followed up for one year to determine the burden of acute respiratory infections (ARI). Calculate the incidence density if the total number of ARI episodes recorded was 900.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.2 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3 episodes per child year",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "0.5 episodes per child year",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "In a study, 300 children were followed up for one year to determine the burden of acute respiratory infections (ARI). Calculate the incidence density if the total number of ARI episodes recorded was 150.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.2 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.5 episodes per child year",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 4,
@@ -3069,7 +3392,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "A total of 100 people with hypertension were followed up for 3 years. At the end of first year, 20 people developed MI, at the end of second year, 10 people left the study and at the end of third year, 10 people developed MI. Calculate the total person-years.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "250",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "260",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "270",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "280",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "A total of 100 people with hypertension were followed up for 3 years. At the end of first year, 10 people developed MI, at the end of second year, 20 people left the study and at the end of third year, 10 people developed MI. Calculate the total person-years.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "250",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "260",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "270",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "280",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "A total of 100 people with hypertension were followed up for 3 years. At the end of first year, 5 people left the study, at the end of second year, 10 people left and at the end of third year, 5 people developed MI. Calculate the total person-years.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "250",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "260",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "270",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "280",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 4,
@@ -3097,7 +3500,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "During a one-year follow-up, a psychiatrist studied 100 patients with drug addiction. None had previous history of suicidal ideation and 7 patients developed it for the first time. What is the cumulative incidence of suicidal ideation?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7% per year",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "20% per year",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "21.5% per year",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "27 per year",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "During a one-year follow-up, a psychiatrist studied 200 patients with drug addiction. Fifteen had previous history of suicidal ideation and 43 developed it for the first time. What is the cumulative incidence of suicidal ideation?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7% per year",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "20% per year",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "21.5% per year",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "27 per year",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "During a one-year follow-up, a psychiatrist studied 100 patients with drug addiction. None had previous history of suicidal ideation and 27 patients developed it for the first time. What is the cumulative incidence of suicidal ideation?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7% per year",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "20% per year",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "21.5% per year",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "27 per year",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 4,
@@ -3106,12 +3589,12 @@ var ALL_QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "2%",
+        "text": "1.2%",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "7%",
+        "text": "2.7%",
         "correct": true
       },
       {
@@ -3125,7 +3608,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "In a food poisoning outbreak, 83 people were affected. Among them, 60 were hospitalized, and one died. Calculate the case-fatality ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1.2%",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "2.7%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "4%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "8%",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "In a food poisoning outbreak, 75 people were affected. Among them, 50 were hospitalized, and three died. Calculate the case-fatality ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1.2%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "2.7%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "4%",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "8%",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "In a food poisoning outbreak, 75 people were affected. Among them, 50 were hospitalized, and six died. Calculate the case-fatality ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1.2%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "2.7%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "4%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "8%",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 4,
@@ -4634,26 +5197,106 @@ var ALL_QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "32",
+        "text": "0.32",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "39",
+        "text": "1.39",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "12",
+        "text": "3.12",
         "correct": true
       },
       {
         "letter": "d",
-        "text": "72",
+        "text": "0.72",
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "A gynaecology resident recruited 100 cases of extrauterine pregnancy and 200 controls. Among cases, 7 had history of IUD use and among controls, 38 had IUD use. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.32",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "1.39",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.12",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.72",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "A gynaecology resident recruited 100 cases of extrauterine pregnancy and 200 controls. Among cases, 12 had history of IUD use and among controls, 18 had IUD use. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.32",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "1.39",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "3.12",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.72",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "A gynaecology resident recruited 100 cases of extrauterine pregnancy and 200 controls. Among cases, 15 had history of IUD use and among controls, 40 had IUD use. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.32",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "1.39",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.12",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.72",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 6,
@@ -4690,26 +5333,106 @@ var ALL_QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "04",
+        "text": "0.04",
         "correct": false
       },
       {
         "letter": "b",
-        "text": "85",
+        "text": "0.85",
         "correct": false
       },
       {
         "letter": "c",
-        "text": "21",
+        "text": "1.21",
         "correct": true
       },
       {
         "letter": "d",
-        "text": "50",
+        "text": "1.50",
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "A cohort study: 1000 coffee drinkers and 1000 non-coffee drinkers were followed. 5 coffee drinkers and 125 non-coffee drinkers developed pancreatitis. Calculate the relative risk.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.04",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "0.85",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "1.21",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "1.50",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "A cohort study: 1000 coffee drinkers and 1000 non-coffee drinkers were followed. 85 coffee drinkers and 100 non-coffee drinkers developed pancreatitis. Calculate the relative risk.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.04",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.85",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "1.21",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "1.50",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "A cohort study: 1000 coffee drinkers and 1000 non-coffee drinkers were followed. 150 coffee drinkers and 100 non-coffee drinkers developed pancreatitis. Calculate the relative risk.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.04",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.85",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "1.21",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "1.50",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 6,
@@ -5194,11 +5917,13 @@ var ALL_QUESTIONS = [
     "options": [
       {
         "letter": "1",
-        "text": "'a', 'b', 'c', and 'd'"
+        "text": "'a', 'b', 'c', and 'd'",
+        "correct": undefined
       },
       {
         "letter": "2",
-        "text": "'a', 'b' and 'd'"
+        "text": "'a', 'b' and 'd'",
+        "correct": undefined
       }
     ],
     "correct": "1"
@@ -7379,7 +8104,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": "a",
+    "variants": [
+      {
+        "stem": "The median is equivalent to __________ percentile",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25th",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50th",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "75th",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "1st",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "Third quartile (Q3) is equivalent to __________ percentile",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25th",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50th",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "75th",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "1st",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "The minimum value in a dataset is equivalent to the __________ percentile",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25th",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50th",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "75th",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0th",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 10,
@@ -7407,7 +8212,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "Find the median: 12, 15, 29, 35, 48",
+        "options": [
+          {
+            "letter": "a",
+            "text": "29",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "48",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "26",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Find the median: 10, 15, 48, 50, 55",
+        "options": [
+          {
+            "letter": "a",
+            "text": "29",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "48",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "26",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "Find the median: 8, 10, 25, 29, 48",
+        "options": [
+          {
+            "letter": "a",
+            "text": "29",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "48",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "26",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 10,
@@ -7523,7 +8408,7 @@ var ALL_QUESTIONS = [
       },
       {
         "letter": "b",
-        "text": "5",
+        "text": "4.5",
         "correct": false
       },
       {
@@ -7537,7 +8422,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": "a",
+    "variants": [
+      {
+        "stem": "What is the mean? 2, 4, 5, 6, 3, 7, 4, 5",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "4.5",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "9",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "8",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "What is the mean? 6, 8, 10, 12, 7, 9, 11, 9",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "4.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "9",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "8",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "What is the mean? 10, 6, 8, 12, 4, 9, 7, 8",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "4.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "9",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "8",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 10,
@@ -7621,7 +8586,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Which percentile is equivalent to the first quartile (Q1)?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "75",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "100",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Which percentile is equivalent to the third quartile (Q3)?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "75",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "100",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Which percentile represents the maximum value in a dataset?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "75",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "100",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 10,
@@ -7677,7 +8722,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "Fasting blood glucose of 100 participants. Mean=110 mg/dl, SD=22 mg/dl. Calculate CV.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "20%",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "14%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "10%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25%",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Fasting blood glucose of 100 participants. Mean=110 mg/dl, SD=15.4 mg/dl. Calculate CV.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "20%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "14%",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "10%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25%",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "Fasting blood glucose of 100 participants. Mean=110 mg/dl, SD=27.5 mg/dl. Calculate CV.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "20%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "14%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "10%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25%",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 10,
@@ -7733,7 +8858,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "In 100 COPD patients, FEV: median=2.0L, Q1=1.5L, Q3=3.0L, min=1.0L, max=4.0L. How many patients have FEV between 1.0 and 4.0 L (all data)?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "75",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "In 100 COPD patients, FEV: median=2.0L, Q1=1.5L, Q3=3.0L. How many patients have FEV below Q1 (below 1.5L)?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "75",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "In 100 COPD patients, FEV: median=2.0L, Q1=1.5L, Q3=3.0L. How many patients have FEV below Q3 (below 3.0L)?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "75",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 10,
@@ -7770,7 +8975,7 @@ var ALL_QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "5",
+        "text": "7.5",
         "correct": false
       },
       {
@@ -7789,7 +8994,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Hemoglobin levels of 10 participants: 7.5, 8.5, 12.0, 7.5, 11.5, 13.5, 9.0, 7.5, 11.3, 10.0. What is the mode?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7.5",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "12.0",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "10.9",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "14.0",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Hemoglobin levels of 10 participants: 10.0, 8.5, 10.9, 14.0, 11.5, 10.9, 9.0, 12.0, 11.3, 10.9. What is the mode?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7.5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "12.0",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "10.9",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "14.0",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Hemoglobin levels of 10 participants: 10.0, 8.5, 14.0, 14.0, 11.5, 13.5, 9.0, 12.0, 11.3, 14.0. What is the mode?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7.5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "12.0",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "10.9",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "14.0",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 10,
@@ -7901,7 +9186,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Ages of ten pregnant women: 45, 45, 45, 45, 45, 45, 45, 45, 45, 45. What is the mean age?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "45",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "28",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "32",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Ages of ten pregnant women: 25, 25, 25, 25, 25, 25, 25, 25, 25, 25. What is the mean age?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "45",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "28",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "32",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Ages of ten pregnant women: 32, 32, 32, 32, 32, 32, 32, 32, 32, 32. What is the mean age?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "45",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "28",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "32",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 10,
@@ -7957,7 +9322,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Ten medical students' scores: (1, 1, 1, 3, 3, 3, 3, 5, 7, 9). What is the median?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "6",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "8",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "11",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Ten medical students' scores: (1, 2, 3, 4, 8, 8, 9, 10, 11, 12). What is the median?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "6",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "8",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "11",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Ten medical students' scores: (1, 2, 3, 4, 11, 11, 12, 13, 14, 15). What is the median?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "6",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "8",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "11",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 10,
@@ -8115,7 +9560,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Body weights of 11 children: Q1=8.5, median=12, mean=11.9, Q3=12.0. Calculate IQR.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3.5",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "7.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "24.5",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Body weights of 11 children: Q1=12.0, median=16, mean=15.5, Q3=12.1. Calculate IQR.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3.5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "7.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "24.5",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Body weights of 11 children: Q1=8.5, median=20, mean=19.0, Q3=33.0. Calculate IQR.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3.5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "7.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "24.5",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 11,
@@ -8814,16 +10339,96 @@ var ALL_QUESTIONS = [
       },
       {
         "letter": "c",
-        "text": "1",
+        "text": "0.1",
         "correct": false
       },
       {
         "letter": "d",
-        "text": "01",
+        "text": "0.01",
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "In a neighborhood with 5000 houses, a researcher wants a systematic random sample of 5 houses. What is the sampling interval?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1000",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.01",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "In a neighborhood with 5000 houses, a researcher mistakenly calculates the sampling interval as population divided by desired sample. If desired sample is 50000, what interval would they get?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1000",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "0.01",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "In a neighborhood with 5000 houses, a researcher mistakenly calculates the sampling interval. If desired sample is 500000, what interval would they get?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1000",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.01",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 11,
@@ -9079,11 +10684,91 @@ var ALL_QUESTIONS = [
       },
       {
         "letter": "d",
-        "text": "05%",
+        "text": "0.05%",
         "correct": false
       }
     ],
-    "correct": "c"
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "The recommended level of significance (alpha) for an analytical study",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5%",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "95%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "80%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.05%",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "The recommended confidence level for an analytical study",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "95%",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "80%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.05%",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "The probability of Type I error (alpha) in a hypothesis test is typically set at",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "95%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "80%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "1%",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 12,
@@ -9417,7 +11102,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Estimate prevalence of SSI after C-section. Expected proportion 15%, absolute precision 7%, 95% confidence (Z=1.96). Calculate minimum sample size. (n = Z^2 * p * (1-p) / d^2)",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "138",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "148",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "158",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Estimate prevalence of SSI after C-section. Expected proportion 50%, absolute precision 8.05%, 95% confidence (Z=1.96). Calculate minimum sample size.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "138",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "148",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "158",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Estimate prevalence of SSI after C-section. Expected proportion 50%, absolute precision 7.8%, 95% confidence (Z=1.96). Calculate minimum sample size.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "138",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "148",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "158",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 12,
@@ -9695,7 +11460,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a"
+    "correct": "a",
+    "variants": [
+      {
+        "stem": "Estimate mean D-dimer in COVID patients. SD=200 ng/mL, precision=98 ng/mL, 95% confidence (Z=1.96). Calculate minimum sample size.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "62",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "16",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "31",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "248",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "Estimate mean D-dimer in COVID patients. SD=200 ng/mL, precision=70 ng/mL, 95% confidence (Z=1.96). Calculate minimum sample size.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "62",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "16",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "31",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "248",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Estimate mean D-dimer in COVID patients. SD=200 ng/mL, precision=24.9 ng/mL, 95% confidence (Z=1.96). Calculate minimum sample size.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "62",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "16",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "31",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "248",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 13,
@@ -13687,8 +15532,7 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "a",
-    "type": "tf"
+    "correct": "a"
   },
   {
     "assignment": 18,
@@ -14428,7 +16272,87 @@ var ALL_QUESTIONS = [
         "correct": false
       }
     ],
-    "correct": "b"
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Case-control: 100 autism children, 200 normal children. 75 autism children and 40 normal children had history of instrumental delivery. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "12",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "21",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "6",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "9",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Case-control: 100 autism children, 200 normal children. 40 autism children and 20 normal children had history of instrumental delivery. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "12",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "21",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "6",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "9",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Case-control: 100 autism children, 200 normal children. 50 autism children and 20 normal children had history of instrumental delivery. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "12",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "21",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "6",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "9",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
   },
   {
     "assignment": 19,
@@ -17089,19 +19013,23 @@ var ALL_QUESTIONS = [
     "options": [
       {
         "letter": "a",
-        "text": "Introduction"
+        "text": "Introduction",
+        "correct": undefined
       },
       {
         "letter": "b",
-        "text": "Study design"
+        "text": "Study design",
+        "correct": undefined
       },
       {
         "letter": "c",
-        "text": "Budget"
+        "text": "Budget",
+        "correct": undefined
       },
       {
         "letter": "d",
-        "text": "Objectives"
+        "text": "Objectives",
+        "correct": undefined
       }
     ],
     "correct": "b"

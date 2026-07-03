@@ -9,23 +9,102 @@
 <body>
 
 <!-- Start Screen -->
-<div class="start-screen" id="startScreen">
+  <div class="start-screen" id="startScreen">
   <div class="logo">BCBR</div>
   <h2>BCBR Practice Test</h2>
   <p>Basic Course in Biomedical Research</p>
   <p style="font-size:12px;color:#999;">NPTEL/SWAYAM Exam Simulator</p>
   <div class="info-box">
-    <div><span>Questions</span><span class="val">100</span></div>
-    <div><span>Duration</span><span class="val">3 Hours (180 min)</span></div>
-    <div><span>Passing</span><span class="val">50%</span></div>
-    <div><span>Question Bank</span><span class="val">688 questions</span></div>
+    <div><span>Question Bank</span><span class="val">689 questions</span></div>
   </div>
-  <p style="font-size:13px;color:#888;">Randomly selected from all 23 assignments</p>
+
+  <!-- Records Display -->
+  <div class="records-section" id="recordsSection"></div>
+
+  <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:16px;">
+    <button class="start-btn" onclick="startQuiz()" style="padding:14px 32px;font-size:15px;">Start Full Exam</button>
+    <button class="start-btn secondary" onclick="showAssignmentPicker()" style="padding:14px 32px;font-size:15px;">Assignment Practice</button>
+  </div>
   <div class="mobile-notice">
     <strong>Mobile users:</strong> This quiz mimics the NPTEL/SWAYAM exam interface optimized for desktop. The mobile layout is adapted and may differ from the actual exam.
     <a href="https://github.com/chinmaymodi/chinmaymodi.github.io/issues" target="_blank">Report issues on GitHub</a>.
   </div>
-  <button class="start-btn" onclick="startQuiz()">Start Exam</button>
+</div>
+
+<!-- Assignment Picker Screen -->
+<div class="start-screen" id="assignmentPickerScreen" style="display:none;">
+  <div class="logo" style="background:linear-gradient(135deg,#1b5e20,#388e3c);">A</div>
+  <h2>Assignment Practice</h2>
+  <p style="font-size:13px;color:#666;">Choose an assignment to practice its questions one by one</p>
+  <div class="assign-grid" id="assignGrid"></div>
+  <button class="start-btn secondary" onclick="hideAssignmentPicker()" style="margin-top:12px;padding:10px 28px;font-size:14px;">Back</button>
+</div>
+
+<!-- Practice Layout -->
+<div id="practiceLayout" class="hidden">
+  <div class="header" style="background:linear-gradient(135deg,#1b5e20,#388e3c);">
+    <h1>Assignment Practice</h1>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <span id="practiceProgress" style="font-size:13px;opacity:0.9;"></span>
+      <button class="exit-btn" onclick="exitPractice()">Exit</button>
+    </div>
+  </div>
+  <div class="layout">
+    <div class="main" style="max-width:100%;padding:20px 40px;">
+      <div class="question-card">
+        <div class="q-header">
+          <span class="q-number" id="pQNumber">Question 1</span>
+          <span class="q-assignment" id="pQAssignment">A1 Q1</span>
+        </div>
+        <div class="q-stem" id="pQStem"></div>
+        <div class="q-options" id="pQOptions"></div>
+        <div class="feedback-box hidden" id="feedbackBox">
+          <div class="feedback-icon" id="feedbackIcon"></div>
+          <div class="feedback-text" id="feedbackText"></div>
+        </div>
+        <div class="actions" id="practiceActions">
+          <button class="action-btn nav-btn" id="pPrevBtn" onclick="prevPracticeQuestion()" style="background:#555;">&larr; Previous</button>
+          <button class="action-btn nav-btn" id="pNextBtn" onclick="nextPracticeQuestion()" style="background:#555;">Next &rarr;</button>
+          <button class="action-btn next-btn" id="pFinishBtn" onclick="finishPractice()" style="background:#1b5e20;">See Results</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Practice Result Screen -->
+<div class="result-screen" id="practiceResultScreen">
+  <div class="header" style="position:static;margin-bottom:20px;border-radius:10px;padding:12px 20px;background:linear-gradient(135deg,#1b5e20,#388e3c);">
+    <h1>Assignment Practice - Results</h1>
+  </div>
+  <div class="result-card">
+    <div class="result-header">
+      <div class="score" id="pScoreDisplay">0%</div>
+      <div class="label" id="pScoreLabel">Keep practicing!</div>
+    </div>
+    <div class="result-details">
+      <div class="result-detail">
+        <div class="num green" id="pCorrectCount">0</div>
+        <div class="desc">Correct</div>
+      </div>
+      <div class="result-detail">
+        <div class="num red" id="pWrongCount">0</div>
+        <div class="desc">Wrong</div>
+      </div>
+      <div class="result-detail">
+        <div class="num" style="color:#1b5e20;" id="pTotalCount">0</div>
+        <div class="desc">Total</div>
+      </div>
+    </div>
+    <div class="result-actions">
+      <button class="retry-btn" onclick="retryPractice()" style="background:#1b5e20;">Practice Again</button>
+      <button class="retry-btn" onclick="backToMenu()" style="background:#555;">Back to Menu</button>
+    </div>
+    <div class="wrong-section" id="pWrongSection">
+      <h3>Review Wrong Answers</h3>
+      <div id="pWrongList"></div>
+    </div>
+  </div>
 </div>
 
 <!-- Quiz Layout -->
@@ -56,9 +135,11 @@
         <div class="q-stem" id="qStem"></div>
         <div class="q-options" id="qOptions"></div>
         <div class="actions">
+          <button class="action-btn nav-btn" id="prevBtn" onclick="prevQuestion()" style="background:#555;">&larr; Previous</button>
           <button class="action-btn clear-btn" id="clearBtn" onclick="clearResponse()">Clear Response</button>
           <button class="action-btn save-btn" id="saveBtn" onclick="saveAndNext()">Save &amp; Next</button>
           <button class="action-btn review-btn" id="reviewBtn" onclick="markReview()">Mark for Review &amp; Next</button>
+          <button class="action-btn nav-btn" id="nextBtn" onclick="nextQuestion()" style="background:#555;">Next &rarr;</button>
           <button class="action-btn submit-btn" id="submitBtn" onclick="submitQuiz()">Submit</button>
         </div>
       </div>
@@ -92,6 +173,7 @@
     </div>
     <div class="result-actions">
       <button class="retry-btn" onclick="startQuiz()">Try Again</button>
+      <button class="retry-btn" onclick="backToMenuFromExam()" style="background:#555;">Back to Menu</button>
     </div>
     <div class="wrong-section" id="wrongSection">
       <h3>Review Wrong Answers</h3>
