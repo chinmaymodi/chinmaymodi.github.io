@@ -1,3 +1,5 @@
+"use strict";
+
 // ============================================================
 // STORAGE HELPERS (localStorage -- works on file:// and http://)
 // ============================================================
@@ -14,6 +16,123 @@ function setData(key, value) {
   } catch(e) {}
 }
 
+function removeData(key) {
+  try { localStorage.removeItem(key); } catch(e) {}
+}
+
+// ============================================================
+// EXAM STATE PERSISTENCE (resume on refresh / browser restart)
+// ============================================================
+
+var STATE_EXAM_KEY = 'bcbr_exam_state';
+var STATE_PRACTICE_KEY = 'bcbr_practice_state';
+
+function saveExamState() {
+  // Only save if exam is in progress (not submitted, quiz layout visible)
+  if (submitted || !questions) return;
+  var state = {
+    questions: questions,
+    answers: answers,
+    review: review,
+    currentIdx: currentIdx,
+    timeLeft: timeLeft
+  };
+  setData(STATE_EXAM_KEY, JSON.stringify(state));
+}
+
+function loadExamState() {
+  var raw = getData(STATE_EXAM_KEY);
+  if (!raw) return null;
+  try { return JSON.parse(raw); } catch(e) { return null; }
+}
+
+function clearExamState() {
+  removeData(STATE_EXAM_KEY);
+}
+
+function savePracticeState() {
+  if (!practiceQuestions) return;
+  var state = {
+    assignNum: practiceAssignNum,
+    questions: practiceQuestions,
+    answers: practiceAnswers,
+    currentIdx: practiceCurrentIdx
+  };
+  setData(STATE_PRACTICE_KEY, JSON.stringify(state));
+}
+
+function loadPracticeState() {
+  var raw = getData(STATE_PRACTICE_KEY);
+  if (!raw) return null;
+  try { return JSON.parse(raw); } catch(e) { return null; }
+}
+
+function clearPracticeState() {
+  removeData(STATE_PRACTICE_KEY);
+}
+
+// ============================================================
+// RESUME / DISCARD handlers
+// ============================================================
+
+function resumeExam() {
+  var state = loadExamState();
+  if (!state) { loadRecords(); return; }
+
+  questions = state.questions;
+  answers = state.answers;
+  review = state.review;
+  currentIdx = state.currentIdx;
+  timeLeft = state.timeLeft;
+  submitted = false;
+
+  document.getElementById('startScreen').style.display = 'none';
+  document.getElementById('assignmentPickerScreen').style.display = 'none';
+  document.getElementById('quizLayout').classList.remove('hidden');
+  document.getElementById('resultScreen').style.display = 'none';
+
+  buildPalette();
+  showQuestion(currentIdx);
+
+  if (timeLeft > 0) {
+    startTimer();
+  } else {
+    // Time already expired -- auto-submit without confirm
+    submitQuiz(true);
+  }
+}
+
+function discardExam() {
+  if (confirm('Discard your in-progress exam? Your answers for this session will be lost.')) {
+    clearExamState();
+    loadRecords();
+  }
+}
+
+function resumePractice() {
+  var state = loadPracticeState();
+  if (!state) { loadRecords(); return; }
+
+  practiceAssignNum = state.assignNum;
+  practiceQuestions = state.questions;
+  practiceAnswers = state.answers;
+  practiceCurrentIdx = state.currentIdx;
+
+  document.getElementById('assignmentPickerScreen').style.display = 'none';
+  document.getElementById('startScreen').style.display = 'none';
+  document.getElementById('practiceLayout').classList.remove('hidden');
+  document.getElementById('practiceResultScreen').style.display = 'none';
+
+  showPracticeQuestion(practiceCurrentIdx);
+}
+
+function discardPractice() {
+  if (confirm('Discard your in-progress practice session? Your progress will be lost.')) {
+    clearPracticeState();
+    loadRecords();
+  }
+}
+
 // ============================================================
 // RECORDS (localStorage-backed)
 // ============================================================
@@ -21,6 +140,30 @@ function setData(key, value) {
 function loadRecords() {
   var html = '';
   var hasRecords = false;
+
+  // Check for resume-able sessions (before records)
+  var examState = loadExamState();
+  var practiceState = loadPracticeState();
+  if (examState) {
+    hasRecords = true;
+    var h = Math.floor(examState.timeLeft / 3600);
+    var m = Math.floor((examState.timeLeft % 3600) / 60);
+    html += '<div class="record-item resume-item">' +
+      '<span class="record-label resume-label">&#9654; Exam in progress (' + h + 'h ' + m + 'm left)</span>' +
+      '<button class="resume-btn" onclick="resumeExam()">Resume</button>' +
+      '<button class="resume-btn discard-btn" onclick="discardExam()">Discard</button>' +
+      '</div>';
+  }
+
+  if (practiceState) {
+    hasRecords = true;
+    html += '<div class="record-item resume-item">' +
+      '<span class="record-label resume-label">&#9654; Assignment ' + practiceState.assignNum + ' practice in progress</span>' +
+      '<button class="resume-btn" onclick="resumePractice()">Resume</button>' +
+      '<button class="resume-btn discard-btn" onclick="discardPractice()">Discard</button>' +
+      '</div>';
+  }
+
   var testScore = getData('bcbr_test_score');
   if (testScore) {
     hasRecords = true;
@@ -147,6 +290,10 @@ function resolveVariants(questions) {
 var questions, answers, review, currentIdx, timerInterval, timeLeft, submitted;
 
 function startQuiz() {
+  // Discard any previous saved state when starting fresh
+  clearExamState();
+  clearPracticeState();
+
   var s = shuffle(ALL_QUESTIONS.slice());
   resolveVariants(s);
   questions = s.slice(0, 100);
@@ -212,6 +359,51 @@ function showQuestion(idx) {
   document.getElementById('prevBtn').disabled = (idx === 0);
   document.getElementById('nextBtn').disabled = (idx === 99);
   window.scrollTo(0, 0);
+  saveExamState();
+}
+
+function selectOption(idx, letter) {
+  answers[idx] = letter;
+  var opts = document.querySelectorAll('.q-option');
+  for (var i = 0; i < opts.length; i++) {
+    var isSel = opts[i].getAttribute('data-letter') === letter;
+    opts[i].className = 'q-option' + (isSel ? ' selected' : '');
+    opts[i].querySelector('.opt-letter').className = 'opt-letter' + (isSel ? ' selected' : '');
+    opts[i].querySelector('.opt-text').className = 'opt-text' + (isSel ? ' selected' : '');
+  }
+  updatePalette();
+  document.getElementById('clearBtn').disabled = false;
+  saveExamState();
+}
+
+function clearResponse() {
+  answers[currentIdx] = null;
+  // Re-render
+  var opts = document.querySelectorAll('.q-option');
+  for (var i = 0; i < opts.length; i++) {
+    opts[i].className = 'q-option';
+    opts[i].querySelector('.opt-letter').className = 'opt-letter';
+    opts[i].querySelector('.opt-text').className = 'opt-text';
+  }
+  updatePalette();
+  document.getElementById('clearBtn').disabled = true;
+  saveExamState();
+}
+
+function saveAndNext() {
+  if (answers[currentIdx] === null) {
+    alert('Please select an answer before saving.');
+    return;
+  }
+  if (currentIdx < 99) { showQuestion(currentIdx + 1); }
+}
+
+function markReview() {
+  review[currentIdx] = true;
+  // If no answer selected, that's fine - it's marked for review
+  if (currentIdx < 99) { showQuestion(currentIdx + 1); }
+  else { updatePalette(); }
+  saveExamState();
 }
 
 // ============================================================
@@ -244,6 +436,8 @@ function hideAssignmentPicker() {
 }
 
 function startAssignmentPractice(assignNum) {
+  clearPracticeState();
+
   practiceAssignNum = assignNum;
   practiceQuestions = ALL_QUESTIONS.filter(function(q) { return q.assignment === assignNum; });
   resolveVariants(practiceQuestions);
@@ -347,6 +541,7 @@ function showPracticeQuestion(idx) {
   }
 
   window.scrollTo(0, 0);
+  savePracticeState();
 }
 
 function selectPracticeOption(idx, letter) {
@@ -355,6 +550,7 @@ function selectPracticeOption(idx, letter) {
   var q = practiceQuestions[idx];
   practiceAnswers[idx] = letter;
   renderPracticeFeedback(idx, q);
+  savePracticeState();
 }
 
 function nextPracticeQuestion() {
@@ -370,6 +566,8 @@ function prevPracticeQuestion() {
 }
 
 function finishPractice() {
+  clearPracticeState();
+
   var correct = 0, wrong = 0, wrongDetails = [];
   for (var i = 0; i < practiceQuestions.length; i++) {
     if (practiceAnswers[i] === practiceQuestions[i].correct) { correct++; }
@@ -453,7 +651,8 @@ function initTheme() {
 initTheme();
 
 function exitPractice() {
-  if (confirm('Exit practice? Your progress for this session will be lost.')) {
+  if (confirm('Exit practice? Your progress is saved. You can resume later from the main menu.')) {
+    savePracticeState();
     document.getElementById('practiceLayout').classList.add('hidden');
     document.getElementById('startScreen').style.display = 'block';
     loadRecords();
@@ -461,6 +660,7 @@ function exitPractice() {
 }
 
 function retryPractice() {
+  clearPracticeState();
   document.getElementById('practiceResultScreen').style.display = 'none';
   startAssignmentPractice(practiceAssignNum);
 }
@@ -475,47 +675,6 @@ function backToMenuFromExam() {
   document.getElementById('resultScreen').style.display = 'none';
   document.getElementById('startScreen').style.display = 'block';
   loadRecords();
-}
-
-function selectOption(idx, letter) {
-  answers[idx] = letter;
-  var opts = document.querySelectorAll('.q-option');
-  for (var i = 0; i < opts.length; i++) {
-    var isSel = opts[i].getAttribute('data-letter') === letter;
-    opts[i].className = 'q-option' + (isSel ? ' selected' : '');
-    opts[i].querySelector('.opt-letter').className = 'opt-letter' + (isSel ? ' selected' : '');
-    opts[i].querySelector('.opt-text').className = 'opt-text' + (isSel ? ' selected' : '');
-  }
-  updatePalette();
-  document.getElementById('clearBtn').disabled = false;
-}
-
-function clearResponse() {
-  answers[currentIdx] = null;
-  // Re-render
-  var opts = document.querySelectorAll('.q-option');
-  for (var i = 0; i < opts.length; i++) {
-    opts[i].className = 'q-option';
-    opts[i].querySelector('.opt-letter').className = 'opt-letter';
-    opts[i].querySelector('.opt-text').className = 'opt-text';
-  }
-  updatePalette();
-  document.getElementById('clearBtn').disabled = true;
-}
-
-function saveAndNext() {
-  if (answers[currentIdx] === null) {
-    alert('Please select an answer before saving.');
-    return;
-  }
-  if (currentIdx < 99) { showQuestion(currentIdx + 1); }
-}
-
-function markReview() {
-  review[currentIdx] = true;
-  // If no answer selected, that's fine - it's marked for review
-  if (currentIdx < 99) { showQuestion(currentIdx + 1); }
-  else { updatePalette(); }
 }
 
 function goToQuestion(idx) {
@@ -548,12 +707,24 @@ document.addEventListener('keydown', function(e) {
 });
 
 function startTimer() {
+  var timerSaveCounter = 0;
   timerInterval = setInterval(function() {
     timeLeft--;
+    timerSaveCounter++;
     if (timeLeft <= 0) {
       clearInterval(timerInterval);
-      submitQuiz();
+      submitQuiz(true);
       return;
+    }
+    // Save timeLeft every 5 seconds so closing the browser preserves remaining time
+    if (timerSaveCounter % 5 === 0) {
+      setData(STATE_EXAM_KEY, JSON.stringify({
+        questions: questions,
+        answers: answers,
+        review: review,
+        currentIdx: currentIdx,
+        timeLeft: timeLeft
+      }));
     }
     var h = Math.floor(timeLeft / 3600);
     var m = Math.floor((timeLeft % 3600) / 60);
@@ -575,7 +746,7 @@ function topicQuery(q) {
   // Remove common question phrasing
   s = s.replace(/^(which of the following |what is |what are |how |the following |all the following |which one of the following |which of these |which statistic |which measure |which method |which |the )/i, '');
   s = s.replace(/^.+?is (not |also )?/i, '');
-  s = s.replace(/^(true|false)/i, '');
+  s = s.replace(/^(true|false)\b/i, '');
   s = s.replace(/[^a-zA-Z0-9 ]/g, ' ');
   // Collapse whitespace and take first ~6 meaningful words
   var words = s.split(/\s+/).filter(function(w) {
@@ -589,16 +760,19 @@ function topicQuery(q) {
   return 'BCBR biomedical research ' + key;
 }
 
-function submitQuiz() {
+function submitQuiz(skipConfirm) {
   if (submitted) return;
-  var unatt = 0;
-  for (var i = 0; i < 100; i++) { if (answers[i] === null) unatt++; }
-  var msg = 'Are you sure you want to submit?';
-  if (unatt > 0) msg += '\n' + unatt + ' question(s) not answered.';
-  if (review.some(function(v) { return v; })) msg += '\n' + review.filter(function(v) { return v; }).length + ' question(s) marked for review.';
-  if (!confirm(msg)) return;
+  if (!skipConfirm) {
+    var unatt = 0;
+    for (var i = 0; i < 100; i++) { if (answers[i] === null) unatt++; }
+    var msg = 'Are you sure you want to submit?';
+    if (unatt > 0) msg += '\n' + unatt + ' question(s) not answered.';
+    if (review && review.some(function(v) { return v; })) msg += '\n' + review.filter(function(v) { return v; }).length + ' question(s) marked for review.';
+    if (!confirm(msg)) return;
+  }
 
   submitted = true;
+  clearExamState();
   clearInterval(timerInterval);
   document.getElementById('quizLayout').classList.add('hidden');
   document.getElementById('resultScreen').style.display = 'block';

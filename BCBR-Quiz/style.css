@@ -210,6 +210,16 @@ body.dark .header{background:linear-gradient(135deg,#0d0d2b,#1a1a3e)}
 .record-pass{color:#2e7d32}
 .record-fail{color:#c62828}
 
+/* Resume / Discard buttons */
+.resume-item{border:1px solid #003bb3;border-radius:6px;padding:6px 10px;margin:4px 0;background:#eef3ff;gap:6px}
+.resume-label{font-weight:600;color:#003bb3;font-size:12px}
+.resume-btn{background:#003bb3;color:#fff;border:none;padding:4px 12px;border-radius:4px;font-size:11px;font-weight:600;cursor:pointer}
+.resume-btn:hover{background:#002a80}
+.discard-btn{background:#c62828!important}
+.discard-btn:hover{background:#8e0000!important}
+body.dark .resume-item{background:#1a1a3e;border-color:#5b7fff}
+body.dark .resume-label{color:#8ab4ff}
+
 /* Practice mode: correct/wrong highlighting */
 .q-option.practice-correct{border-color:#2e7d32;background:#f0f9f0}
 .q-option.practice-correct .opt-letter{background:#2e7d32;color:#fff}
