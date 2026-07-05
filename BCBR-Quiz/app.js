@@ -164,12 +164,38 @@ function loadRecords() {
       '</div>';
   }
 
-  var testScore = getData('bcbr_test_score');
-  if (testScore) {
+  // Full exam history
+  var examHistory = getData('bcbr_exam_history');
+  var exams = [];
+  if (examHistory) { try { exams = JSON.parse(examHistory); } catch(e) {} }
+
+  if (exams.length > 0) {
     hasRecords = true;
-    var pct = parseInt(testScore, 10);
-    var cls = pct >= 50 ? 'record-pass' : 'record-fail';
-    html += '<div class="record-item"><span class="record-label">Last Full Exam</span><span class="record-val ' + cls + '">' + pct + '%</span></div>';
+    html += '<div class="record-item record-header"><span class="record-label">Exam History</span><span></span></div>';
+    // Show most recent first
+    for (var hi = exams.length - 1; hi >= 0; hi--) {
+      var ex = exams[hi];
+      var cls = ex.score >= 50 ? 'record-pass' : 'record-fail';
+      var d = new Date(ex.date);
+      var dateStr = d.toLocaleDateString() + ' ' + d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+      html += '<div class="record-item exam-record-item">' +
+        '<span class="record-label">' + dateStr + '</span>' +
+        '<span class="record-val ' + cls + '">' + ex.score + '%</span>' +
+        '<div class="exam-record-actions">' +
+        '<button class="resume-btn view-btn" onclick="viewExamHistory(' + hi + ')">View</button>' +
+        '<button class="resume-btn delete-rec-btn" onclick="deleteExamHistory(' + hi + ')">Delete</button>' +
+        '</div>' +
+        '</div>';
+    }
+  } else {
+    // Fallback for old-format single score (before full history existed)
+    var testScore = getData('bcbr_test_score');
+    if (testScore) {
+      hasRecords = true;
+      var pct = parseInt(testScore, 10);
+      var cls = pct >= 50 ? 'record-pass' : 'record-fail';
+      html += '<div class="record-item"><span class="record-label">Last Full Exam</span><span class="record-val ' + cls + '">' + pct + '%</span></div>';
+    }
   }
 
   var assignScores = getData('bcbr_assignment_scores');
@@ -196,8 +222,27 @@ function loadRecords() {
   if (el) el.innerHTML = '<div class="records-box">' + html + '</div>';
 }
 
-function saveTestScore(pct) {
+function saveExamHistory(pct, correct, wrong, wrongDetails) {
+  // Keep the old single-score key for backward compat
   setData('bcbr_test_score', '' + pct);
+
+  // Full history record
+  var history = [];
+  var raw = getData('bcbr_exam_history');
+  if (raw) { try { history = JSON.parse(raw); } catch(e) {} }
+
+  history.push({
+    date: new Date().toISOString(),
+    score: pct,
+    correct: correct,
+    wrong: wrong,
+    total: 100,
+    wrongDetails: wrongDetails
+  });
+
+  // Keep last 50 exams
+  if (history.length > 50) { history = history.slice(-50); }
+  setData('bcbr_exam_history', JSON.stringify(history));
 }
 
 function saveAssignmentScore(assignNum, correct, total) {
@@ -677,6 +722,122 @@ function backToMenuFromExam() {
   loadRecords();
 }
 
+// ============================================================
+// EXAM HISTORY DELETE
+// ============================================================
+
+function deleteExamHistory(historyIdx) {
+  var raw = getData('bcbr_exam_history');
+  if (!raw) return;
+  var exams = [];
+  try { exams = JSON.parse(raw); } catch(e) {}
+  if (historyIdx < 0 || historyIdx >= exams.length) return;
+
+  var ex = exams[historyIdx];
+  if (!confirm('Delete exam from ' + new Date(ex.date).toLocaleDateString() + ' (' + ex.score + '%)?')) return;
+
+  exams.splice(historyIdx, 1);
+  if (exams.length > 0) {
+    setData('bcbr_exam_history', JSON.stringify(exams));
+  } else {
+    removeData('bcbr_exam_history');
+  }
+
+  loadRecords();
+}
+
+// ============================================================
+// EXAM HISTORY VIEW (re-view past exam results)
+// ============================================================
+
+function viewExamHistory(historyIdx) {
+  var raw = getData('bcbr_exam_history');
+  if (!raw) return;
+  var exams = [];
+  try { exams = JSON.parse(raw); } catch(e) {}
+  if (historyIdx < 0 || historyIdx >= exams.length) return;
+  var record = exams[historyIdx];
+
+  // Override the submitted flag so UI treats this as a completed exam
+  submitted = true;
+
+  // Hide other screens
+  document.getElementById('startScreen').style.display = 'none';
+  document.getElementById('quizLayout').classList.add('hidden');
+  document.getElementById('assignmentPickerScreen').style.display = 'none';
+  document.getElementById('resultScreen').style.display = 'block';
+  document.getElementById('practiceLayout').classList.add('hidden');
+  document.getElementById('practiceResultScreen').style.display = 'none';
+
+  // Populate score display
+  var pct = record.score;
+  var passed = pct >= 50;
+  var se = document.getElementById('scoreDisplay');
+  se.textContent = pct + '%';
+  se.className = 'score ' + (passed ? 'pass' : 'fail');
+  document.getElementById('scoreLabel').textContent = passed ? 'PASSED! Minimum 50% required.' : 'Below 50% - Keep practicing.';
+  document.getElementById('correctCount').textContent = record.correct;
+  document.getElementById('wrongCount').textContent = record.wrong;
+  document.getElementById('answeredCount').textContent = record.correct + record.wrong;
+
+  // Show date at top of result
+  var d = new Date(record.date);
+  var dateStr = d.toLocaleDateString() + ' ' + d.toLocaleTimeString([], {hour:'2-digit', minute:'2-digit'});
+  var resultHeader = document.querySelector('#resultScreen .result-header');
+  if (resultHeader) {
+    var existingDate = resultHeader.querySelector('.history-date');
+    if (!existingDate) {
+      var dateEl = document.createElement('div');
+      dateEl.className = 'history-date';
+      dateEl.textContent = dateStr;
+      resultHeader.insertBefore(dateEl, resultHeader.firstChild);
+    } else {
+      existingDate.textContent = dateStr;
+    }
+  }
+
+  // Render wrong cards
+  var wl = document.getElementById('wrongList');
+  if (!record.wrongDetails || record.wrongDetails.length === 0) {
+    wl.innerHTML = '<p style="color:#2e7d32;font-size:16px;text-align:center;">Perfect score! All answers correct.</p>';
+  } else {
+    // Deduplicate wrongDetails if this exam was stored with duplicate entries
+    var seen = {};
+    var details = record.wrongDetails.filter(function(d) {
+      var key = d.idx + '-' + d.q.stem;
+      if (seen[key]) return false;
+      seen[key] = true;
+      return true;
+    });
+    var h = '';
+    for (var w = 0; w < details.length; w++) {
+      var d = details[w];
+      var q = d.q;
+      var gq = encodeURIComponent(topicQuery(q));
+      h += '<div class="wrong-card">' +
+        '<div class="q-assign"><span>A' + q.assignment + ' Q' + q.number + '</span></div>' +
+        '<div class="q-status">' +
+        '<span class="badge-yours">Your answer: ' + (d.your ? d.your.toUpperCase() : 'None') + '</span>' +
+        '<span class="badge-correct">Correct: ' + d.correctA.toUpperCase() + '</span>' +
+        '</div>' +
+        '<div class="q-text">' + esc(q.stem) + '</div>';
+      for (var oi = 0; oi < q.options.length; oi++) {
+        var opt = q.options[oi];
+        var cls = 'review-option neutral';
+        if (opt.letter === d.correctA) cls = 'review-option correct';
+        if (opt.letter === d.your && opt.letter !== d.correctA) cls = 'review-option wrong';
+        h += '<div class="' + cls + '">' +
+          '<span class="opt-letter">' + opt.letter.toUpperCase() + '</span>' +
+          '<span class="opt-text">' + esc(opt.text) + '</span></div>';
+      }
+      h += '<a class="google-btn" href="https://www.google.com/search?q=' + gq + '" target="_blank">Search Topic</a>' +
+        '</div>';
+    }
+    wl.innerHTML = h;
+  }
+  window.scrollTo(0, 0);
+}
+
 function goToQuestion(idx) {
   showQuestion(idx);
 }
@@ -777,6 +938,10 @@ function submitQuiz(skipConfirm) {
   document.getElementById('quizLayout').classList.add('hidden');
   document.getElementById('resultScreen').style.display = 'block';
 
+  // Clean up any history-view artifacts
+  var oldDate = document.querySelector('#resultScreen .result-header .history-date');
+  if (oldDate) oldDate.remove();
+
   var correct = 0, wrong = 0, wrongDetails = [];
   for (var i = 0; i < 100; i++) {
     if (answers[i] === questions[i].correct) { correct++; }
@@ -795,7 +960,7 @@ function submitQuiz(skipConfirm) {
   document.getElementById('wrongCount').textContent = wrong;
   document.getElementById('answeredCount').textContent = correct + wrong;
 
-  saveTestScore(pct);
+    saveExamHistory(pct, correct, wrong, wrongDetails);
 
   var wl = document.getElementById('wrongList');
   if (wrongDetails.length === 0) {

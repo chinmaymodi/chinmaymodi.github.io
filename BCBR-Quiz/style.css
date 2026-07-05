@@ -220,6 +220,19 @@ body.dark .header{background:linear-gradient(135deg,#0d0d2b,#1a1a3e)}
 body.dark .resume-item{background:#1a1a3e;border-color:#5b7fff}
 body.dark .resume-label{color:#8ab4ff}
 
+/* Exam history record item */
+.exam-record-item{border:1px solid #388e3c;border-radius:6px;padding:6px 10px;margin:4px 0;background:#f0f9f0;gap:6px;flex-wrap:wrap}
+body.dark .exam-record-item{background:#1a2e1a;border-color:#4caf50}
+.view-btn{background:#388e3c!important}
+.view-btn:hover{background:#2e7d32!important}
+.delete-rec-btn{background:#c62828!important;margin-left:4px!important}
+.delete-rec-btn:hover{background:#8e0000!important}
+.exam-record-actions{display:flex;gap:0;flex-shrink:0}
+
+/* History date label on result screen */
+.history-date{font-size:12px;color:#888;margin-bottom:4px;text-align:center}
+body.dark .history-date{color:#aaa}
+
 /* Practice mode: correct/wrong highlighting */
 .q-option.practice-correct{border-color:#2e7d32;background:#f0f9f0}
 .q-option.practice-correct .opt-letter{background:#2e7d32;color:#fff}
