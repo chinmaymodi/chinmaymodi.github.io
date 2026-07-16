@@ -50,11 +50,30 @@
     </div>
   </div>
   <div class="layout">
-    <div class="main" style="max-width:100%;padding:20px 40px;">
+    <div class="sidebar" id="pSidebar">
+      <button class="sidebar-toggle-btn" id="pSidebarToggle" onclick="togglePSidebar()">&lt;&lt;</button>
+      <div class="summary-rows" id="pSummaryRows">
+        <div class="summary-row"><span>Total Questions</span><span id="pTotalCount">0</span></div>
+        <div class="summary-row"><span><span class="status-sq sq-green"></span>Answered</span><span id="pAnsweredCount">0</span></div>
+        <div class="summary-row"><span><span class="status-sq sq-blue"></span>Answered &amp; Bookmarked</span><span id="pAnsBmCount">0</span></div>
+        <div class="summary-row"><span><span class="status-sq sq-red"></span>Not Answered &amp; Bookmarked</span><span id="pNotAnsBmCount">0</span></div>
+        <div class="summary-row"><span><span class="status-sq sq-eggshell"></span>Not Answered</span><span id="pNotAnsCount">0</span></div>
+      </div>
+      <div class="palette" id="pPalette"></div>
+    </div>
+    <div class="main" id="pMainArea">
       <div class="question-card">
         <div class="q-header">
           <span class="q-number" id="pQNumber">Question 1</span>
           <span class="q-assignment" id="pQAssignment">A1 Q1</span>
+          <div class="q-header-icons">
+            <button class="icon-btn" onclick="openCalculator()" title="Calculator">&#x221A;</button>
+            <button class="icon-btn" title="Person">&#x263A;</button>
+            <button class="icon-btn" onclick="openInstructions()" title="Instructions">&#x2139;</button>
+          </div>
+        </div>
+        <div class="bookmark-row">
+          <label><input type="checkbox" id="pBookmarkCb" onchange="togglePBookmark()"> Bookmark this question</label>
         </div>
         <div class="q-stem" id="pQStem"></div>
         <div class="q-options" id="pQOptions"></div>
@@ -62,10 +81,13 @@
           <div class="feedback-icon" id="feedbackIcon"></div>
           <div class="feedback-text" id="feedbackText"></div>
         </div>
-        <div class="actions" id="practiceActions">
-          <button class="action-btn nav-btn" id="pPrevBtn" onclick="prevPracticeQuestion()" style="background:#555;">&larr; Previous</button>
-          <button class="action-btn nav-btn" id="pNextBtn" onclick="nextPracticeQuestion()" style="background:#555;">Next &rarr;</button>
-          <button class="action-btn next-btn" id="pFinishBtn" onclick="finishPractice()" style="background:#1b5e20;">See Results</button>
+        <div class="actions">
+          <div class="actions-left">
+            <button class="action-btn nav-btn" id="pPrevBtn" onclick="prevPracticeQuestion()" style="background:#555;">&larr; Previous</button>
+            <button class="action-btn clear-btn" id="pClearBtn" onclick="clearPracticeResponse()">Clear Response</button>
+            <button class="action-btn nav-btn" id="pNextBtn" onclick="nextPracticeQuestion()" style="background:#555;">Next &rarr;</button>
+          </div>
+          <button class="action-btn done-btn" id="pDoneBtn" onclick="finishPractice()" style="display:none;">Done</button>
         </div>
       </div>
     </div>
@@ -114,35 +136,91 @@
     <div class="timer" id="timerDisplay">03:00:00</div>
   </div>
   <div class="layout">
-    <div class="sidebar">
-      <div class="sidebar-title" id="sidebarTitle" onclick="togglePalette()">Question Palette</div>
-      <div class="palette-wrap" id="paletteWrap">
+    <div class="sidebar" id="sidebar">
+      <button class="sidebar-toggle-btn" id="sidebarToggle" onclick="toggleSidebar()">&lt;&lt;</button>
+      <div class="summary-rows" id="summaryRows">
+        <div class="summary-row"><span>Total Questions</span><span id="totalCountS">100</span></div>
+        <div class="summary-row"><span><span class="status-sq sq-green"></span>Answered</span><span id="ansCountS">0</span></div>
+        <div class="summary-row"><span><span class="status-sq sq-blue"></span>Answered &amp; Bookmarked</span><span id="ansBmCountS">0</span></div>
+        <div class="summary-row"><span><span class="status-sq sq-red"></span>Not Answered &amp; Bookmarked</span><span id="notAnsBmCountS">0</span></div>
+        <div class="summary-row"><span><span class="status-sq sq-eggshell"></span>Not Answered</span><span id="notAnsCountS">100</span></div>
+      </div>
       <div class="palette" id="palette"></div>
-      </div>
-      <div class="legend">
-        <span class="legend-item"><span class="legend-box gray"></span>Not Visited</span>
-        <span class="legend-item"><span class="legend-box green"></span>Answered</span>
-        <span class="legend-item"><span class="legend-box purple"></span>Review</span>
-        <span class="legend-item"><span class="legend-box red"></span>Current</span>
-      </div>
     </div>
-    <div class="main">
+    <div class="main" id="mainArea">
       <div class="question-card">
         <div class="q-header">
           <span class="q-number" id="qNumber">Question 1 of 100</span>
           <span class="q-assignment" id="qAssignment">A1 Q1</span>
+          <div class="q-header-icons">
+            <button class="icon-btn" onclick="openCalculator()" title="Calculator">&#x221A;</button>
+            <button class="icon-btn" title="Person">&#x263A;</button>
+            <button class="icon-btn" onclick="openInstructions()" title="Instructions">&#x2139;</button>
+          </div>
+        </div>
+        <div class="bookmark-row">
+          <label><input type="checkbox" id="bookmarkCb" onchange="toggleBookmark()"> Bookmark this question</label>
         </div>
         <div class="q-stem" id="qStem"></div>
         <div class="q-options" id="qOptions"></div>
         <div class="actions">
-          <button class="action-btn nav-btn" id="prevBtn" onclick="prevQuestion()" style="background:#555;">&larr; Previous</button>
-          <button class="action-btn clear-btn" id="clearBtn" onclick="clearResponse()">Clear Response</button>
-          <button class="action-btn save-btn" id="saveBtn" onclick="saveAndNext()">Save &amp; Next</button>
-          <button class="action-btn review-btn" id="reviewBtn" onclick="markReview()">Mark for Review &amp; Next</button>
-          <button class="action-btn nav-btn" id="nextBtn" onclick="nextQuestion()" style="background:#555;">Next &rarr;</button>
-          <button class="action-btn submit-btn" id="submitBtn" onclick="submitQuiz()">Submit</button>
+          <div class="actions-left">
+            <button class="action-btn nav-btn" id="prevBtn" onclick="prevQuestion()" style="background:#555;">&larr; Previous</button>
+            <button class="action-btn clear-btn" id="clearBtn" onclick="clearResponse()">Clear Response</button>
+            <button class="action-btn nav-btn" id="nextBtn" onclick="nextQuestion()" style="background:#555;">Next &rarr;</button>
+          </div>
+          <button class="action-btn done-btn" id="doneBtn" onclick="submitQuiz()" style="display:none;">Done</button>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<!-- Information Popup -->
+<div class="overlay" id="infoOverlay" style="display:none;" onclick="closeInstructions(event)">
+  <div class="info-popup" onclick="event.stopPropagation();">
+    <div class="info-popup-header">
+      <span>INSTRUCTIONS TO CANDIDATES</span>
+      <button class="close-btn" onclick="closeInstructions()">&times;</button>
+    </div>
+    <div class="info-popup-body" id="infoPopupBody"></div>
+  </div>
+</div>
+
+<!-- Calculator Popup -->
+<div class="calc-popup" id="calcPopup" style="display:none;">
+  <div class="calc-header">
+    <span>Calculator</span>
+    <button class="close-btn" onclick="closeCalculator()">&times;</button>
+  </div>
+  <div class="calc-body">
+    <input type="text" class="calc-display" id="calcDisplay" readonly>
+    <div class="calc-buttons">
+      <button class="calc-btn" onclick="calcInput('7')">7</button>
+      <button class="calc-btn" onclick="calcInput('8')">8</button>
+      <button class="calc-btn" onclick="calcInput('9')">9</button>
+      <button class="calc-btn calc-op" onclick="calcInput('/')">/</button>
+      <button class="calc-btn" onclick="calcInput('4')">4</button>
+      <button class="calc-btn" onclick="calcInput('5')">5</button>
+      <button class="calc-btn" onclick="calcInput('6')">6</button>
+      <button class="calc-btn calc-op" onclick="calcInput('*')">*</button>
+      <button class="calc-btn" onclick="calcInput('1')">1</button>
+      <button class="calc-btn" onclick="calcInput('2')">2</button>
+      <button class="calc-btn" onclick="calcInput('3')">3</button>
+      <button class="calc-btn calc-op" onclick="calcInput('-')">-</button>
+      <button class="calc-btn" onclick="calcInput('0')">0</button>
+      <button class="calc-btn" onclick="calcInput('.')">.</button>
+      <button class="calc-btn calc-eq" onclick="calcEquals()">=</button>
+      <button class="calc-btn calc-op" onclick="calcInput('+')">+</button>
+      <button class="calc-btn calc-func" onclick="calcInput('sin(')">sin</button>
+      <button class="calc-btn calc-func" onclick="calcInput('cos(')">cos</button>
+      <button class="calc-btn calc-func" onclick="calcInput('tan(')">tan</button>
+      <button class="calc-btn calc-func" onclick="calcInput('log(')">log</button>
+      <button class="calc-btn calc-clear" onclick="calcClear()">C</button>
+      <button class="calc-btn calc-func" onclick="calcInput('exp(')">exp</button>
+      <button class="calc-btn calc-func" onclick="calcInput('(')">(</button>
+      <button class="calc-btn calc-func" onclick="calcInput(')')">)</button>
+      <button class="calc-btn" onclick="calcInput('3.14159')">&pi;</button>
     </div>
   </div>
 </div>

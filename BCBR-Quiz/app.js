@@ -56,6 +56,7 @@ function savePracticeState() {
     assignNum: practiceAssignNum,
     questions: practiceQuestions,
     answers: practiceAnswers,
+    review: practiceReview,
     currentIdx: practiceCurrentIdx
   };
   setData(STATE_PRACTICE_KEY, JSON.stringify(state));
@@ -91,6 +92,10 @@ function resumeExam() {
   document.getElementById('quizLayout').classList.remove('hidden');
   document.getElementById('resultScreen').style.display = 'none';
 
+  // Reset sidebar to visible on resume
+  document.getElementById('sidebar').classList.remove('collapsed');
+  document.getElementById('sidebarToggle').textContent = '<<';
+
   buildPalette();
   showQuestion(currentIdx);
 
@@ -116,6 +121,7 @@ function resumePractice() {
   practiceAssignNum = state.assignNum;
   practiceQuestions = state.questions;
   practiceAnswers = state.answers;
+  practiceReview = state.review || new Array(practiceQuestions.length).fill(false);
   practiceCurrentIdx = state.currentIdx;
 
   document.getElementById('assignmentPickerScreen').style.display = 'none';
@@ -123,6 +129,7 @@ function resumePractice() {
   document.getElementById('practiceLayout').classList.remove('hidden');
   document.getElementById('practiceResultScreen').style.display = 'none';
 
+  buildPPalette();
   showPracticeQuestion(practiceCurrentIdx);
 }
 
@@ -257,30 +264,10 @@ function saveAssignmentScore(assignNum, correct, total) {
 window.addEventListener('DOMContentLoaded', loadRecords);
 
 // ============================================================
-// MOBILE / PALETTE HELPERS
+// MOBILE HELPER
 // ============================================================
 
 function isMobile() { return window.innerWidth < 768; }
-
-function togglePalette() {
-  if (!isMobile()) return;
-  document.getElementById('paletteWrap').classList.toggle('collapsed');
-  document.getElementById('sidebarTitle').classList.toggle('collapsed');
-}
-
-(function() {
-  if (window.innerWidth < 768) {
-    document.getElementById('paletteWrap').classList.add('collapsed');
-    document.getElementById('sidebarTitle').classList.add('collapsed');
-  }
-})();
-
-window.addEventListener('resize', function() {
-  if (!isMobile()) {
-    document.getElementById('paletteWrap').classList.remove('collapsed');
-    document.getElementById('sidebarTitle').classList.remove('collapsed');
-  }
-});
 
 // ============================================================
 // SHARED
@@ -353,6 +340,10 @@ function startQuiz() {
   document.getElementById('quizLayout').classList.remove('hidden');
   document.getElementById('resultScreen').style.display = 'none';
 
+  // Reset sidebar to visible
+  document.getElementById('sidebar').classList.remove('collapsed');
+  document.getElementById('sidebarToggle').textContent = '<<';
+
   buildPalette();
   showQuestion(0);
   startTimer();
@@ -361,7 +352,7 @@ function startQuiz() {
 function buildPalette() {
   var html = '';
   for (var i = 0; i < 100; i++) {
-    html += '<div class="q-num" id="pn' + i + '" onclick="goToQuestion(' + i + ')">' + (i + 1) + '</div>';
+    html += '<div class="q-num not-answered" id="pn' + i + '" onclick="goToQuestion(' + i + ')">' + (i + 1) + '</div>';
   }
   document.getElementById('palette').innerHTML = html;
 }
@@ -369,12 +360,33 @@ function buildPalette() {
 function updatePalette() {
   for (var i = 0; i < 100; i++) {
     var el = document.getElementById('pn' + i);
+    var isAns = answers[i] !== null;
+    var isBm = review[i];
+    var isCur = i === currentIdx;
     el.className = 'q-num';
-    if (i === currentIdx) el.classList.add('current');
-    else if (review[i] && answers[i] !== null) el.classList.add('review-answered');
-    else if (review[i]) el.classList.add('review');
-    else if (answers[i] !== null) el.classList.add('answered');
+    if (isCur) el.classList.add('current');
+    if (isAns && isBm) el.classList.add('ans-bookmarked');
+    else if (isAns) el.classList.add('answered');
+    else if (isBm) el.classList.add('not-ans-bookmarked');
+    else el.classList.add('not-answered');
   }
+}
+
+function updateSummary() {
+  var total = 100;
+  var ans = 0, ansBm = 0, notAnsBm = 0;
+  for (var i = 0; i < total; i++) {
+    var isAns = answers[i] !== null;
+    var isBm = review[i];
+    if (isAns && isBm) ansBm++;
+    else if (isAns) ans++;
+    else if (isBm) notAnsBm++;
+  }
+  var notAns = total - ans - ansBm - notAnsBm;
+  document.getElementById('ansCountS').textContent = ans;
+  document.getElementById('ansBmCountS').textContent = ansBm;
+  document.getElementById('notAnsBmCountS').textContent = notAnsBm;
+  document.getElementById('notAnsCountS').textContent = notAns;
 }
 
 function showQuestion(idx) {
@@ -389,6 +401,9 @@ function showQuestion(idx) {
   document.getElementById('qAssignment').textContent = 'A' + q.assignment + ' Q' + q.number;
   document.getElementById('qStem').textContent = q.stem;
 
+  // Bookmark checkbox sync
+  document.getElementById('bookmarkCb').checked = review[idx] || false;
+
   var html = '';
   for (var i = 0; i < q.options.length; i++) {
     var opt = q.options[i];
@@ -400,9 +415,12 @@ function showQuestion(idx) {
   }
   document.getElementById('qOptions').innerHTML = html;
   updatePalette();
+  updateSummary();
   document.getElementById('clearBtn').disabled = (answers[idx] === null);
   document.getElementById('prevBtn').disabled = (idx === 0);
   document.getElementById('nextBtn').disabled = (idx === 99);
+  // Done button only on last question
+  document.getElementById('doneBtn').style.display = (idx === 99) ? '' : 'none';
   window.scrollTo(0, 0);
   saveExamState();
 }
@@ -413,49 +431,121 @@ function selectOption(idx, letter) {
   for (var i = 0; i < opts.length; i++) {
     var isSel = opts[i].getAttribute('data-letter') === letter;
     opts[i].className = 'q-option' + (isSel ? ' selected' : '');
-    opts[i].querySelector('.opt-letter').className = 'opt-letter' + (isSel ? ' selected' : '');
     opts[i].querySelector('.opt-text').className = 'opt-text' + (isSel ? ' selected' : '');
   }
   updatePalette();
+  updateSummary();
   document.getElementById('clearBtn').disabled = false;
   saveExamState();
 }
 
 function clearResponse() {
   answers[currentIdx] = null;
-  // Re-render
   var opts = document.querySelectorAll('.q-option');
   for (var i = 0; i < opts.length; i++) {
     opts[i].className = 'q-option';
-    opts[i].querySelector('.opt-letter').className = 'opt-letter';
     opts[i].querySelector('.opt-text').className = 'opt-text';
   }
   updatePalette();
+  updateSummary();
   document.getElementById('clearBtn').disabled = true;
   saveExamState();
 }
 
-function saveAndNext() {
-  if (answers[currentIdx] === null) {
-    alert('Please select an answer before saving.');
-    return;
-  }
-  if (currentIdx < 99) { showQuestion(currentIdx + 1); }
+// ============================================================
+// NEW UI: BOOKMARK, SIDEBAR TOGGLE, CALCULATOR, INFO
+// ============================================================
+
+function toggleBookmark() {
+  var cb = document.getElementById('bookmarkCb');
+  review[currentIdx] = cb.checked;
+  updatePalette();
+  updateSummary();
+  saveExamState();
 }
 
-function markReview() {
-  review[currentIdx] = true;
-  // If no answer selected, that's fine - it's marked for review
-  if (currentIdx < 99) { showQuestion(currentIdx + 1); }
-  else { updatePalette(); }
-  saveExamState();
+function toggleSidebar() {
+  var sidebar = document.getElementById('sidebar');
+  var toggle = document.getElementById('sidebarToggle');
+  sidebar.classList.toggle('collapsed');
+  toggle.textContent = sidebar.classList.contains('collapsed') ? '>>' : '<<';
+}
+
+function openCalculator() {
+  var el = document.getElementById('calcPopup');
+  el.style.display = el.style.display === 'none' ? 'block' : 'none';
+}
+
+function closeCalculator() {
+  document.getElementById('calcPopup').style.display = 'none';
+}
+
+function calcInput(val) {
+  var d = document.getElementById('calcDisplay');
+  d.value += val;
+}
+
+function calcClear() {
+  document.getElementById('calcDisplay').value = '';
+}
+
+function calcEquals() {
+  var d = document.getElementById('calcDisplay');
+  try {
+    var expr = d.value;
+    // Replace math function names with Math.* equivalents
+    expr = expr.replace(/sin\(/g, 'Math.sin(');
+    expr = expr.replace(/cos\(/g, 'Math.cos(');
+    expr = expr.replace(/tan\(/g, 'Math.tan(');
+    expr = expr.replace(/log\(/g, 'Math.log(');
+    expr = expr.replace(/exp\(/g, 'Math.exp(');
+    // Replace pi symbol with actual value
+    expr = expr.replace(/\u03C0/g, '(Math.PI)');
+    var result = new Function('return ' + expr)();
+    d.value = result;
+  } catch(e) {
+    d.value = 'Error';
+  }
+}
+
+function openInstructions() {
+  var body = document.getElementById('infoPopupBody');
+  // Populate from candidate instructions text
+  body.innerHTML =
+    '<p><b>About Question Paper:</b></p>' +
+    '<ul>' +
+    '<li>Only one question will be displayed on the computer screen at a time.</li>' +
+    '<li>Each Question will have 4 Answer options. One of the four options is correct answer.</li>' +
+    '<li>There will be 1 mark for each correctly answered question.</li>' +
+    '<li>There is NO negative marking for wrong answer.</li>' +
+    '<li>The questions will be displayed in English language only.</li>' +
+    '<li>Candidates can attempt questions in any sequence by clicking on the question number in the Summary Report on the left-hand side of the page.</li>' +
+    '<li>During examination, screen will continuously display the remaining time at its top right hand corner.</li>' +
+    '</ul>' +
+    '<p><b>About Answering Questions:</b></p>' +
+    '<ul>' +
+    '<li>Click on the option you think is appropriate/correct.</li>' +
+    '<li>You can bookmark questions by checking "Bookmark this question" to review before submitting.</li>' +
+    '<li>You can navigate between questions either by clicking Previous, Next, or by clicking on question numbers on the left.</li>' +
+    '</ul>' +
+    '<p><b>About Preview and Submission:</b></p>' +
+    '<ul>' +
+    '<li>The answers are automatically saved when you select an option.</li>' +
+    '<li>"Done" button appears on the last question. Click it to submit the test.</li>' +
+    '</ul>';
+  document.getElementById('infoOverlay').style.display = 'flex';
+}
+
+function closeInstructions(e) {
+  if (e && e.target !== e.currentTarget) return;
+  document.getElementById('infoOverlay').style.display = 'none';
 }
 
 // ============================================================
 // ASSIGNMENT PRACTICE MODE
 // ============================================================
 
-var practiceQuestions, practiceAnswers, practiceCurrentIdx, practiceAssignNum;
+var practiceQuestions, practiceAnswers, practiceReview, practiceCurrentIdx, practiceAssignNum;
 
 function showAssignmentPicker() {
   document.getElementById('startScreen').style.display = 'none';
@@ -486,16 +576,105 @@ function startAssignmentPractice(assignNum) {
   practiceAssignNum = assignNum;
   practiceQuestions = ALL_QUESTIONS.filter(function(q) { return q.assignment === assignNum; });
   resolveVariants(practiceQuestions);
-  // Shuffle the questions for varied practice
   shuffle(practiceQuestions);
   practiceAnswers = new Array(practiceQuestions.length).fill(null);
+  practiceReview = new Array(practiceQuestions.length).fill(false);
   practiceCurrentIdx = 0;
+
+  // Reset practice sidebar to visible
+  document.getElementById('pSidebar').classList.remove('collapsed');
+  document.getElementById('pSidebarToggle').textContent = '<<';
 
   document.getElementById('assignmentPickerScreen').style.display = 'none';
   document.getElementById('practiceLayout').classList.remove('hidden');
   document.getElementById('practiceResultScreen').style.display = 'none';
 
+  buildPPalette();
   showPracticeQuestion(0);
+}
+
+function buildPPalette() {
+  var total = practiceQuestions.length;
+  var html = '';
+  for (var i = 0; i < total; i++) {
+    html += '<div class="q-num not-answered" id="ppn' + i + '" onclick="goToPQuestion(' + i + ')">' + (i + 1) + '</div>';
+  }
+  document.getElementById('pPalette').innerHTML = html;
+  // Update total count for summary
+  document.getElementById('pTotalCount').textContent = total;
+}
+
+function updatePPalette() {
+  var total = practiceQuestions.length;
+  for (var i = 0; i < total; i++) {
+    var el = document.getElementById('ppn' + i);
+    if (!el) continue;
+    var isAns = practiceAnswers[i] !== null;
+    var isBm = practiceReview && practiceReview[i];
+    var isCur = i === practiceCurrentIdx;
+    el.className = 'q-num';
+    if (isCur) el.classList.add('current');
+    if (isAns && isBm) el.classList.add('ans-bookmarked');
+    else if (isAns) el.classList.add('answered');
+    else if (isBm) el.classList.add('not-ans-bookmarked');
+    else el.classList.add('not-answered');
+  }
+}
+
+function updatePSummary() {
+  var total = practiceQuestions.length;
+  var ans = 0, ansBm = 0, notAnsBm = 0;
+  for (var i = 0; i < total; i++) {
+    var isAns = practiceAnswers[i] !== null;
+    var isBm = practiceReview && practiceReview[i];
+    if (isAns && isBm) ansBm++;
+    else if (isAns) ans++;
+    else if (isBm) notAnsBm++;
+  }
+  var notAns = total - ans - ansBm - notAnsBm;
+  document.getElementById('pAnsweredCount').textContent = ans;
+  document.getElementById('pAnsBmCount').textContent = ansBm;
+  document.getElementById('pNotAnsBmCount').textContent = notAnsBm;
+  document.getElementById('pNotAnsCount').textContent = notAns;
+}
+
+function goToPQuestion(idx) {
+  showPracticeQuestion(idx);
+}
+
+function togglePBookmark() {
+  var cb = document.getElementById('pBookmarkCb');
+  practiceReview[practiceCurrentIdx] = cb.checked;
+  updatePPalette();
+  updatePSummary();
+  savePracticeState();
+}
+
+function togglePSidebar() {
+  var sidebar = document.getElementById('pSidebar');
+  var toggle = document.getElementById('pSidebarToggle');
+  sidebar.classList.toggle('collapsed');
+  toggle.textContent = sidebar.classList.contains('collapsed') ? '>>' : '<<';
+}
+
+function clearPracticeResponse() {
+  if (practiceAnswers[practiceCurrentIdx] !== null) {
+    practiceAnswers[practiceCurrentIdx] = null;
+    // Re-render the question without answer, without feedback
+    document.getElementById('feedbackBox').classList.add('hidden');
+    var q = practiceQuestions[practiceCurrentIdx];
+    var opts = document.querySelectorAll('#pQOptions .q-option');
+    for (var i = 0; i < opts.length; i++) {
+      opts[i].style.pointerEvents = 'auto';
+      opts[i].style.cursor = 'pointer';
+      opts[i].className = 'q-option';
+      opts[i].querySelector('.opt-letter').className = 'opt-letter';
+      opts[i].querySelector('.opt-text').className = 'opt-text';
+    }
+    updatePPalette();
+    updatePSummary();
+    savePracticeState();
+  }
 }
 
 function renderPracticeFeedback(idx, q) {
@@ -520,7 +699,6 @@ function renderPracticeFeedback(idx, q) {
     }
   }
 
-  // Show feedback
   var fb = document.getElementById('feedbackBox');
   var icon = document.getElementById('feedbackIcon');
   var text = document.getElementById('feedbackText');
@@ -555,6 +733,9 @@ function showPracticeQuestion(idx) {
   document.getElementById('pQStem').textContent = q.stem;
   document.getElementById('practiceProgress').textContent = (idx + 1) + ' / ' + total;
 
+  // Bookmark checkbox sync
+  document.getElementById('pBookmarkCb').checked = practiceReview ? practiceReview[idx] || false : false;
+
   var html = '';
   for (var i = 0; i < q.options.length; i++) {
     var opt = q.options[i];
@@ -565,15 +746,12 @@ function showPracticeQuestion(idx) {
   }
   document.getElementById('pQOptions').innerHTML = html;
 
-  // Update prev/next button states
   document.getElementById('pPrevBtn').disabled = (idx === 0);
   document.getElementById('pNextBtn').disabled = (idx === total - 1);
 
   if (practiceAnswers[idx] !== null) {
-    // Already answered: show feedback read-only, disable options
     renderPracticeFeedback(idx, q);
   } else {
-    // Not answered: make options clickable, hide feedback
     document.getElementById('feedbackBox').classList.add('hidden');
     var opts = document.querySelectorAll('#pQOptions .q-option');
     for (var i = 0; i < opts.length; i++) {
@@ -585,6 +763,9 @@ function showPracticeQuestion(idx) {
     }
   }
 
+  updatePPalette();
+  updatePSummary();
+  document.getElementById('pDoneBtn').style.display = (idx === total - 1) ? '' : 'none';
   window.scrollTo(0, 0);
   savePracticeState();
 }
@@ -595,6 +776,8 @@ function selectPracticeOption(idx, letter) {
   var q = practiceQuestions[idx];
   practiceAnswers[idx] = letter;
   renderPracticeFeedback(idx, q);
+  updatePPalette();
+  updatePSummary();
   savePracticeState();
 }
 
