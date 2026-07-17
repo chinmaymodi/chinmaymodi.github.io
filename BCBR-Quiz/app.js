@@ -390,11 +390,6 @@ function updateSummary() {
 }
 
 function showQuestion(idx) {
-  // Collapse palette on mobile when navigating
-  if (isMobile()) {
-    document.getElementById('paletteWrap').classList.add('collapsed');
-    document.getElementById('sidebarTitle').classList.add('collapsed');
-  }
   currentIdx = idx;
   var q = questions[idx];
   document.getElementById('qNumber').textContent = 'Question ' + (idx + 1) + ' of 100';
