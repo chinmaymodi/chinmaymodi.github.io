@@ -232,35 +232,86 @@ section {
   }
 }
 
-// ===== EXPERIENCE =====
-#experience {
+// ===== TIMELINE =====
+#timeline {
   background-color: $white-color;
   color: $dark-blue-text;
   padding-top: 10rem;
 
-  .exp-wrapper {
-    text-align: left;
-    max-width: 800px;
+  .timeline-track {
+    position: relative;
+    max-width: 900px;
     margin: 0 auto;
 
-    &__item {
-      margin-bottom: 4rem;
-      padding-left: 2rem;
-      border-left: 3px solid $primary-color;
+    // vertical center line
+    .timeline-line {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 3px;
+      background: $primary-color;
+      transform: translateX(-50%);
+    }
 
-      &-title {
+    // each block (left for education, right for work)
+    .timeline-block {
+      position: relative;
+      width: 50%;
+      padding: 0 3rem 4rem;
+
+      &--education {
+        left: 0;
+        text-align: right;
+
+        .timeline-content {
+          margin-left: auto;
+        }
+
+        .timeline-dot {
+          right: -6px;
+        }
+      }
+
+      &--work {
+        left: 50%;
+        text-align: left;
+
+        .timeline-dot {
+          left: -6px;
+        }
+      }
+    }
+
+    // dot on the center line
+    .timeline-dot {
+      position: absolute;
+      top: 0.6rem;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      background: $primary-color;
+      border: 3px solid $white-color;
+      z-index: 1;
+    }
+
+    // content card
+    .timeline-content {
+      max-width: 360px;
+
+      &__title {
         font-size: 1.8rem;
         font-weight: bold;
         margin-bottom: 0.5rem;
       }
 
-      &-sub {
+      &__sub {
         font-size: 1.4rem;
         color: lighten($dark-blue-text, 30%);
         margin-bottom: 1rem;
       }
 
-      &-desc {
+      &__desc {
         font-size: 1.4rem;
         line-height: 1.6;
       }

@@ -32,7 +32,7 @@ export default function About() {
             <div className="about-wrapper__info-text" style={{ marginTop: '2rem' }}>
               <span>
                 <a
-                  href="./Chinmay_Modi_Resume_2026_April.pdf"
+                  href="./assets/2026_Resume_Chinmay_Modi.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-btn cta-btn--resume"

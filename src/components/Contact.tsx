@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
+const email = atob('Y2hpbm1heW1vZGlAZ21haWwuY29t')
+
 export default function Contact() {
   return (
     <section id="contact">
@@ -16,7 +18,7 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
             className="cta-btn cta-btn--resume"
-            href="mailto:chinmaymodi@gmail.com"
+            href={`mailto:${email}`}
           >
             Send Email
           </a>
