@@ -1,9 +1,12 @@
 import { motion } from 'framer-motion'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
-const email = atob('Y2hpbm1heW1vZGlAZ21haWwuY29t')
-
 export default function Contact() {
+  const handleEmail = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    e.preventDefault()
+    window.location.href = 'mailto:' + atob('Y2hpbm1heW1vZGlAZ21haWwuY29t')
+  }
+
   return (
     <section id="contact">
       <div className="container">
@@ -15,10 +18,9 @@ export default function Contact() {
             Open to opportunities — reach out if you'd like to work together.
           </p>
           <a
-            target="_blank"
-            rel="noopener noreferrer"
             className="cta-btn cta-btn--resume"
-            href={`mailto:${email}`}
+            href="#contact"
+            onClick={handleEmail}
           >
             Send Email
           </a>
