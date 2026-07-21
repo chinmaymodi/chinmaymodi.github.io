@@ -10,31 +10,12 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Project Name',
+    title: 'Chinmay Modi Portfolio',
     description:
-      'This is a placeholder description. You will update this with your own project details. It should describe what the project does, the problem it solves, and any interesting technical details.',
-    tags: ['React', 'TypeScript', 'Node.js'],
+      'Responsive portfolio site built with React, TypeScript, and Framer Motion. Deployed via GitHub Pages with automated CI/CD. Features scroll-triggered animations, project showcase, and resume download.',
+    tags: ['React', 'TypeScript', 'Framer Motion'],
     imageUrl: undefined,
-    liveUrl: '#!',
-    sourceUrl: '#!',
-  },
-  {
-    title: 'Project Name',
-    description:
-      'This is another placeholder description. Swap in your own screenshots, descriptions, and links. Keep the alternating layout — images and text swap sides on every other row.',
-    tags: ['Python', 'Django', 'PostgreSQL'],
-    imageUrl: '/assets/project-placeholder.jpg',
-    sourceUrl: '#!',
-    liveUrl: '#!',
-    reverse: true,
-  },
-  {
-    title: 'Project Name',
-    description:
-      'Third placeholder project card. Add your own content here. The cards use a clean box-shadow hover effect and fade-in scroll animation.',
-    tags: ['Vue', 'Firebase', 'Sass'],
-    imageUrl: '/assets/project-placeholder.jpg',
-    sourceUrl: '#!',
-    liveUrl: '#!',
+    liveUrl: 'https://chinmaymodi.github.io',
+    sourceUrl: 'https://github.com/chinmaymodi/chinmaymodi.github.io',
   },
 ]

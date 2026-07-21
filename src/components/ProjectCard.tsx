@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useSlideReveal } from '../hooks/useScrollReveal'
 import type { Project } from '../data/projects'
@@ -8,6 +9,7 @@ interface Props {
 
 export default function ProjectCard({ project }: Props) {
   const { title, description, tags, imageUrl, liveUrl, sourceUrl, reverse } = project
+  const [imgError, setImgError] = useState(false)
 
   return (
     <div className="row">
@@ -51,7 +53,7 @@ export default function ProjectCard({ project }: Props) {
           </div>
         </div>
       </motion.div>
-      {imageUrl && (
+      {imageUrl && !imgError && (
         <motion.div
           className={
             'col-lg-8 col-sm-12' +
@@ -73,6 +75,7 @@ export default function ProjectCard({ project }: Props) {
                 alt={title}
                 width="649"
                 height="auto"
+                onError={() => setImgError(true)}
               />
             </motion.a>
           </div>
