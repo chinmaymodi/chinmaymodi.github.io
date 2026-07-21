@@ -6,14 +6,11 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <motion.div className="social-links" {...useScrollReveal()}>
-          <a href="#!" target="_blank" rel="noopener noreferrer">
+          <a href="https://linkedin.com/in/chinmaymodi" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-linkedin" />
           </a>
-          <a href="#!" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/chinmaymodi" target="_blank" rel="noopener noreferrer">
             <i className="fa fa-github" />
-          </a>
-          <a href="#!" target="_blank" rel="noopener noreferrer">
-            <i className="fa fa-twitter" />
           </a>
         </motion.div>
         <hr />

@@ -21,17 +21,18 @@ export default function About() {
           >
             <div className="about-wrapper__info-text">
               <p className="about-wrapper__info-text--important">
-                Placeholder text — you will replace this with your own bio.
+                Software Developer with 4+ years of experience building scalable enterprise systems.
               </p>
               <p>
-                Describe your background, what you do, what technologies you work with,
-                and what you are passionate about. Keep it concise and professional.
+                I specialize in C#, .NET, React, and distributed architectures — modernizing legacy platforms,
+                optimizing database performance, and supporting production systems in high-availability environments.
+                I've worked across the stack from REST APIs and Redis caching to PostgreSQL indexing and React front-ends.
               </p>
             </div>
             <div className="about-wrapper__info-text" style={{ marginTop: '2rem' }}>
               <span>
                 <a
-                  href="#!"
+                  href="./Chinmay_Modi_Resume_2026_April.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-btn cta-btn--resume"

@@ -10,13 +10,13 @@ export default function Contact() {
         </motion.h2>
         <motion.div className="contact-wrapper" {...useScrollReveal(0.2)}>
           <p className="contact-wrapper__text">
-            [Placeholder call to action — update with your own message]
+            Open to opportunities — reach out if you'd like to work together.
           </p>
           <a
             target="_blank"
             rel="noopener noreferrer"
             className="cta-btn cta-btn--resume"
-            href="mailto:your.email@example.com"
+            href="mailto:chinmaymodi@gmail.com"
           >
             Send Email
           </a>

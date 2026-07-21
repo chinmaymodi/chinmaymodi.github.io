@@ -13,7 +13,7 @@ export default function Hero() {
           className="hero-cta"
           {...useScrollReveal(0.2)}
         >
-          <a className="cta-btn cta-btn--hero" href="#about">Get in touch</a>
+          <a className="cta-btn cta-btn--hero" href="#about">View my work</a>
         </motion.div>
       </div>
     </section>
