@@ -1,10 +1,17 @@
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { useScrollReveal } from '../hooks/useScrollReveal'
 
 export default function Contact() {
+  const [copied, setCopied] = useState(false)
+
   const handleEmail = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()
-    window.location.href = 'mailto:' + atob('Y2hpbm1heW1vZGlAZ21haWwuY29t')
+    const email = atob('Y2hpbm1heW1vZGlAZ21haWwuY29t')
+    navigator.clipboard.writeText(email)
+    setCopied(true)
+    setTimeout(() => setCopied(false), 2000)
+    window.location.href = 'mailto:' + email
   }
 
   return (
@@ -19,10 +26,10 @@ export default function Contact() {
           </p>
           <a
             className="cta-btn cta-btn--resume"
-            href="#contact"
+            href="#!"
             onClick={handleEmail}
           >
-            Send Email
+            {copied ? 'Copied Email!' : 'Send Email'}
           </a>
         </motion.div>
       </div>
