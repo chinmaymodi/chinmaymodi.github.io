@@ -21,18 +21,22 @@ export default function About() {
           >
             <div className="about-wrapper__info-text">
               <p className="about-wrapper__info-text--important">
-                Software Developer with 4+ years of experience building scalable enterprise systems.
+                Product Engineer specializing in high-performance systems and data-driven applications.
               </p>
               <p>
-                I specialize in C#, .NET, React, and distributed architectures — modernizing legacy platforms,
-                optimizing database performance, and supporting production systems in high-availability environments.
-                I've worked across the stack from REST APIs and Redis caching to PostgreSQL indexing and React front-ends.
+                Programmer at heart, builder by trade.
+              </p>
+              <p>
+                I bridge the gap between complex backend infrastructure and intuitive user experiences, building end-to-end solutions that solve real business problems.
+              </p>
+              <p>
+                I enjoy solving complex algorithmic puzzles and architecting systems that are as maintainable as they are performant.
               </p>
             </div>
             <div className="about-wrapper__info-text" style={{ marginTop: '2rem' }}>
               <span>
                 <a
-                  href="./assets/2026_Resume_Chinmay_Modi.pdf"
+                  href="./assets/Chinmay_Modi_Resume_2026_September.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-btn cta-btn--resume"

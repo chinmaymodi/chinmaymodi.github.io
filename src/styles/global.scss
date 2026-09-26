@@ -1,4 +1,5 @@
 // ===== VARIABLES =====
+@use "sass:color";
 $primary-color: #02aab0;
 $secondary-color: #00cdac;
 $white-color: #fff;
@@ -57,14 +58,27 @@ img { max-width: 100%; height: auto; }
   font-weight: bold;
   text-transform: uppercase;
   @include respond(phone) { font-size: 2.8rem; }
+  
+  .text-color-main {
+    text-shadow: none;
+  }
 }
 
 .text-color-main { @include text-gradient; }
 
-// ===== SECTION LAYOUT =====
-section {
-  padding: 5rem 0;
-  @include respond(phone) { padding-left: 1rem; padding-right: 1rem; }
+// Define a vibrant, readable teal gradient
+@mixin text-gradient-readable {
+  color: #008080; // Fallback
+  background-image: linear-gradient(135deg, #008080 0%, #00a0a0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+#about, #contact {
+  .text-color-main {
+    @include text-gradient-readable;
+  }
 }
 
 .container {
@@ -195,13 +209,14 @@ section {
 #about {
   background-color: $primary-color;
   background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-  color: $white-color;
+  color: $dark-blue-text;
   height: 100%;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-bottom: 10%;
+  padding-top: 5rem; // Added padding-top to push content down
+  padding-bottom: 15rem; // Increased padding-bottom
 
-  @include respond(tab-land) { -webkit-clip-path: none; clip-path: none; }
+  @include respond(tab-land) { -webkit-clip-path: none; clip-path: none; padding-top: 5rem; }
 
   .about-wrapper {
     @include respond(phone) { padding-bottom: 5rem; }
@@ -227,6 +242,7 @@ section {
         text-align: left;
         @include respond(tab-port) { text-align: left; }
         @include respond(tab-port-sm) { text-align: center; }
+        p { color: $dark-blue-text; }
       }
     }
   }
@@ -307,7 +323,7 @@ section {
 
       &__sub {
         font-size: 1.4rem;
-        color: lighten($dark-blue-text, 30%);
+        color: color.scale($dark-blue-text, $lightness: 30%);
         margin-bottom: 1rem;
       }
 
@@ -382,7 +398,7 @@ section {
   padding: 15rem 0 10rem;
   margin-top: -10rem;
   margin-bottom: -1px;
-  color: $white-color;
+  color: $dark-blue-text;
 
   @include respond(tab-land) {
     padding: 10rem 0;
@@ -397,7 +413,7 @@ section {
     backface-visibility: hidden;
 
     &__text, a { font-size: 2.4rem; @include respond(phone) { font-size: 2rem; } }
-    &__text { margin-bottom: 2.5rem; }
+    &__text { margin-bottom: 2.5rem; text-shadow: none; color: $dark-blue-text; }
   }
 }
 
@@ -409,10 +425,10 @@ section {
   @include respond(phone) { border: 0; }
 
   &__text {
-    color: darken($white-color, 50%);
+    color: color.scale($white-color, $lightness: -50%);
     font-size: 1.3rem;
     a {
-      color: darken($white-color, 50%);
+      color: color.scale($white-color, $lightness: -50%);
       font-size: 1.3rem;
       transition: all 0.4s;
       display: inline-block;

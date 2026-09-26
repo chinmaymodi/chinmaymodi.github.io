@@ -8,7 +8,7 @@ interface Props {
 }
 
 export default function ProjectCard({ project }: Props) {
-  const { title, description, tags, imageUrl, liveUrl, sourceUrl, reverse } = project
+  const { title, description, tags, imageUrl, liveUrl, sourceUrl, reverse, liveBtnText } = project
   const [imgError, setImgError] = useState(false)
 
   return (
@@ -31,7 +31,7 @@ export default function ProjectCard({ project }: Props) {
           )}
           <p>{description}</p>
           <div className="project-wrapper__text-btns" style={{ marginTop: '2rem' }}>
-            {liveUrl !== '#!' && (
+            {liveUrl && (
               <a
                 href={liveUrl}
                 target="_blank"
@@ -39,17 +39,19 @@ export default function ProjectCard({ project }: Props) {
                 className="cta-btn cta-btn--hero"
                 style={{ marginRight: '1rem' }}
               >
-                Live
+                {liveBtnText || 'Live'}
               </a>
             )}
-            <a
-              href={sourceUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--hero"
-            >
-              Source
-            </a>
+            {sourceUrl && (
+              <a
+                href={sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta-btn cta-btn--hero"
+              >
+                Source
+              </a>
+            )}
           </div>
         </div>
       </motion.div>

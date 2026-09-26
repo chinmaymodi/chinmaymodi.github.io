@@ -8,6 +8,14 @@ export interface TimelineItem {
 
 export const timeline: TimelineItem[] = [
   {
+    role: 'Product Engineer',
+    company: 'Personal Project',
+    period: '2026',
+    description:
+      'Built a full-stack NSE stock market portfolio simulator for personal use. Developed a modular monolith in C#/.NET with EF Core, a React/TypeScript frontend, and a Python-based quant pipeline for backtesting and risk analysis.',
+    type: 'work',
+  },
+  {
     role: 'M.S. Data Analytics',
     company: 'McDaniel College',
     period: '2023 — 2025',

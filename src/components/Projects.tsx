@@ -8,7 +8,7 @@ export default function Projects() {
     <section id="projects">
       <div className="container">
         <motion.h2 className="section-title" {...useScrollReveal()}>
-          My <span className="text-color-main">Projects</span>
+          Game <span className="text-color-main">Development</span>
         </motion.h2>
         <div className="project-wrapper">
           {projects.map((project, i) => (

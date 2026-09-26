@@ -2,20 +2,23 @@ export interface Project {
   title: string
   description: string
   tags: string[]
-  imageUrl?: string
-  liveUrl: string
-  sourceUrl: string
-  reverse?: boolean
+  liveUrl?: string
+  sourceUrl?: string
+  liveBtnText?: string
 }
 
 export const projects: Project[] = [
   {
-    title: 'Chinmay Modi Portfolio',
-    description:
-      'Responsive portfolio site built with React, TypeScript, and Framer Motion. Deployed via GitHub Pages with automated CI/CD. Features scroll-triggered animations, project showcase, and resume download.',
-    tags: ['React', 'TypeScript', 'Framer Motion'],
-    imageUrl: undefined,
-    liveUrl: 'https://chinmaymodi.github.io',
-    sourceUrl: 'https://github.com/chinmaymodi/chinmaymodi.github.io',
+    title: 'Void Capital',
+    description: 'A full-stack NSE stock market portfolio simulator designed for high-frequency data ingestion and backtesting. Built as a modular monolith using C#/.NET 9 and EF Core, featuring a React/TypeScript frontend for real-time visualization, and a Python-based quantitative pipeline for strategy development, factor analysis, and risk management. Includes automated daily data cycles, walk-forward backtesting, and cloud-ready infrastructure.',
+    tags: ['C#', '.NET', 'React', 'TypeScript', 'Python', 'Docker', 'PostgreSQL', 'Quant', 'Backtesting', 'System Design'],
+    sourceUrl: 'https://github.com/chinmaymodi/Void-Capital',
+  },
+  {
+    title: 'Game Development',
+    description: 'A collection of 6 projects built in Godot 4 (C#), focusing on high-performance systems and algorithmic challenges. Projects include complex puzzle solvers (Held-Karp TSP, minimax search), procedural generation engines (Perlin noise, distance-field collision), and dynamic lighting/physics systems. These projects demonstrate a focus on clean C# architecture, memory management, and algorithmic optimization.',
+    tags: ['Godot 4', 'C#', 'Procedural Generation', 'Algorithms', 'Optimization', 'Physics', 'Pathfinding', 'Minimax', 'Held-Karp', 'Sonar', 'Lighting'],
+    liveUrl: 'https://insomniargh.itch.io/',
+    liveBtnText: 'Check it out on itch',
   },
 ]
