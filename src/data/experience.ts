@@ -10,7 +10,7 @@ export const timeline: TimelineItem[] = [
   {
     role: 'Product Engineer',
     company: 'Personal Project',
-    period: '2026',
+    period: '2026 — Present',
     description:
       'Built a full-stack NSE stock market portfolio simulator for personal use. Developed a modular monolith in C#/.NET with EF Core, a React/TypeScript frontend, and a Python-based quant pipeline for backtesting and risk analysis.',
     type: 'work',
@@ -18,7 +18,7 @@ export const timeline: TimelineItem[] = [
   {
     role: 'M.S. Data Analytics',
     company: 'McDaniel College',
-    period: '2023 — 2025',
+    period: '2025',
     description:
       'Advanced coursework in statistical modeling, machine learning, data visualization, and big data infrastructure. Applied analytical techniques to real-world datasets.',
     type: 'education',
@@ -42,23 +42,15 @@ export const timeline: TimelineItem[] = [
   {
     role: 'M.S. Computer Science',
     company: 'University of Houston-Clear Lake',
-    period: 'Dec 2017',
+    period: '2017',
     description:
       'Graduate studies in advanced algorithms, distributed systems, database internals, and software engineering methodology.',
     type: 'education',
   },
   {
-    role: 'Student System Administrator',
-    company: 'University of Houston-Clear Lake — Houston',
-    period: 'Jun 2016 — Aug 2017',
-    description:
-      'Maintained university-hosted platforms, databases, LDAP authentication, and NFS access controls. Assisted in RAID crash recovery, restoring systems from backups and supporting database recovery procedures.',
-    type: 'work',
-  },
-  {
     role: 'B.Tech Information & Communication Technology',
     company: 'DA-IICT — Gujarat, India',
-    period: 'Jun 2015',
+    period: '2015',
     description:
       'Bachelor\'s program covering computer science fundamentals, communication networks, signal processing, and software development. Graduated with a foundation in both hardware and software systems.',
     type: 'education',

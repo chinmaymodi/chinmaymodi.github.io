@@ -1,471 +1,620 @@
-// ===== VARIABLES =====
-@use "sass:color";
-$primary-color: #02aab0;
-$secondary-color: #00cdac;
-$white-color: #fff;
-$dark-grey: #333333;
-$light-grey: #d2d2d2;
-$dark-blue-text: #272341;
-$default-font-size: 1.6rem;
-$big-font-size: 4rem;
-$mid-font-size: 2.5rem;
-
-// ===== MIXINS =====
-@mixin respond($breakpoint) {
-  @if $breakpoint == phone-xs { @media (max-width: 20em) { @content; } }
-  @if $breakpoint == phone { @media (max-width: 37.5em) { @content; } }
-  @if $breakpoint == tab-port-sm { @media (max-width: 48em) { @content; } }
-  @if $breakpoint == tab-port { @media (max-width: 56.25em) { @content; } }
-  @if $breakpoint == tab-land { @media (max-width: 75em) { @content; } }
-  @if $breakpoint == big-desktop { @media (min-width: 112.5em) { @content; } }
-}
-
-@mixin text-gradient {
-  color: $secondary-color;
-  -webkit-text-fill-color: $secondary-color;
-  @supports (-webkit-background-clip: text) or (background-clip: text) {
-    background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: transparent;
-  }
-}
+// ===== VARIABLES (Samuel Kraft Exact Standards) =====
+$bg-color: #161615;          // Samuel Kraft's exact global background color
+$card-hover-bg: rgba(255, 255, 255, 0.05); // Creamish/whitish warm translucent surface on hover
+$text-primary: #ededed;      // Crisp, clean off-white
+$text-secondary: #94a3b8;    // Muted zinc gray
+$accent-color: #fafafa;      // Bright white for active / hover highlights
+$default-font-size: 1.5rem;
+$transition-smooth: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+$mobile-bar-height: 5rem;
 
 // ===== BASE =====
-html { font-size: 62.5%; scroll-behavior: smooth; }
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
 
 body {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: $bg-color;
+  color: $text-primary;
   margin: 0;
-  color: $dark-blue-text;
-}
-
-*, *::before, *::after { box-sizing: border-box; }
-
-h1 { font-weight: 700; }
-
-p, a { font-family: 'Montserrat', sans-serif; font-size: $default-font-size; }
-a, a:link, a:hover, a:visited, a:active { text-decoration: none; }
-a:hover { transition: all 0.3s ease-in-out; }
-
-img { max-width: 100%; height: auto; }
-
-.section-title {
-  margin: 0;
-  margin-bottom: 4.5rem;
-  font-size: $big-font-size;
-  font-weight: bold;
-  text-transform: uppercase;
-  @include respond(phone) { font-size: 2.8rem; }
-  
-  .text-color-main {
-    text-shadow: none;
-  }
-}
-
-.text-color-main { @include text-gradient; }
-
-// Define a vibrant, readable teal gradient
-@mixin text-gradient-readable {
-  color: #008080; // Fallback
-  background-image: linear-gradient(135deg, #008080 0%, #00a0a0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-#about, #contact {
-  .text-color-main {
-    @include text-gradient-readable;
-  }
-}
-
-.container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -1.5rem;
-  margin-left: -1.5rem;
-}
-
-.col-lg-4, .col-lg-8, .col-md-6, .col-sm-12 {
+  padding: 0;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   position: relative;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: $transition-smooth;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+// ===== BRITTANY CHIANG SPOTLIGHT EFFECT =====
+.spotlight-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-}
-
-.col-sm-12 { flex: 0 0 100%; max-width: 100%; }
-@include respond(tab-port-sm) {
-  .col-md-6 { flex: 0 0 50%; max-width: 50%; }
-}
-@include respond(tab-land) {
-  .col-lg-4 { flex: 0 0 33.333%; max-width: 33.333%; }
-  .col-lg-8 { flex: 0 0 66.667%; max-width: 66.667%; }
-}
-
-// ===== BUTTONS =====
-.cta-btn {
-  display: inline-block;
-  position: relative;
-  padding: 0.8rem $default-font-size;
-  font-weight: bold;
-  line-height: 1;
+  height: 100%;
+  background: radial-gradient(
+    1200px circle at var(--mouse-x, 0px) var(--mouse-y, 0px),
+    rgba(255, 255, 255, 0.04),
+    transparent 75%
+  );
+  pointer-events: none;
   z-index: 1;
-  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
-  cursor: pointer;
-  background: none;
+  // Unlit by default so there is no glow parked in the corner before the first
+  // real pointer input. Tapping lights it for ~2s, a mouse keeps it lit.
+  opacity: 0;
+  transition: opacity 0.4s ease;
 
-  &::after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 0;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-    z-index: -1;
-    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+  &.is-lit {
+    opacity: 1;
   }
 }
 
-.cta-btn--hero {
-  @include text-gradient;
-  border: 2px solid;
-  -moz-border-image: -moz-linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-  -webkit-border-image: -webkit-linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-  border-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-  -webkit-border-image-slice: 1;
-  border-image-slice: 1;
-
-  @include respond(phone) {
-    background-image: none;
-    border: 2px solid $secondary-color;
-    -webkit-text-fill-color: $secondary-color;
+// ===== SAMUEL KRAFT GRADUAL FADE & BLUR OVERLAYS =====
+// The desktop treatment below is expensive on phones: 10rem bands cover ~30% of
+// a short viewport and backdrop-filter costs compositing time. Phones get no top
+// band at all (the sticky nav bar handles the top edge) and a short, blur-free
+// bottom band.
+@media (max-width: 1023px) {
+  .fade-overlay-top {
+    display: none;
   }
 
-  &::after {
-    background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-    @include respond(phone) { background-image: none; }
-  }
-
-  &:hover {
-    -webkit-text-fill-color: $white-color;
-    text-decoration: none;
-    @include respond(phone) { -webkit-text-fill-color: $secondary-color; }
-    &::after { width: 100%; }
+  .fade-overlay-bottom {
+    height: 4rem;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
   }
 }
 
-.cta-btn--resume {
-  color: $white-color;
-  border: 2px solid $white-color;
-  &::after { background: $white-color; }
-  &:hover {
-    color: $secondary-color;
-    text-decoration: none;
-    &::after { width: 100%; }
-  }
+.fade-overlay-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10rem;
+  background: linear-gradient(to bottom, $bg-color 0%, rgba(22, 22, 21, 0.85) 40%, transparent 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  pointer-events: none;
+  z-index: 90;
+  mask-image: linear-gradient(to bottom, black 15%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 15%, transparent 100%);
 }
 
-// ===== HERO =====
-#hero {
+.fade-overlay-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10rem;
+  background: linear-gradient(to top, $bg-color 0%, rgba(22, 22, 21, 0.85) 40%, transparent 100%);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  pointer-events: none;
+  z-index: 90;
+  mask-image: linear-gradient(to top, black 15%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to top, black 15%, transparent 100%);
+}
+
+// ===== LAYOUT =====
+.app-container {
   min-height: 100vh;
-  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  position: relative;
+
+  @media (min-width: 1024px) {
+    padding: 0 4rem;
+  }
+}
+
+.layout-wrapper {
   display: flex;
-  align-items: center;
-  background: $white-color;
-  font-weight: 400;
-  color: $dark-blue-text;
-  padding: 0 5.6rem;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
 
-  @include respond(phone) { padding: 0 $default-font-size; }
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+  }
+}
 
-  .hero-title {
-    font-size: 5.6rem;
-    font-weight: 700;
-    margin-bottom: 3.2rem;
-    text-align: left;
-    @include respond(tab-land) { font-size: 4rem; }
-    @include respond(tab-port) { font-size: 3.6rem; text-align: center; }
-    @include respond(phone) { font-size: 3.5rem; line-height: 1.5; }
-    @include respond(phone-xs) { font-size: 2.8rem; }
+// ===== MOBILE NAV BAR =====
+// Phone/tablet only, where the sidebar nav is hidden. It lives in the normal
+// flow directly inside .app-container (not inside .layout-wrapper) so it can
+// stick for the whole page instead of being trapped in the sidebar's box.
+.mobile-nav {
+  display: none;
+
+  @media (max-width: 1023px) {
+    // Arrow sits flush left, section links sit flush right.
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    // Above .layout-wrapper (z-index 2) and the section headings (z-index 10).
+    z-index: 95;
+    height: $mobile-bar-height;
+    background-color: $bg-color;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   }
 
-  .hero-cta {
+  ul {
     display: flex;
-    @include respond(tab-port) { justify-content: center; }
-    a { font-size: 2.4rem; @include respond(phone) { font-size: 2rem; } }
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .mobile-nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    white-space: nowrap;
+    color: $text-secondary;
+    transition: $transition-smooth;
+
+    &.active {
+      color: $text-primary;
+    }
+
+    // Guarded: a tapped link latches :hover on touch, which would light it up
+    // alongside the genuinely active section.
+    @media (hover: hover) {
+      &:hover {
+        color: $text-primary;
+      }
+    }
+  }
+
+  // Back-to-top control, sized to match the text links.
+  .mobile-nav-top {
+    display: inline-flex;
+    align-items: center;
+    font-size: 1.3rem;
+    color: $text-secondary;
+    transition: $transition-smooth;
+
+    @media (hover: hover) {
+      &:hover {
+        color: $text-primary;
+      }
+    }
+  }
+}
+
+// ===== SIDEBAR =====
+.portfolio-sidebar {
+  padding: 4rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width: 1024px) {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 32%;
+    max-width: 340px;
+    padding: 10rem 0;
+  }
+
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .sidebar-name {
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.8rem 0;
+    color: $text-primary;
+
+    // Guarded: touch browsers latch :hover on the last tapped element, which
+    // would leave a stale highlight behind.
+    @media (hover: hover) {
+      a:hover {
+        color: $accent-color;
+      }
+    }
+  }
+
+  .sidebar-title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: $text-secondary;
+    margin: 0 0 1.2rem 0;
+    letter-spacing: -0.02em;
+  }
+
+  .sidebar-bio {
+    font-size: $default-font-size;
+    color: $text-secondary;
+    margin: 0 0 3.5rem 0;
+    max-width: 260px;
+  }
+
+  .sidebar-nav {
+    display: none;
+
+    @media (min-width: 1024px) {
+      display: block;
+    }
+
+    ul {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.2rem;
+    }
+
+    .nav-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 1.5rem;
+      font-size: 1.3rem;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: $text-secondary;
+      transition: $transition-smooth;
+
+      .nav-indicator {
+        width: 24px;
+        height: 1px;
+        background-color: $text-secondary;
+        transition: $transition-smooth;
+      }
+
+      &.active {
+        color: $text-primary;
+
+        .nav-indicator {
+          width: 48px;
+          background-color: $text-primary;
+        }
+      }
+
+      // Kept separate from .active above: on touch, a tapped link latches
+      // :hover and would stay lit alongside the real active section.
+      @media (hover: hover) {
+        &:hover {
+          color: $text-primary;
+
+          .nav-indicator {
+            width: 48px;
+            background-color: $text-primary;
+          }
+        }
+      }
+    }
+  }
+
+  .sidebar-socials {
+    display: flex;
+    gap: 1.8rem;
+    margin-top: 3rem;
+
+    a {
+      font-size: 2rem;
+      color: $text-secondary;
+      transition: $transition-smooth;
+
+      @media (hover: hover) {
+        &:hover {
+          color: $text-primary;
+        }
+      }
+    }
+  }
+}
+
+// ===== MAIN CONTENT =====
+.main-content {
+  width: 100%;
+  padding: 2rem 0 6rem;
+
+  @media (min-width: 1024px) {
+    width: 64%;
+    padding: 0 0 10rem 0;
+  }
+
+  .content-section {
+    margin-bottom: 6rem;
+    scroll-margin-top: 8rem;
+
+    @media (min-width: 1024px) {
+      margin-bottom: 10rem;
+    }
+
+    .section-heading {
+      font-size: 1.6rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: $text-primary;
+      margin-bottom: 2.5rem;
+      padding: 1.5rem 0;
+      // Deliberately not sticky: the title scrolls away with its section and
+      // the bar tracks the current section instead.
+
+      // Hidden on desktop, where the sidebar nav already labels the sections.
+      @media (min-width: 1024px) {
+        display: none;
+      }
+    }
   }
 }
 
 // ===== ABOUT =====
 #about {
-  background-color: $primary-color;
-  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-  color: $dark-blue-text;
-  height: 100%;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-  padding-top: 5rem; // Added padding-top to push content down
-  padding-bottom: 15rem; // Increased padding-bottom
+  // On mobile the gap above About comes entirely from .main-content's top
+  // padding, so this stays 0 here to avoid stacking two gaps in one place.
+  padding-top: 0;
+  scroll-margin-top: 8rem;
 
-  @include respond(tab-land) { -webkit-clip-path: none; clip-path: none; padding-top: 5rem; }
+  // On desktop .main-content has no top padding, so this 8rem is what aligns
+  // the About text with the sidebar name.
+  @media (min-width: 1024px) {
+    padding-top: 8rem;
+  }
+}
 
-  .about-wrapper {
-    @include respond(phone) { padding-bottom: 5rem; }
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+
+  .about-text {
+    font-size: $default-font-size;
+    color: $text-secondary;
+    line-height: 1.7;
+    margin: 0;
+  }
+}
+
+// ===== TIMELINE (Flat entries, no card treatment) =====
+.timeline-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .timeline-card {
+    // No horizontal padding: every entry starts on the same left edge as About.
+    padding: 2.2rem 0;
+
+    .timeline-period {
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: $text-secondary;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 0.6rem;
+    }
+
+    .timeline-role {
+      font-size: 1.6rem;
+      font-weight: 600;
+      color: $text-primary;
+      margin: 0 0 0.8rem 0;
+      letter-spacing: -0.02em;
+
+      .timeline-company {
+        color: $text-secondary;
+        font-weight: 400;
+      }
+    }
+
+    .timeline-desc {
+      font-size: 1.4rem;
+      color: $text-secondary;
+      line-height: 1.6;
+      margin: 0;
+    }
+  }
+}
+
+// ===== RESUME SECTION (Flat link, no card treatment) =====
+.resume-section {
+  .resume-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
 
-    &__image {
-      display: flex;
-      height: 100%;
+    .view-resume-link {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: $text-primary;
+      display: inline-flex;
       align-items: center;
-      justify-content: center;
-      @include respond(tab-port-sm) { padding-bottom: 6.4rem; }
+      gap: 1rem;
+      border-bottom: 1px solid $text-secondary;
+      padding-bottom: 2px;
+      transition: $transition-smooth;
+
+      i {
+        transition: $transition-smooth;
+      }
+
+      // Guarded: latched :hover on touch would leave the arrow permanently
+      // nudged to the right.
+      @media (hover: hover) {
+        &:hover {
+          color: $text-primary;
+          border-color: $text-primary;
+
+          i {
+            transform: translateX(4px);
+          }
+        }
+      }
+    }
+  }
+}
+
+// ===== PROJECTS (Cards are the links: cream highlight on hover) =====
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+
+  .project-card {
+    // Text stays on the shared left edge with the other sections; the negative
+    // margin + matching padding makes the hover highlight bleed outward instead
+    // of sitting flush against the text.
+    margin: 0 -2rem;
+    padding: 2.5rem 2rem;
+    border-radius: 10px;
+    transition: $transition-smooth;
+
+    &.project-card-link {
+      display: block;
+      cursor: pointer;
     }
 
-    &__info {
+    &.project-card-link:hover {
+      background-color: $card-hover-bg; // Creamish/whitish warm translucent tint
+    }
+
+    // Keyboard-only affordance, never shown on mouse hover.
+    &.project-card-link:focus-visible {
+      outline: 2px solid rgba(255, 255, 255, 0.4);
+      outline-offset: 3px;
+    }
+
+    .project-header {
       display: flex;
-      height: 100%;
-      justify-content: center;
-      flex-direction: column;
-      @include respond(tab-port-sm) { align-items: center; }
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
 
-      &-text {
-        text-align: left;
-        @include respond(tab-port) { text-align: left; }
-        @include respond(tab-port-sm) { text-align: center; }
-        p { color: $dark-blue-text; }
+      .project-title {
+        font-size: 1.7rem;
+        font-weight: 600;
+        color: $text-primary;
+        margin: 0;
+        letter-spacing: -0.02em;
+      }
+    }
+
+    .project-description {
+      font-size: 1.4rem;
+      color: $text-secondary;
+      line-height: 1.6;
+      margin: 0 0 1.5rem 0;
+    }
+
+    .project-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.8rem;
+
+      .project-tag {
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: $text-secondary;
+        background-color: rgba(255, 255, 255, 0.05);
+        padding: 0.3rem 0.8rem;
+        border-radius: 6px;
+        border: 1px solid rgba(255, 255, 255, 0.08);
       }
     }
   }
-}
 
-// ===== TIMELINE =====
-#timeline {
-  background-color: $white-color;
-  color: $dark-blue-text;
-  padding-top: 10rem;
-
-  .timeline-track {
-    position: relative;
-    max-width: 900px;
-    margin: 0 auto;
-
-    // vertical center line
-    .timeline-line {
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 50%;
-      width: 3px;
-      background: $primary-color;
-      transform: translateX(-50%);
-    }
-
-    // each block (left for education, right for work)
-    .timeline-block {
-      position: relative;
-      width: 50%;
-      padding: 0 3rem 4rem;
-
-      &--education {
-        left: 0;
-        text-align: right;
-
-        .timeline-content {
-          margin-left: auto;
-        }
-
-        .timeline-dot {
-          right: -6px;
-        }
-      }
-
-      &--work {
-        left: 50%;
-        text-align: left;
-
-        .timeline-dot {
-          left: -6px;
-        }
-      }
-    }
-
-    // dot on the center line
-    .timeline-dot {
-      position: absolute;
-      top: 0.6rem;
-      width: 14px;
-      height: 14px;
-      border-radius: 50%;
-      background: $primary-color;
-      border: 3px solid $white-color;
-      z-index: 1;
-    }
-
-    // content card
-    .timeline-content {
-      max-width: 360px;
-
-      &__title {
-        font-size: 1.8rem;
-        font-weight: bold;
-        margin-bottom: 0.5rem;
-      }
-
-      &__sub {
-        font-size: 1.4rem;
-        color: color.scale($dark-blue-text, $lightness: 30%);
-        margin-bottom: 1rem;
-      }
-
-      &__desc {
-        font-size: 1.4rem;
-        line-height: 1.6;
-      }
-    }
-  }
-}
-
-// ===== PROJECTS =====
-#projects {
-  background-color: $white-color;
-  color: $dark-blue-text;
-  margin-top: -10rem;
-  padding-top: 15rem;
-
-  @include respond(tab-land) { margin-top: 0; padding-top: 5rem; }
-
-  .project-wrapper {
-    margin-bottom: 15rem;
-    @include respond(phone) { margin-bottom: 0; }
-
-    .row {
-      margin-bottom: 8rem;
-      @include respond(phone) { margin-bottom: 4rem; }
-    }
-
-    &__text {
-      text-align: left;
-      @include respond(phone) { margin-bottom: 2.5rem !important; }
-      @include respond(tab-land) { margin-bottom: 4.8rem; }
-
-      &-title {
-        font-weight: bold;
-        margin-bottom: 1.8rem;
-        font-size: $mid-font-size;
-        @include respond(phone) { font-size: 2rem; }
-      }
-
-      p > a { color: $secondary-color; }
-    }
-
-    &__image {
-      width: 90%;
-      margin: 0 auto;
-      @include respond(tab-land) { width: 100%; margin: 0; }
-
-      .thumbnail {
-        border: none;
-        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-        transition: all 0.2s ease-out;
-        box-shadow: 0 6px 10px rgba(0,0,0,0.08), 0 0 6px rgba(0,0,0,0.05);
-        transition: 0.5s transform cubic-bezier(0.155,1.105,0.295,1.12), 0.5s box-shadow;
-
-        @include respond(phone) {
-          border: 1px solid $light-grey;
-          box-shadow: none;
-          margin-bottom: 3.2rem;
-        }
-      }
-    }
-  }
-}
-
-// ===== CONTACT =====
-#contact {
-  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-  -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  padding: 15rem 0 10rem;
-  margin-top: -10rem;
-  margin-bottom: -1px;
-  color: $dark-blue-text;
-
-  @include respond(tab-land) {
-    padding: 10rem 0;
-    clip-path: none;
-    margin-top: 0;
-    -webkit-clip-path: none;
+  // These sit at the grid level rather than nested under .project-header so the
+  // hover overrides below win on specificity, not just on source order.
+  .project-links {
+    display: flex;
+    gap: 1.5rem;
+    // Hidden until hover, but the space stays reserved so the title never shifts.
+    opacity: 0;
+    transition: $transition-smooth;
   }
 
-  .contact-wrapper {
-    margin-top: 3.2rem;
-    padding: 0 2rem;
-    backface-visibility: hidden;
+  .project-link-btn {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: $text-primary;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid $text-secondary;
+    padding-bottom: 1px;
+    transition: $transition-smooth;
+  }
 
-    &__text, a { font-size: 2.4rem; @include respond(phone) { font-size: 2rem; } }
-    &__text { margin-bottom: 2.5rem; text-shadow: none; color: $dark-blue-text; }
+  // Reveal the destination label on hover and on keyboard focus.
+  .project-card-link:hover,
+  .project-card-link:focus-visible {
+    .project-links {
+      opacity: 1;
+    }
+
+    .project-link-btn {
+      color: $accent-color;
+      border-color: $accent-color;
+    }
+  }
+
+  // Touch devices never fire :hover, so a hover-only affordance would make the
+  // cards look like plain text. Keep the destination label lit and the card
+  // filled at all times so it reads as tappable.
+  @media (hover: none) {
+    .project-links {
+      opacity: 1;
+    }
+
+    .project-link-btn {
+      color: $accent-color;
+      border-color: $accent-color;
+    }
+
+    .project-card-link {
+      background-color: $card-hover-bg;
+    }
   }
 }
 
 // ===== FOOTER =====
-.footer {
-  background-color: $dark-grey;
-  color: $white-color;
-  padding: 4.8rem 0;
-  @include respond(phone) { border: 0; }
+.portfolio-footer {
+  padding: 4rem 0 2rem;
+  font-size: 1.3rem;
+  color: $text-secondary;
+  text-align: left;
 
-  &__text {
-    color: color.scale($white-color, $lightness: -50%);
-    font-size: 1.3rem;
-    a {
-      color: color.scale($white-color, $lightness: -50%);
-      font-size: 1.3rem;
-      transition: all 0.4s;
-      display: inline-block;
-      background-color: $dark-grey;
-      &:hover { color: $primary-color; box-shadow: 0 1.5rem 4rem rgba(0,0,0,0.15); }
+  a {
+    color: $text-primary;
+    text-decoration: underline;
+
+    @media (hover: hover) {
+      &:hover {
+        color: $accent-color;
+      }
     }
   }
-
-  hr {
-    margin: 1rem auto;
-    border: 0;
-    width: 50%;
-    border-top: 2px solid grey;
-  }
-}
-
-.social-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  a {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: $white-color;
-    font-size: 3rem;
-    width: 5rem;
-    height: 5rem;
-    margin: $default-font-size;
-    transition: all 0.2s ease-in;
-    &:hover { transform: translateY(-2px); }
-  }
-}
-
-.back-to-top i {
-  color: $white-color;
-  margin: 1rem 0 $default-font-size;
-  transition: all 0.2s ease-in;
-  &:hover { transform: translateY(-2px); }
 }

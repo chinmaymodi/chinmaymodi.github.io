@@ -16,8 +16,8 @@ export const projects: Project[] = [
   },
   {
     title: 'Game Development',
-    description: 'A collection of 6 projects built in Godot 4 (C#), focusing on high-performance systems and algorithmic challenges. Projects include complex puzzle solvers (Held-Karp TSP, minimax search), procedural generation engines (Perlin noise, distance-field collision), and dynamic lighting/physics systems. These projects demonstrate a focus on clean C# architecture, memory management, and algorithmic optimization.',
-    tags: ['Godot 4', 'C#', 'Procedural Generation', 'Algorithms', 'Optimization', 'Physics', 'Pathfinding', 'Minimax', 'Held-Karp', 'Sonar', 'Lighting'],
+    description: 'A collection of 6 projects built in Godot 4 (C#), focusing on high-performance systems and algorithmic challenges. Projects include complex puzzle solvers (Held-Karp TSP, minimax search), procedural generation engines (Perlin noise, distance-field collision), dynamic lighting/physics systems, and robust state machine architectures for game logic. These projects demonstrate a focus on clean C# architecture, memory management, and algorithmic optimization.',
+    tags: ['Godot 4', 'C#', 'Procedural Generation', 'Algorithms', 'Optimization', 'Physics', 'Pathfinding', 'Minimax', 'Held-Karp', 'Sonar', 'Lighting', 'State Machine'],
     liveUrl: 'https://insomniargh.itch.io/',
     liveBtnText: 'Check it out on itch',
   },
