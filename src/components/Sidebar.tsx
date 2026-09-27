@@ -17,7 +17,6 @@ export default function Sidebar({ activeSection }: Props) {
           <h1 className="sidebar-name">
             <a href="#about">Chinmay Modi</a>
           </h1>
-          <h2 className="sidebar-title">Product Engineer</h2>
           <p className="sidebar-bio">Programmer at heart.</p>
 
           <nav className="sidebar-nav">
