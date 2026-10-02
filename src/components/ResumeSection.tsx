@@ -4,7 +4,7 @@ export default function ResumeSection() {
       <h2 className="section-heading">Resume</h2>
       <div className="resume-container">
         <a
-          href="./assets/Chinmay_Modi_Resume_2026_September.pdf"
+          href="./assets/Chinmay_Modi_Resume_2026_October.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="view-resume-link"
