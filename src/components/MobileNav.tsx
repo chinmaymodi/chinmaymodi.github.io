@@ -13,7 +13,7 @@ export default function MobileNav({ activeSection }: MobileNavProps) {
   return (
     <nav className="mobile-nav" aria-label="Section navigation">
       <a href="#top" className="mobile-nav-top" aria-label="Back to top">
-        <i className="fa fa-arrow-up" aria-hidden="true" />
+        <i className="fas fa-arrow-up" aria-hidden="true" />
       </a>
       <ul>
         {links.map((link) => (

@@ -9,7 +9,7 @@ export default function ResumeSection() {
           rel="noopener noreferrer"
           className="view-resume-link"
         >
-          View Full Résumé <i className="fa fa-arrow-right" aria-hidden="true" />
+          View Full Résumé <i className="fas fa-arrow-right" aria-hidden="true" />
         </a>
       </div>
     </section>

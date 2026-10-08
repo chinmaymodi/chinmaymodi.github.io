@@ -8,7 +8,7 @@ export interface TimelineItem {
 
 export const timeline: TimelineItem[] = [
   {
-    role: 'Product Engineer',
+    role: 'Product Owner',
     company: 'Personal Project',
     period: '2026 — Present',
     description:

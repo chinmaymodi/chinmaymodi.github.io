@@ -18,12 +18,12 @@ export default function ProjectsSection() {
                 <div className="project-links">
                   {project.liveUrl && (
                     <span className="project-link-btn">
-                      {project.liveBtnText || 'Live'} <i className="fa fa-external-link" />
+                      {project.liveBtnText || 'Live'} <i className="fas fa-external-link-alt" />
                     </span>
                   )}
                   {project.sourceUrl && (
                     <span className="project-link-btn">
-                      Source <i className="fa fa-github" />
+                      Source <i className="fab fa-github" />
                     </span>
                   )}
                 </div>
