@@ -8,11 +8,11 @@ export interface TimelineItem {
 
 export const timeline: TimelineItem[] = [
   {
-    role: 'Product Owner',
-    company: 'Personal Project',
+    role: 'Product Engineer',
+    company: 'NSE Strategy Platform',
     period: '2026 — Present',
     description:
-      'Built a full-stack NSE stock market portfolio simulator for personal use. Developed a modular monolith in C#/.NET with EF Core, a React/TypeScript frontend, and a Python-based quant pipeline for backtesting and risk analysis.',
+      'Built NSE Strategy Platform — full-stack NSE market data and strategy system with autonomous signal agents (SMA crossover, RSI momentum, basis, PCR, IV) and 938 automated tests (96.3% C# / 92.6% Python). Full architecture, AI workflow, and data validation details in Projects section below.',
     type: 'work',
   },
   {

@@ -9,8 +9,8 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: 'Void Capital',
-    description: 'A full-stack NSE stock market portfolio simulator designed for high-frequency data ingestion and backtesting. Built as a modular monolith using C#/.NET 9 and EF Core, featuring a React/TypeScript frontend for real-time visualization, and a Python-based quantitative pipeline for strategy development, factor analysis, and risk management. Includes automated daily data cycles, walk-forward backtesting, and cloud-ready infrastructure.',
+    title: 'NSE Strategy Platform',
+    description: 'A full-stack NSE market data and strategy platform, designed for high-frequency data ingestion and backtesting. Built as a modular monolith using C#/.NET 10 and EF Core, featuring a React/TypeScript frontend for real-time visualization, and a Python-based quantitative pipeline for strategy development, factor analysis, and risk management. Includes autonomous signal agents (SMA crossover, RSI momentum, basis, PCR, IV) that could be configured for live broker execution after further testing, plus automated daily data cycles, walk-forward backtesting, and cloud-ready infrastructure. Full test coverage: 383 C# tests (96.3% line coverage) + 555 Python tests (92.6% library coverage) = 938 automated tests. Built end-to-end with an AI-assisted engineering workflow, owning all architecture, data-validation, and acceptance decisions, backed by verification scripts that audited 5.4M+ options records for gaps and duplicates.',
     tags: ['C#', '.NET', 'React', 'TypeScript', 'Python', 'Docker', 'PostgreSQL', 'Quant', 'Backtesting', 'System Design'],
     sourceUrl: 'https://github.com/chinmaymodi/Void-Capital',
   },
