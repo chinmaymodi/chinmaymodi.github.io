@@ -1,4 +1,5 @@
 import { projects } from '../data/projects'
+import ProjectNote from './ProjectNote'
 
 export default function ProjectsSection() {
   return (
@@ -6,9 +7,8 @@ export default function ProjectsSection() {
       <h2 className="section-heading">Projects</h2>
       <div className="projects-grid">
         {projects.map((project, i) => {
-          // The whole card is the link. Primary destination is the live demo when
-          // present, otherwise the source repo. Labels are spans, not nested <a>,
-          // so there is no invalid anchor-in-anchor markup.
+          // The card body is the link. The attribution note sits outside the
+          // anchor so its own links stay valid instead of nesting anchors.
           const href = project.liveUrl || project.sourceUrl
 
           const cardContent = (
@@ -34,26 +34,28 @@ export default function ProjectsSection() {
                   <li key={t} className="project-tag">{tag}</li>
                 ))}
               </ul>
-              {project.note && (
-                <p className="project-note">{project.note}</p>
-              )}
             </>
           )
 
-          if (!href) {
-            return <div className="project-card" key={i}>{cardContent}</div>
-          }
-
           return (
-            <a
-              className="project-card project-card-link"
-              href={href}
-              target="_blank"
-              rel="noopener noreferrer"
+            <div
+              className={'project-card' + (href ? ' project-card-link' : '')}
               key={i}
             >
-              {cardContent}
-            </a>
+              {href ? (
+                <a
+                  className="project-card-body"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {cardContent}
+                </a>
+              ) : (
+                <div className="project-card-body">{cardContent}</div>
+              )}
+              {project.note && <ProjectNote segments={project.note} />}
+            </div>
           )
         })}
       </div>

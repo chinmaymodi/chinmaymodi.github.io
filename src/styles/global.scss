@@ -541,8 +541,13 @@ ul {
       background-color: $card-hover-bg; // Creamish/whitish warm translucent tint
     }
 
+    .project-card-body {
+      display: block;
+      color: inherit;
+    }
+
     // Keyboard-only affordance, never shown on mouse hover.
-    &.project-card-link:focus-visible {
+    .project-card-body:focus-visible {
       outline: 2px solid rgba(255, 255, 255, 0.4);
       outline-offset: 3px;
     }
@@ -585,13 +590,27 @@ ul {
       }
     }
 
+    // Mirrors the quiz page's footer notice: centered, small, muted, with a
+    // top rule and a blue licence link.
     .project-note {
-      margin: 1.2rem 0 0;
-      padding-top: 1rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      margin: 2.4rem 0 0;
+      padding-top: 1.4rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
       font-size: 1.1rem;
-      line-height: 1.6;
-      color: $text-secondary;
+      line-height: 1.5;
+      color: #999;
+      text-align: center;
+
+      a {
+        color: #8ab4ff;
+        text-decoration: none;
+
+        @media (hover: hover) {
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
     }
   }
 

@@ -1,3 +1,8 @@
+export type NoteSegment =
+  | { type: 'text'; value: string }
+  | { type: 'strong'; value: string }
+  | { type: 'link'; value: string; href: string }
+
 export interface Project {
   title: string
   description: string
@@ -5,7 +10,7 @@ export interface Project {
   liveUrl?: string
   sourceUrl?: string
   liveBtnText?: string
-  note?: string
+  note?: NoteSegment[]
 }
 
 export const projects: Project[] = [
@@ -28,6 +33,12 @@ export const projects: Project[] = [
     tags: ['HTML', 'CSS', 'JavaScript', 'Education', 'NPTEL'],
     liveUrl: './BCBR-Quiz/',
     liveBtnText: 'Try the quiz',
-    note: 'Questions sourced from Basic Course in Biomedical Research by ICMR-National Institute of Epidemiology / SWAYAM-NPTEL. Distributed under CC BY-NC-SA 4.0. This is an unofficial practice tool for students.',
+    note: [
+      { type: 'text', value: 'Questions sourced from ' },
+      { type: 'strong', value: 'Basic Course in Biomedical Research' },
+      { type: 'text', value: ' by ICMR-National Institute of Epidemiology / SWAYAM-NPTEL. Distributed under ' },
+      { type: 'link', value: 'CC BY-NC-SA 4.0', href: 'https://creativecommons.org/licenses/by-nc-sa/4.0/' },
+      { type: 'text', value: '. This is an unofficial practice tool for students.' },
+    ],
   },
 ]
