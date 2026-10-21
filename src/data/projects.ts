@@ -5,6 +5,7 @@ export interface Project {
   liveUrl?: string
   sourceUrl?: string
   liveBtnText?: string
+  note?: string
 }
 
 export const projects: Project[] = [
@@ -20,5 +21,13 @@ export const projects: Project[] = [
     tags: ['Godot 4', 'C#', 'Procedural Generation', 'Algorithms', 'Optimization', 'Physics', 'Pathfinding', 'Minimax', 'Held-Karp', 'Sonar', 'Lighting', 'State Machine'],
     liveUrl: 'https://insomniargh.itch.io/',
     liveBtnText: 'Check it out on itch',
+  },
+  {
+    title: 'BCBR Practice Test',
+    description: 'A 689-question exam simulator for the NPTEL/SWAYAM Basic Course in Biomedical Research, with a 100-question timed exam mode, assignment practice, bookmarks, exam history, and dark mode. Built with plain HTML, CSS, and JavaScript, no framework.',
+    tags: ['HTML', 'CSS', 'JavaScript', 'Education', 'NPTEL'],
+    liveUrl: './BCBR-Quiz/',
+    liveBtnText: 'Try the quiz',
+    note: 'Questions sourced from Basic Course in Biomedical Research by ICMR-National Institute of Epidemiology / SWAYAM-NPTEL. Distributed under CC BY-NC-SA 4.0. This is an unofficial practice tool for students.',
   },
 ]

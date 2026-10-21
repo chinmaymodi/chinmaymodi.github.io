@@ -584,6 +584,15 @@ ul {
         border: 1px solid rgba(255, 255, 255, 0.08);
       }
     }
+
+    .project-note {
+      margin: 1.2rem 0 0;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: $text-secondary;
+    }
   }
 
   // These sit at the grid level rather than nested under .project-header so the
@@ -636,24 +645,6 @@ ul {
 
     .project-card-link {
       background-color: $card-hover-bg;
-    }
-  }
-}
-
-// Side project link that sits below the cards rather than as a full card.
-.projects-aside {
-  margin: 2.5rem 0 0;
-  font-size: 1.3rem;
-  color: $text-secondary;
-
-  a {
-    color: $text-primary;
-    text-decoration: underline;
-
-    @media (hover: hover) {
-      &:hover {
-        color: $accent-color;
-      }
     }
   }
 }
