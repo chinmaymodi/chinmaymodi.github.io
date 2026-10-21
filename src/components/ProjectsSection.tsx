@@ -54,6 +54,13 @@ export default function ProjectsSection() {
           )
         })}
       </div>
+      <p className="projects-aside">
+        Also built the{' '}
+        <a href="./BCBR-Quiz/" target="_blank" rel="noopener noreferrer">
+          BCBR Practice Test
+        </a>
+        , a 689-question simulator for the NPTEL/SWAYAM Basic Course in Biomedical Research exam.
+      </p>
     </section>
   )
 }

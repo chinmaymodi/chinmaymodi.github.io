@@ -1,0 +1,20357 @@
+// BCBR Question Bank - All 23 Assignments
+// Auto-generated with numerical variants
+
+var ALL_QUESTIONS = [
+  {
+    "assignment": 1,
+    "number": 1,
+    "stem": "Which of the following areas can be included in health research? i. Improving the health of the population. ii. Predicting progression of a disease in a patient iii. Prevention of various diseases iv. To explore various societal, community based and programmatic interventions for disease prevention and control",
+    "options": [
+      {
+        "letter": "a",
+        "text": "i and ii",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "i, ii and iv",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "All of the above",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 1,
+    "number": 2,
+    "stem": "What is appropriate for sample and sample size?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Should be representative of the population [External validity or generalizability]",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Should be adequate [power to draw meaningful inferences]",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b'",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Neither 'a' nor 'b'",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 1,
+    "number": 3,
+    "stem": "Which of the following statements are correct regarding defining inclusion and exclusion criteria in a study protocol?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "They should be vague because this will allow greater and easy enrollment",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "They should be very specific",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "They should be very large in number",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It is not important to define exclusion criteria in a clinical trial",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 1,
+    "number": 4,
+    "stem": "Which of the following are examined as part of regulatory review?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Information regarding transfer of funds and utilization of funds",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Shipment of samples and transfer of data outside the country",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Sharing and protection of intellectual property",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 1,
+    "number": 5,
+    "stem": "Which of the following statements is not true in case of pilot study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "They are conducted for developing and testing adequacy of research instruments",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "They establish whether the sampling frame and technique are effective",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Ethics committee approves the main study only after successful completion of the pilot study",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "They are small scale studies",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 1,
+    "number": 6,
+    "stem": "Before initiating a study involving primary data collection, the Principal Investigator must ensure that various approvals are obtained. Which of the following approvals is absolutely mandatory?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Scientific committee approval",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ethics committee approval",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Technical committee approval",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Regulatory authority approval",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 1,
+    "number": 7,
+    "stem": "Which is the best source of information on 'effect modifiers' while exploring cause and effect relationship in a research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Deductive thinking",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Thorough review of literature",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Intelligent guessing",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Discussing with experienced researchers",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 1,
+    "number": 8,
+    "stem": "The policy makers want to know whether introduction of pentavalent vaccine in the national program is resulting in reduction in the number of Hemophilus influenza cases. Which of the following studies will they have to conduct to find an answer?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case-control study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Field trial",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Ecological study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Case series",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 1,
+    "number": 9,
+    "stem": "What is true about Confounders?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "They affect both study variable as well as outcome",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Their effect can be minimized by proper study design and through stratified analysis",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b'",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 1,
+    "number": 10,
+    "stem": "Which of the following is not a type of study design?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Qualitative study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Observational study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Retrospective study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Pilot study",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 1,
+    "number": 11,
+    "stem": "Any systematic error in the design, conduct or analysis of a study that results in an erroneous estimate of an exposure's effect on the risk of disease is called:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Confounding",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Bias",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Interaction",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Stratification",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 1,
+    "number": 12,
+    "stem": "Which of the following is not part of ethics review of a project?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Informed consent document and procedure",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Competence of researcher and institute conducting research",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Sharing and protection of intellectual property",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Care and support during and after completion of research",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 1,
+    "number": 13,
+    "stem": "A study was conducted to assess the extrapyramidal side effects of a new antipsychotic drug in patients with schizophrenia. Many of these patients were smokers and some of them were on anticholinergic drugs. What was the role of the anticholinergic drugs in this study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Confounder",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Random Variable",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Effect Modifier",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Independent Variable",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 1,
+    "number": 14,
+    "stem": "Before initiating a study involving primary data collection, the Principal Investigator must ensure that various approvals are obtained. Which of the following approvals is absolutely mandatory?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Scientific committee approval",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ethics committee approval",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Technical committee approval",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Regulatory authority approval",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 1,
+    "number": 15,
+    "stem": "The policy makers want to know whether introduction of a new rotavirus vaccine in the national immunization programme is resulting in reduction of morbidity and mortality from rotavirus disease. Which of the following studies will they have to conduct to find an answer?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case-control study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ecological study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Field randomized trial",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Case-series",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 1,
+    "number": 16,
+    "stem": "What effect does increasing the sample size have upon the random error?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It increases the random error",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It has no effect on the random error",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It reduces the random error",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 1,
+    "number": 17,
+    "stem": "Which of the following will best describe the scientific inquiry that seeks to understand the acceptability and functionality of a health program?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Basic science research",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Translational research",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Clinical research",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Implementation research",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 1,
+    "number": 18,
+    "stem": "The following statements describe confounding and effect modification. Which of the statement is/are correct?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "In a study of relationship between coffee drinking and oro-pharyngeal cancer; smoking is a confounder",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "In a study to explore relationship between hepatitis B infection and post-infection hepatic sequelae, habit of alcohol drinking acts as an effect modifier and patients with this habit may be excluded from the study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "‘a’ and ‘b’ Correct",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "‘a’ and ‘b’ Wrong",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 1,
+    "number": 19,
+    "stem": "Issues regarding shipment of samples and transfer of data outside the country are examined by:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Regulatory review",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Ethics review",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Scientific review",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 1,
+    "number": 20,
+    "stem": "Which of the following disciplines contribute to health research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Bio-medical research",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Biostatistics",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Social science research",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 1,
+    "number": 21,
+    "stem": "Which of the following best describes a study done in a laboratory setting using animals?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Translational research",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Bench-based research",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Theoretical research",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Preventive research",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 1,
+    "number": 22,
+    "stem": "Which of the following review is NOT essential before initiating a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Scientific review",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Peer review",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Regulatory review",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Ethics review",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 1,
+    "number": 23,
+    "stem": "Which of the following is NOT a type of study design?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Qualitative study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Observational study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Retrospective study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Translational study",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 1,
+    "number": 24,
+    "stem": "Which of the following statements is NOT correct regarding errors in a health research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Random error is due to chance",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Systematic error is due to bias",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Random errors can be eliminated by improving study design",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Bias distorts the study results in one direction",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 1,
+    "number": 25,
+    "stem": "State whether true or false. Assigning roles and responsibilities to the team members is one of the fundamental principles of a research",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 1,
+    "number": 26,
+    "stem": "Health research is usually focused on which of the following areas?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Estimation of disease burden in a population",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Prevention of common diseases in the community",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Evaluation of public health programs",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 1,
+    "number": 27,
+    "stem": "Which of the following is NOT a component of a research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Setting up the institute scientific committee",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Calculating sample size",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Development of a study tool",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Framing the research question",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 1,
+    "number": 28,
+    "stem": "A researcher wants to study the relationship between COVID-19 infection in pregnancy and birth weight. Currently, there is no evidence on this topic. Which of the following options is the scope of this health research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Verifying and confirming known information",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Getting additional or new information",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Evaluating ongoing programs",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 1,
+    "number": 29,
+    "stem": "Which of the following is NOT a critical consideration in planning a health research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Adequate justification",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Clear and focused research question",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Standard case definitions",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Financial gain",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 1,
+    "number": 30,
+    "stem": "Identify the CORRECT statement about implementation of a research",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Research findings must be approved by the funder",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Research finding must be error free",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Adequate sample size is a prerequisite",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Pilot study can be done during data analysis stage",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 2,
+    "number": 1,
+    "stem": "Which of the following is an element of life cycle of research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Identify data needs and spell out the research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Formulate the objective and design the study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Draw conclusion and give recommendation to stakeholders",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 2,
+    "number": 2,
+    "stem": "Which of the following verbs is preferably used in the statement of objectives of an analytical research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Estimate",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Determine",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Describe",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 2,
+    "number": 3,
+    "stem": "Source(s) of research question is/are",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Published literature",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Being alert to new ideas",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Careful observation and teaching",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 2,
+    "number": 4,
+    "stem": "Which of the following is stated mainly for statistical purpose?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Objectives",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Research hypothesis",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 2,
+    "number": 5,
+    "stem": "If your objective is to estimate the prevalence of a health problem in a community in 2019, Identify the type of research question this study is addressing",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Analytical research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Descriptive research question",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Hypothetical research question",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Experimental research question",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 2,
+    "number": 6,
+    "stem": "What is the first step in the life cycle of research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Spell out the research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Formulate the objective of the study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Identify the data needs",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Choose the study design",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 2,
+    "number": 7,
+    "stem": "A clear research question facilitates to do the following",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Choose the most optimal design",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Identify who should be included as study population",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Specify the outcomes that should be measured",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 2,
+    "number": 8,
+    "stem": "Which of the following statements is incorrect?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A good research question should be Feasible, Interesting, Novel, Ethical and Relevant",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "A good research question should be in epidemiological terms",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "A good research question facilitates to choose optimal design",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "A good research question will focus on one issue",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 2,
+    "number": 9,
+    "stem": "The verb \"estimate\" is used in the objective of analytical research studies",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 2,
+    "number": 10,
+    "stem": "The process of refining the \"ideas\" into research questions begins with general uncertainty about a health issue and narrow down to a specific, concrete researchable issue",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 2,
+    "number": 11,
+    "stem": "Which of the following statement is incorrect about a good research question?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Research question should advance scientific knowledge, improve practice, influence policy",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Research question should be approved by the ethics committee",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Research question should confirms, refutes or extends previous findings",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Feasibility should not be a criterion while developing research question",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 2,
+    "number": 12,
+    "stem": "All the following are characteristic of good research hypothesis EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Research hypothesis should be simple",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Research hypothesis should be devoid of any ambiguity about study participants and variables",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Research hypothesis should be focused on primary objective",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Research hypothesis should be written once the study is completed",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 2,
+    "number": 13,
+    "stem": "Which of the following verb is used in the statement of objective of a descriptive research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Estimate",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Determine",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Examine",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Compare",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 2,
+    "number": 14,
+    "stem": "A research question states about what the results of the study might ultimately contribute to that particular field of science",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 2,
+    "number": 15,
+    "stem": "Purely descriptive research questions do not require a hypothesis",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 2,
+    "number": 16,
+    "stem": "Identify the type of research question if the objective of a study is \"To determine the effect of tobacco cessation services on tuberculosis treatment outcomes among patients with tuberculosis under National Tuberculosis Elimination Program\"?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Descriptive research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Hypothetical research question",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Analytical research question",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Experimental research question",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 2,
+    "number": 17,
+    "stem": "As per the following objectives a hypothesis should be stated for which study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To determine the association of maternal smoking during pregnancy with respiratory infectious disease morbidity and mortality in infants",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "To estimate the lifetime prevalence of mental health morbidities among elderly people in India",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "To describe the pattern of physical activity among school going children aged 6-18 years",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "To describe the temporal and spatial trends of mortality due to cardiovascular diseases, by age and sex in India during 2009-2019 .",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 2,
+    "number": 18,
+    "stem": "All the following are components of 'FINER ' criteria for a research question EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Feasible",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Reliable",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Novel",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Ethical",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 2,
+    "number": 19,
+    "stem": "Which is the last step in the life cycle of research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Spell out the research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Formulate the objective of the study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Formulate recommendations",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Choose the study design",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 2,
+    "number": 20,
+    "stem": "The following are the steps in framing a research question. I. Review of state-of-art information II. Define measurable exposures & outcomes III. Raise a question IV. Decide worth investigating by peer- review Choose the correct sequence of framing a research question from below.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "I, II, III, IV",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "II, IV, III, I",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "I, III, IV, II",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "III, I, II, IV",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 2,
+    "number": 21,
+    "stem": "A clear research question is required in order to facilitate the following:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To choose an optimal study design",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "To identify the outcomes that need to be measured",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "To decide when the outcomes need to be measured",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 2,
+    "number": 22,
+    "stem": "Characteristics of a good hypothesis are all, EXCEPT:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "There should be no ambiguity about the study variables",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It should be stated ‘a priori’",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It can be revised based on the study findings",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It should specify one exposure and one outcome",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 2,
+    "number": 23,
+    "stem": "Which of the following is NOT an ideal source of a research question?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Reviewing the published literature",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Attending conferences where latest findings are shared",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Observing keenly in the out-patient clinic",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Mining existing datasets for research question",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 2,
+    "number": 24,
+    "stem": "Which of the following is TRUE for a ‘Descriptive Research Question’?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Involves observations to measure a quantity",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Involves comparison groups",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Tests the efficacy of interventions",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Requires hypothesis testing",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 2,
+    "number": 25,
+    "stem": "Which of the following characteristics best describe a good research question?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Feasible, Novel, Ethical",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Feasible, Noble, Ethical",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Ethical, Novel, Intuitive",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Fantastic, Novel, Relevant",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 2,
+    "number": 26,
+    "stem": "State whether true or false. A research study is conducted to estimate the seroprevalence of COVID-19 in Ahmedabad city during April-June 2020. This is an example of analytical research question.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 2,
+    "number": 27,
+    "stem": "Which of the following statement about study objective/s is FALSE?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Objectives are stated in scientific terms",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Objectives can be primary and secondary",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Each objective is written using multiple verbs",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Objectives should be specific",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 2,
+    "number": 28,
+    "stem": "In the life cycle of research, ‘spelling out the research question’ is followed by",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Preparing data collection instrument",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Formulating study objectives",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Collecting data",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Formulating recommendation",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 2,
+    "number": 29,
+    "stem": "How can the given study objective be improved? “To understand the anaemia in pregnancy”",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Using appropriate action verb",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Specifying the outcome measure",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Specifying the study setting and time period",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 2,
+    "number": 30,
+    "stem": "Which of the following is NOT a step in framing an ideal research question?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Literature review",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Peer review",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Broadening the initial question",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Defining measurable outcomes",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 3,
+    "number": 1,
+    "stem": "The ability to apply the principles of analysis to identify those studies which are unbiased and valid is called as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Critical appraisal",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Information seeking",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Information management",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Systematic Review",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 2,
+    "stem": "A __________ is a collection of articles, abstracts, scientific proceedings, books, citations etc. that is organized so that it can easily be accessed while doing literature review",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Database",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Critical appraisal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Hard disk",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Index",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 3,
+    "stem": "Why should we need to do a literature review?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Save yourself from work",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Know the subject matter better",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Suggest new research topics, questions and methods",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 3,
+    "number": 4,
+    "stem": "The process of scanning the literature efficiently using manual or computerized methods to identify a set of potentially useful articles and books is called as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Information seeking",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Critical appraisal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Database management",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Information retrieval",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 5,
+    "stem": "In the Boolean search strategy AND tells that database that you want records that contain all the words you specify",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 6,
+    "stem": "Which of the following is unethical while writing a Literature Review?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The contents from the studies should be presented honestly",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The contents from the studies should not be distorted",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is not necessary to address the weakness of the study in a scholarly manner",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Sources should be accurately documented",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 3,
+    "number": 7,
+    "stem": "Critical appraisal is done in an organized and systematic manner",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 8,
+    "stem": "The process of identifying, within a large document collection, a subset of documents whose content is most relevant to user's need is called as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Information retrieval",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Information management",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Systematic Review",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Narrative Review",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 9,
+    "stem": "The query system in the information retrieval process of literature review is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "User defined",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Provider defined",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Conditional",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Not structured",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 10,
+    "stem": "In the National Library of Medicine (NLM), MeSH means",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Medical Services Heading",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Medical Subject Heading",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Medical Subject Helpline",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Medicine Services Helpline",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 3,
+    "number": 11,
+    "stem": "In literature review method of identifying studies which are unbiased and valid is known as critical appraisal.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 12,
+    "stem": "Choose the correct sequence of the steps of systematically doing literature search from below",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Organize the information, identify the lacunae, develop the research question, synthesize the results",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Identify the lacunae, develop the research question, synthesize the results, organize the information",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Develop the research question, synthesize the results, organize the information, identify the lacunae",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Organize information, synthesize the results, identify the lacunae, develop the research question",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 3,
+    "number": 13,
+    "stem": "All the following about literature review is correct EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It identifies lacunae in the existing knowledge about a topic",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It saves valuable time for a researcher",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It helps the researcher in arriving the conclusion of a study",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It suggests the researcher about new research topics",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 3,
+    "number": 14,
+    "stem": "While drafting a scientific manuscript, literature review is useful on the following section EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Introduction",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Methods",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Results",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Discussion",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 3,
+    "number": 15,
+    "stem": "Which of the following about PubMed is incorrect?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "PubMed comprises more than 25 million citations for biomedical literature",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Citations may include links to full-text article from PubMed Central",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "PubMed is developed and maintained by the National Centre for Biotechnology Information (NCBI), at the U.S. National Library of Medicine (NLM)",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "PubMed is a paid service provider for searching of literature",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 3,
+    "number": 16,
+    "stem": "All the following are examples of databases",
+    "options": [
+      {
+        "letter": "a",
+        "text": "MEDLINE",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "EMBASE",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "CINAHL",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Google scholar",
+        "correct": true
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 17,
+    "stem": "Literature searches are important to do at the start of a project; and do not need to continue throughout the project.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 3,
+    "number": 18,
+    "stem": "Which of the following search query should be used to find the articles on chest pain other than angina?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Chest pain AND angina",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Chest pain OR angina",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Chest pain NOT angina",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Chest pain EXCEPT angina",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 3,
+    "number": 19,
+    "stem": "A researcher wants to assess effects of polyunsaturated fatty acids (PUFA) on diabetes prognosis. For this, the researcher searches related articles in PubMed and Google scholar. This process is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Information retrieval",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Indexing",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Critical appraisal",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Data management",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 20,
+    "stem": "Which of the following about MeSH is incorrect?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "MeSH thesaurus is controlled vocabulary produced by the National Library of Medicine",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It consists of sets of terms naming descriptors in a hierarchical structure that permits searching at various levels of specificity",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is used for indexing and searching of biomedical and health-related information",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "MeSH is used for EMBASE database",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 3,
+    "number": 21,
+    "stem": "Which of the following is INCORRECT about literature review for a proposed study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Begins with a systematic literature search",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Involves critical appraisal of retrieved studies",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Presents existing knowledge concisely",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Guides the findings of the proposed study",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 3,
+    "number": 22,
+    "stem": "A researcher conducts a review of literature to identify a set of potentially useful articles and books related to their research topic. This process is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Indexing",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Critical appraisal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Data management",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Information seeking",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 3,
+    "number": 23,
+    "stem": "Literature review is a well thought out and organized search for all literature published on a particular topic in a library or online database.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 24,
+    "stem": "Which of the following search query in PubMed will give relevant articles for the following question? “What is the burden of gastroenteritis among children?”",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Gastroenteritis OR children",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Gastroenteritis AND children",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Gastroenteritis BUT children",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Gastroenteritis NOT children",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 3,
+    "number": 25,
+    "stem": "Which of the following Boolean operator will give the highest number of results when used between two given search terms?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "AND",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "NOT",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "OR",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "ALL",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 3,
+    "number": 26,
+    "stem": "A researcher wants to study the effect of physical activity on reduction of systolic blood pressure among patients with hypertension. The researcher has identified a subset of document which are most relevant to the research question within a large document collection. This process is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Information management",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Critical appraisal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Information retrieval",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Literature organization",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 3,
+    "number": 27,
+    "stem": "The organized collection of articles, abstracts, scientific proceedings, books, and citations used for the purpose of literature review, is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Database",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Data management",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Critical appraisal",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Index",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 28,
+    "stem": "Which of the following does not satisfy the ethical principles in conducting a literature review?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Results of previous studies are presented without distortion",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Weaknesses of previous studies are highlighted",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Previous studies are accurately cited",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Reputation of study authors are questioned",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 3,
+    "number": 29,
+    "stem": "For which of the following purpose is the Boolean operator 'OR' commonly used in literature search?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Connecting synonyms of one key concept",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Connecting different key concepts",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Connecting keywords which need to be excluded",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Connecting keywords to narrow down the results",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 3,
+    "number": 30,
+    "stem": "Medical Subject Headings is a controlled vocabulary thesaurus used for indexing articles in",
+    "options": [
+      {
+        "letter": "a",
+        "text": "PubMed",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Google scholar",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Scopus",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Health on Net",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 4,
+    "number": 1,
+    "stem": "Which of the following must be considered while measuring occurrence of a disease?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The number of people affected by the disease",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The population size from which the cases of disease arise",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The length of the time the population is followed",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 4,
+    "number": 2,
+    "stem": "is most useful for evaluating the impact of prevention programme",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Point prevalence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Period prevalence",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Case fatality",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Incidence",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 4,
+    "number": 3,
+    "stem": "Which one of the following statements is true?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "High cure rate can increase the prevalence of a disease",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Low case fatality can reduce the prevalence of a disease",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b' are true",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "High cure rate and high case fatality can reduce the prevalence of a disease",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 4,
+    "number": 4,
+    "stem": "Measures of disease frequency",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Incidence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Prevalence",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Birth rate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'b'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 4,
+    "number": 5,
+    "stem": "A measure that reflects severity of an acute infectious disease",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case fatality ratio",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Incidence rate",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Prevalence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Mortality rate",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 4,
+    "number": 6,
+    "stem": "Incidence data can be used to measure the occurrence of disease with gradual onset",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 4,
+    "number": 7,
+    "stem": "This measure reflects the impact of a disease on population in terms of death",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Incidence density",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case fatality",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Disease specific mortality",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Attack rate",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 4,
+    "number": 8,
+    "stem": "While measuring the frequency of a chronic disease in a community in terms of Incidence per 1000 persons per year, and point prevalence per 1000 persons, what is the expected pattern of incidence and prevalence?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Low prevalence, high incidence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "High prevalence, low incidence",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Both prevalence and incidence will be similar",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above statements are true",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 4,
+    "number": 9,
+    "stem": "In a study among 3400 children aged 5-10 years, 16 children were diagnosed with autistic disorder. Calculate the prevalence of autism per 1000 children",
+    "options": [
+      {
+        "letter": "a",
+        "text": "4.01",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "5.53",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "3.35",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "4.71",
+        "correct": true
+      }
+    ],
+    "correct": "d",
+    "variants": [
+      {
+        "stem": "In a population of 100000 children aged 5-10 years, 401 children were diagnosed with autistic disorder. Calculate the prevalence of autism per 1000 children.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "4.01",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "5.53",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.35",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "4.71",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "In a population of 100000 children aged 5-10 years, 553 children were diagnosed with autistic disorder. Calculate the prevalence of autism per 1000 children.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "4.01",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "5.53",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "3.35",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "4.71",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "In a population of 100000 children aged 5-10 years, 335 children were diagnosed with autistic disorder. Calculate the prevalence of autism per 1000 children.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "4.01",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "5.53",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.35",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "4.71",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      }
+    ]
+  },
+  {
+    "assignment": 4,
+    "number": 10,
+    "stem": "Statistic used to estimate the risk of acquiring a disease",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Prevalence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Incidence",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Mortality rate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 4,
+    "number": 11,
+    "stem": "What is the appropriate measure when a researcher wishes to know the burden of a particular disease in terms of the number of deaths it causes in a specified geographical region and population?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Incidence density",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case fatality",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Attack rate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Disease specific mortality",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 4,
+    "number": 12,
+    "stem": "If health policy makers want to evaluate the impact of a prevention program, which is the appropriate measure to be considered?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Period prevalence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Incidence",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Point prevalence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Case fatality",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 4,
+    "number": 13,
+    "stem": "Select the correct statement among the following",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Prevalence of a disease will increase when it has a high cure rate",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Prevalence of a disease will decrease when it has a low case fatality ratio",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Prevalence of a disease will increase when it has a low cure rate",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Prevalence of a disease will increase when it is acute in nature",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 4,
+    "number": 14,
+    "stem": "What is the appropriate epidemiologic measure to determine the severity of an acute disease?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Incidence rate",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Prevalence",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Mortality rate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Case fatality ratio",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 4,
+    "number": 15,
+    "stem": "Cumulative incidence is otherwise known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Attack rate",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Case fatality rate",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Mortality rate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Morbidity rate",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 4,
+    "number": 16,
+    "stem": "The healthcare professionals working in an intensive care unit were asked whether there has been an increase in the number of new pneumonia cases. Which of the following factor(s) is inappropriate in the calculation of cumulative incidence?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Number of new cases of pneumonia during a specific period of time",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Total number of people at risk of developing the disease in that population during the same period of time",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Pre-existing cases of pneumonia",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Both ‘a’ and ‘b’",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 4,
+    "number": 17,
+    "stem": "When measuring the frequency for an acute infectious disease in a community in terms of incidence per 1000 persons per year and point prevalence per 1000 persons, how will the pattern of incidence and prevalence be?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "High prevalence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Low incidence",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both prevalence and incidence will be similar",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Low prevalence and high incidence",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 4,
+    "number": 18,
+    "stem": "Among 25000 population in a city, 105 residents were identified with Hepatitis B infection. Calculate the prevalence of Hepatitis B per 1000 population.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "5.2",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "4.2",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "3.2",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "2.2",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Among 10000 population in a city, 52 residents were identified with Hepatitis B infection. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5.2",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "4.2",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.2",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "2.2",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Among 10000 population in a city, 32 residents were identified with Hepatitis B infection. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5.2",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "4.2",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.2",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "2.2",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Among 10000 population in a city, 22 residents were identified with Hepatitis B infection. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5.2",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "4.2",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.2",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "2.2",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 4,
+    "number": 19,
+    "stem": "Which of the following condition tends to increase the prevalence of a particular disease?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "High cure rate",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Low case fatality ratio",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Short duration",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Emigration of patients",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 4,
+    "number": 20,
+    "stem": "Which of the following is true about incidence density?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Numerator has number of new cases",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Also called cumulative incidence",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Denominator is number of persons at risk",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Numerator has person-years at risk",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 4,
+    "number": 21,
+    "stem": "In a rural block with 1,00,000 population, 250 residents were identified with cardiovascular disease. Calculate the prevalence of cardiovascular disease per 1000 population.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "0.2",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "0.5",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "2.5",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "25",
+        "correct": false
+      }
+    ],
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "In a rural block with 50000 population, 10 residents were identified with cardiovascular disease. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.2",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "0.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "2.5",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "In a rural block with 50000 population, 25 residents were identified with cardiovascular disease. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.2",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.5",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "2.5",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "In a rural block with 2000 population, 50 residents were identified with cardiovascular disease. Calculate the prevalence per 1000 population.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.2",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "2.5",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 4,
+    "number": 22,
+    "stem": "What is the appropriate epidemiologic measure to determine the burden of a disease in terms of number of cases present in a specified geographical area at a specific point in time?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cumulative Incidence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Point Prevalence",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Incidence rate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Case fatality ratio",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 4,
+    "number": 23,
+    "stem": "In a study, 300 children were followed up for a period of one year to determine the burden of acute respiratory infections (ARI). Calculate the incidence density if the total number of ARI episodes recorded was 1500.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "5 episodes per child year",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "0.2 episodes per child year",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "3 episodes per child year",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "0.5 episodes per child year",
+        "correct": false
+      }
+    ],
+    "correct": "a",
+    "variants": [
+      {
+        "stem": "In a study, 300 children were followed up for one year to determine the burden of acute respiratory infections (ARI). Calculate the incidence density if the total number of ARI episodes recorded was 60.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.2 episodes per child year",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "3 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.5 episodes per child year",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "In a study, 300 children were followed up for one year to determine the burden of acute respiratory infections (ARI). Calculate the incidence density if the total number of ARI episodes recorded was 900.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.2 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3 episodes per child year",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "0.5 episodes per child year",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "In a study, 300 children were followed up for one year to determine the burden of acute respiratory infections (ARI). Calculate the incidence density if the total number of ARI episodes recorded was 150.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.2 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3 episodes per child year",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.5 episodes per child year",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 4,
+    "number": 24,
+    "stem": "A total of 100 people with hypertension were followed up for 3 years to observe for the development of myocardial infarction in a cohort study. At the end of first year, 10 people developed myocardial infarction, at the end of second year, 10 people left the study and at the end of third year, another 10 people developed myocardial infarction. Calculate the total person-years of observation in this study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "250",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "260",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "270",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "280",
+        "correct": false
+      }
+    ],
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "A total of 100 people with hypertension were followed up for 3 years. At the end of first year, 20 people developed MI, at the end of second year, 10 people left the study and at the end of third year, 10 people developed MI. Calculate the total person-years.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "250",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "260",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "270",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "280",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "A total of 100 people with hypertension were followed up for 3 years. At the end of first year, 10 people developed MI, at the end of second year, 20 people left the study and at the end of third year, 10 people developed MI. Calculate the total person-years.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "250",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "260",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "270",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "280",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "A total of 100 people with hypertension were followed up for 3 years. At the end of first year, 5 people left the study, at the end of second year, 10 people left and at the end of third year, 5 people developed MI. Calculate the total person-years.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "250",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "260",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "270",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "280",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 4,
+    "number": 25,
+    "stem": "During a one-year follow-up, a psychiatrist determined the burden of suicidal ideation among 100 patients with drug addiction. Seven patients had previous history of suicidal ideation and 20 patients developed it for the first time. What is the incidence of suicidal ideation in the study population?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "7% per year",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "20% per year",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "21.5% per year",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "27 per year",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "During a one-year follow-up, a psychiatrist studied 100 patients with drug addiction. None had previous history of suicidal ideation and 7 patients developed it for the first time. What is the cumulative incidence of suicidal ideation?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7% per year",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "20% per year",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "21.5% per year",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "27 per year",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "During a one-year follow-up, a psychiatrist studied 200 patients with drug addiction. Fifteen had previous history of suicidal ideation and 43 developed it for the first time. What is the cumulative incidence of suicidal ideation?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7% per year",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "20% per year",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "21.5% per year",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "27 per year",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "During a one-year follow-up, a psychiatrist studied 100 patients with drug addiction. None had previous history of suicidal ideation and 27 patients developed it for the first time. What is the cumulative incidence of suicidal ideation?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7% per year",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "20% per year",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "21.5% per year",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "27 per year",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 4,
+    "number": 26,
+    "stem": "In a food poisoning outbreak, 75 people were affected. Among them, 50 were hospitalized, and two died. Calculate the case-fatality ratio.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "1.2%",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "2.7%",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "4%",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "8%",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "In a food poisoning outbreak, 83 people were affected. Among them, 60 were hospitalized, and one died. Calculate the case-fatality ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1.2%",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "2.7%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "4%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "8%",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "In a food poisoning outbreak, 75 people were affected. Among them, 50 were hospitalized, and three died. Calculate the case-fatality ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1.2%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "2.7%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "4%",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "8%",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "In a food poisoning outbreak, 75 people were affected. Among them, 50 were hospitalized, and six died. Calculate the case-fatality ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1.2%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "2.7%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "4%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "8%",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 4,
+    "number": 27,
+    "stem": "Which of the following is NOT required for calculating prevalence of a disease?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Pre-existing cases of the disease",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "New cases of the disease",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Total number of people at risk",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Total person-time of observation",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 4,
+    "number": 28,
+    "stem": "Which of the following condition tends to reduce the prevalence of a particular disease?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "High cure rate",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Low case fatality ratio",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Improved case detection rate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Immigration of diseased people",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 4,
+    "number": 29,
+    "stem": "In which of the following conditions, prevalence is an appropriate measure of disease frequency?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Common cold episodes in elderly",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Number of exacerbations in asthma patients",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Proportion of foot ulcers in Diabetes Mellitus",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Number of diarrhoea episodes in children",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 4,
+    "number": 30,
+    "stem": "Which of the following is INCORRECT about case fatality?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It reflects the severity of a disease",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "High case fatality indicates poor prognosis",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It relates the number of deaths to the number of cases of a disease",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It is a true rate",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 5,
+    "number": 1,
+    "stem": "Study design(s) useful for describing uncommon clinical manifestations",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case reports",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case series",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b'",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Ecological study",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 5,
+    "number": 2,
+    "stem": "Cross-sectional studies are used to",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Estimate prevalence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Generate hypotheses",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Describe trends",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 5,
+    "number": 3,
+    "stem": "In a cross-sectional study, we can observe one or more outcomes",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 5,
+    "number": 4,
+    "stem": "Which one of the following is useful to measure the burden or magnitude of a disease or risk factor?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case-control study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Cross-sectional study",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Case report",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Case series",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 5,
+    "number": 5,
+    "stem": "Which of the following is wrong about descriptive study designs?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Describe the study outcome for 1 group",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Compare the study outcomes for 2 group",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Calculate the incidence for surveillance data",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Calculate prevalence for cross- sectional study",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 5,
+    "number": 6,
+    "stem": "Descriptive epidemiology study designs can answer all of the following questions EXCEPT:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Who?",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "When?",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Where?",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Why?",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 5,
+    "number": 7,
+    "stem": "Which one of the following study designs does not employ comparison groups to answer the primary study objectives?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cross-sectional study",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Cohort study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Ecological study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Clinical trials",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 5,
+    "number": 8,
+    "stem": "Unit of observation in the cross-sectional study is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Individual",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Group",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b'",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 5,
+    "number": 9,
+    "stem": "Case reports can include presentation of",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Unique features/symptoms of a disease",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Rare manifestation of common disease",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "New or unfamiliar diseases",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 5,
+    "number": 10,
+    "stem": "Advantage of the ecological study is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Relate rate of disease and exposure",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Useful to test hypothesis",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Useful to study rare diseases",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 5,
+    "number": 11,
+    "stem": "A researcher can assess the following by conducting a descriptive study EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Population in which the disease was prevalent",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Period in which the disease occurred",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Risk factors of the disease",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Place distribution of the disease",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 5,
+    "number": 12,
+    "stem": "The following study design provides group exposure and group response/outcome without knowing the individual exposure and response for a specific health problem",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Ecological study",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Cross sectional survey",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Case report",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Case series",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 5,
+    "number": 13,
+    "stem": "Which of the following study design will be helpful if the department of health wants to know the burden of a particular disease?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Ecological study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Cross sectional survey",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Case series",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Case report",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 5,
+    "number": 14,
+    "stem": "A clinician comes across an unusual presentation of a particular neurological disorder. If the clinician describes this single case in detail and publishes the same in a journal, then it will be called",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Analytical study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case report",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Cross sectional survey",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Ecological study",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 5,
+    "number": 15,
+    "stem": "The advantage of an ecological study is that",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is analytical in nature",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It will cover individual level information on risk factors and disease",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It will be useful to test hypotheses",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It will be useful to generate hypotheses",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 5,
+    "number": 16,
+    "stem": "In a tertiary care hospital, a surgeon collected information on quality of life and outcome among a small group of (about 15) post-operative patients after using a novel surgical device. But this is not sufficient to establish the efficacy of the surgical device because",
+    "options": [
+      {
+        "letter": "a",
+        "text": "There is no comparison group",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "There is no information of risk factors",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "We do not have details of the outcome",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "We do not have individual level data",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 5,
+    "number": 17,
+    "stem": "Population census is a",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cross sectional survey",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Ecological study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Analytical study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 5,
+    "number": 18,
+    "stem": "One of the major limitations of a cross- sectional study is that",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is time consuming",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It has lower validity",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It does not establish disease etiology",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It requires a large sample size",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 5,
+    "number": 19,
+    "stem": "Characteristic of a cross sectional study is that",
+    "options": [
+      {
+        "letter": "a",
+        "text": "We can calculate the incidence of a disease",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "We can test a hypotheses",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is difficult to conduct",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Exposure and outcome are assessed at the same time",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 5,
+    "number": 20,
+    "stem": "If a researcher wishes to estimate the incidence of Myocardial infarction cases among a group of women using oral contraceptive pills followed up for 10year, the researcher has to carry out",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case series",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Cohort study",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Cross sectional study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Ecological study",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 5,
+    "number": 21,
+    "stem": "Case series are useful",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To estimate burden of a disease",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "To determine risk factors of a disease",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "To determine efficacy of a new drug",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "To describe uncommon clinical manifestation",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 5,
+    "number": 22,
+    "stem": "All the following are true about cross- sectional survey, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Individual is the unit of observation",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Involves only incident cases",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Estimate the burden of a disease",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It can be used to generate hypothesis",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 5,
+    "number": 23,
+    "stem": "A detailed presentation of a single case which is rare and unfamiliar, is called",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case report",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Case series",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Ecological study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Cross-sectional study",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 5,
+    "number": 24,
+    "stem": "Which of the following is INCORRECT about ecological study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It relates the rate of disease and frequency of exposure",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It is an example of observational study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It uses individual level data",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It helps in generating hypothesis",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 5,
+    "number": 25,
+    "stem": "Which of the following is NOT applicable in a case study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Clinical features",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Laboratory parameters",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Socio-demographic background",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Incidence",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 5,
+    "number": 26,
+    "stem": "To determine the association between air pollution and male infertility, data on air quality index and prevalence of male infertility was collected for 183 countries for the year 2019. What best describes the study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case report",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case series",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Ecological study",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Cross-sectional study",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 5,
+    "number": 27,
+    "stem": "In a medical journal, 18 cases of Creutzfeldt Jakob disease were reported from a tertiary care hospital in Sikkim. The authors of the paper gave a description of the socio-demographic, clinical, and laboratory features of the 18 patients. What best describes this study design?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case series",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Case control study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Ecological study",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 5,
+    "number": 28,
+    "stem": "Which of the following is FALSE about cross-sectional studies?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Can be used to generate hypothesis",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Can be used to establish temporality of association",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Can be used to estimate disease burden",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Can be used to identify factors associated with outcome",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 5,
+    "number": 29,
+    "stem": "State whether true or false. Descriptive cross-sectional study does not have a comparison group.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 5,
+    "number": 30,
+    "stem": "Which of the following studies can be used to identify the factors associated with an outcome?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Descriptive cross-sectional study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Analytical cross-sectional study",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Case study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Case series",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 6,
+    "number": 1,
+    "stem": "Exposure is not assigned by the investigator in the following study design",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cohort",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case-control",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Cross-sectional",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 6,
+    "number": 2,
+    "stem": "Which of the following statement(s) is true about the cohort study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is not suitable for disease with a long latency period",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Loss to follow up can introduce bias",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b'",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 6,
+    "number": 3,
+    "stem": "Which of the following study design is better suited to demonstrate a temporal association between exposure and disease?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cross-sectional study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case-control study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Cohort study",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Ecological study",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 6,
+    "number": 4,
+    "stem": "Relative risk of more than 1 indicates",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Incidence in unexposed is higher than exposed",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Incidence in exposed and unexposed are same",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Incidence in exposed is higher than unexposed",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Relative risk is significant",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 6,
+    "number": 5,
+    "stem": "If the odds of exposure among cases is lower than the odds of exposure among the controls, the odds ratio will be",
+    "options": [
+      {
+        "letter": "a",
+        "text": "More than",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Less than",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "It depends on other factors",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 6,
+    "number": 6,
+    "stem": "All babies born in a particular year will form a birth cohort",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 6,
+    "number": 7,
+    "stem": "Cohort study is suitable for rare diseases",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 6,
+    "number": 8,
+    "stem": "Which of the following is NOT true regarding case-control study? i. Appropriate for study of rare outcome ii. More time consuming than cohort study iii. Multiple exposures can be examined iv. Relatively expensive compared to cohort study",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Both (i) and (ii)",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Both (ii) and (iii)",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both (ii) and (iv)",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Both (iii) and (iv)",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 6,
+    "number": 9,
+    "stem": "What is an appropriate measure of statistical association in a cohort study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Prevalence ratio",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Risk ratio",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Odds ratio",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Pearson's correlation coefficient",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 6,
+    "number": 10,
+    "stem": "The entire population of a given community is screened and all those judged as being free of Colon cancer are questioned extensively about their diet. These people are then followed-up for several years to see whether their eating habits will predict their risk of developing Colon cancer - This is an example of",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case-control study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Clinical trial",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Cross-sectional study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Cohort study",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 6,
+    "number": 11,
+    "stem": "Exposure is assigned by the investigator in which of the following epidemiological study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case-control",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Cross-sectional",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Experimental",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Cohort",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 6,
+    "number": 12,
+    "stem": "When a group of people with defined characteristics are followed up to determine incidence is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case series",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Cohort",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Case control",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Experimental",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 6,
+    "number": 13,
+    "stem": "Relative risk is a",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Rate",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ratio",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Proportion",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 6,
+    "number": 14,
+    "stem": "Relative risk of one in a cohort study indicates",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Incidence in unexposed is higher than exposed",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Incidence in exposed is higher than unexposed",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Relative risk is significant",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Incidence in the exposed and unexposed groups are same",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 6,
+    "number": 15,
+    "stem": "Women aged above 35 years were screened for the HPV (Human papilloma virus) infection and those who had HPV infection were then followed for several years to predict the risk of developing cervical cancer. This study is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Prospective cohort",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Retrospective cohort",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Case control",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Cross sectional",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 6,
+    "number": 16,
+    "stem": "Which of the following is appropriate regarding a cohort study? i. Multiple exposures can be examined ii. Appropriate for studying rare exposures iii. Expensive and time consuming iv. Appropriate for studying rare diseases",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Both (i) and (ii)",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Both (iii) and (iv)",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both (ii) and (iv)",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Both (ii) and (iii)",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 6,
+    "number": 17,
+    "stem": "Which of the following statement regarding the cohort study is FALSE?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Suitable to study a disease with long latency period",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Loss to follow up can introduce bias",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Relative risk can be calculated",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Temporal association with the risk factor can be established",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 6,
+    "number": 18,
+    "stem": "Odds ratio of more than one indicates",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Odds of exposure among cases is lower than the odds of exposure among the controls",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Odds of exposure among cases is equal to the odds of exposure among the controls",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Odds of exposure among cases is higher than the odds of exposure among the controls",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Exposure is negatively associated with the disease",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 6,
+    "number": 19,
+    "stem": "If there is a comparison group in an epidemiological study design, it is called",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Descriptive",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Analytical",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Ecological",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 6,
+    "number": 20,
+    "stem": "Which of the following statements about case control/cohort studies is correct?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case control study always establishes temporal association",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Cohort study establishes temporal association",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Cohort has lower level of evidence than case-control",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Do case control for rare exposures and cohort for rare diseases",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 6,
+    "number": 21,
+    "stem": "To determine the associated factors of anti-hypertensive drug compliance, an investigator selected 384 participants with hypertension who were undergoing treatment in a tertiary care hospital. The investigator collected the details on the socio-economic background of the participants and took history regarding the consumption of medicines in the past two weeks. Then the drug compliant group and the non-compliant group were compared to identify factors associated with drug compliance. What is the type of the study design?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case control study",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Prospective cohort study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Case study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Analytical cross-sectional study",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 6,
+    "number": 22,
+    "stem": "A gynaecology resident intends to determine the association between intra- uterine device (IUD) use and risk of extrauterine pregnancy. The investigator recruited 100 cases of extrauterine pregnancy and 200 participants who had intrauterine pregnancy as controls from the obstetrics ward of a tertiary care hospital over a period of 2 years. Both cases and controls were interviewed about the history of IUD use. Among the cases, 6 participants had history of IUD use and among controls, 4 had history of IUD use. Calculate the odds ratio of extrauterine pregnancies among women with history of IUD use?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "0.32",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "1.39",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "3.12",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "0.72",
+        "correct": false
+      }
+    ],
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "A gynaecology resident recruited 100 cases of extrauterine pregnancy and 200 controls. Among cases, 7 had history of IUD use and among controls, 38 had IUD use. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.32",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "1.39",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.12",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.72",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "A gynaecology resident recruited 100 cases of extrauterine pregnancy and 200 controls. Among cases, 12 had history of IUD use and among controls, 18 had IUD use. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.32",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "1.39",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "3.12",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.72",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "A gynaecology resident recruited 100 cases of extrauterine pregnancy and 200 controls. Among cases, 15 had history of IUD use and among controls, 40 had IUD use. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.32",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "1.39",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "3.12",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.72",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 6,
+    "number": 23,
+    "stem": "An investigator conducted a case control study with psoriasis patients as cases and other skin disease patients as controls. Those having hypertension were considered as exposed and nonhypertensives as non-exposed. The study found an odds ratio of 1.45. Which of the following is correct?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Psoriasis is positively associated with hypertension",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Odds of hypertension among psoriasis patients is lower than the odds of hypertension among patients without psoriasis",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Odds of psoriasis among hypertensive patients is lower than the odds of psoriasis among non-hypertensives",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Hypertension is a causative factor of psoriasis",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 6,
+    "number": 24,
+    "stem": "A prospective cohort study was conducted to determine the association between coffee consumption and risk of pancreatitis among healthy participants. Among the participants 3500 participants consumed coffee, whereas 6500 participants did not. After a follow up of 10 years 85 participants in the coffee consumption group developed pancreatitis, whereas among the non- coffee consumption group in developed pancreatitis. Calculate the relative risk of pancreatitis due to coffee consumption.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "0.04",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "0.85",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "1.21",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "1.50",
+        "correct": false
+      }
+    ],
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "A cohort study: 1000 coffee drinkers and 1000 non-coffee drinkers were followed. 5 coffee drinkers and 125 non-coffee drinkers developed pancreatitis. Calculate the relative risk.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.04",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "0.85",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "1.21",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "1.50",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "A cohort study: 1000 coffee drinkers and 1000 non-coffee drinkers were followed. 85 coffee drinkers and 100 non-coffee drinkers developed pancreatitis. Calculate the relative risk.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.04",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.85",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "1.21",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "1.50",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "A cohort study: 1000 coffee drinkers and 1000 non-coffee drinkers were followed. 150 coffee drinkers and 100 non-coffee drinkers developed pancreatitis. Calculate the relative risk.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "0.04",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "0.85",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "1.21",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "1.50",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 6,
+    "number": 25,
+    "stem": "All the following are elements of a cohort study, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It involves calculation of incidence rate",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It proceeds from exposure to outcome",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It involves randomization of participants",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It involves follow-up of the participants",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 6,
+    "number": 26,
+    "stem": "All the following are limitations of a case control study, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It can introduce recall bias",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Incidence of disease cannot be determined",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Selection of appropriate control group may be difficult",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It can introduce attrition bias",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 6,
+    "number": 27,
+    "stem": "Using medical records from a tertiary care cancer hospital, a researcher collected data on occupational exposure and lung carcinoma on patients admitted between 2000 and 2010. He classified the patients who had history of working in coal mines as exposed and others as unexposed. He then compared the frequency of lung carcinoma among the exposed and the unexposed. What best describes the study design?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case control study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Retrospective cohort study",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Cross-sectional study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Analytical cross-sectional study",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 6,
+    "number": 28,
+    "stem": "A paediatrician recruited 120 children with Crohn’s disease and their matched sibling controls. The researcher collected history of exclusive breastfeeding (EBF) from the mothers. Presence/ absence of EBF was compared between the diseased and the non-diseased children. Identify the study design in this research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case series",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Cross-sectional study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Case control study",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Cohort study",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 6,
+    "number": 29,
+    "stem": "Which of the following is INCORRECT about selection of cases in case control study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cases are study participants who had the disease in the source population",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Selection of cases should be based on the exposure status",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Inclusion of prevalent cases can save time and money",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Inclusion of prevalent cases may introduce survivor bias",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 6,
+    "number": 30,
+    "stem": "A multicentric study was conducted to determine the association between diabetes and cataract. The investigators recruited 1000 diabetics and 2500 non-diabetics. The participants were examined to exclude presence of cataract at the time of recruitment. They were followed once yearly for 10 years to document the development of cataract. The study found that the incidence of cataract among diabetics was more when compared with the non-diabetics. Identify the study design in this study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cross-sectional study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case control study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Prospective cohort study",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Experimental study",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 7,
+    "number": 1,
+    "stem": "One of the cornerstones of the randomized controlled trials is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Recruitment",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Randomization",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Blinding",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Placebo",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 7,
+    "number": 2,
+    "stem": "Randomized clinical trials can be best described as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Experimental studies",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Analytic studies",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Descriptive studies",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Observational studies",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 7,
+    "number": 3,
+    "stem": "Which of the following is/are true in a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Sample size determination",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Approval from regulatory authority",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Agreement between the investigators and sponsors",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 7,
+    "number": 4,
+    "stem": "A pharmacologically inactive agent that investigators administer to participants in the control group of a trial",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Comparator drug",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Placebo",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Conjugate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Drug under investigation",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 7,
+    "number": 5,
+    "stem": "Key methodological components of a Randomized Controlled Trials are",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Use of a control to which the experimental intervention is compared",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Random assignment of participants to intervention",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Taking informed consent from all study participants",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 7,
+    "number": 6,
+    "stem": "Double-blinding in a clinical trial involves",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Participants before and after study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Participants and investigators",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Investigators and analysts",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Participants and analysis",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 7,
+    "number": 7,
+    "stem": "The purpose of a double-blinding in a clinical trial is to",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Achieve comparability of all arms of a clinical trial",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Avoid observer and participant bias",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Avoid observer bias and sampling variation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Avoid subject bias and sampling variation",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 7,
+    "number": 8,
+    "stem": "What is the purpose of randomization in a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Get better power for data analysis",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Generalizing the study findings to the population which is not studied",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Achieve balance in baseline characteristics",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Guarantee that the statistical tests have valid significance levels",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 7,
+    "number": 9,
+    "stem": "Which phase of a clinical trial is referred to as post-marketing surveillance?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Phase",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Phase",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Phase",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Phase",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 7,
+    "number": 10,
+    "stem": "Long-term adverse effects and efficacy of a new drug can be tested in which of the following phases of a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Phase",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Phase",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Phase",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Phase",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 7,
+    "number": 11,
+    "stem": "Which of the following is incorrect in case of a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "All clinical trials must be blinded",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Randomization is a critically important step in a clinical trial",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "All clinical trials must be approved by Institutional Ethics Committee before initiation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It is mandatory to register clinical trials with Clinical Trials Registry of India",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 7,
+    "number": 12,
+    "stem": "Which of the following procedures ensure safety of the clinical trial participants? (a) Adverse events reporting (b) Serious adverse events reporting (c) Periodic follow-up (d) Review by Data Safety Monitoring Board",
+    "options": [
+      {
+        "letter": "1",
+        "text": "'a', 'b', 'c', and 'd'",
+        "correct": undefined
+      },
+      {
+        "letter": "2",
+        "text": "'a', 'b' and 'd'",
+        "correct": undefined
+      }
+    ],
+    "correct": "1"
+  },
+  {
+    "assignment": 7,
+    "number": 13,
+    "stem": "All the following correctly describe a clinical trial, except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It has all advantages of a cohort study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It is possible to analyze the confounders",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Loss to follow up of study participants does not affect the study outcome",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Appropriate implemented informed consent procedure as well as long-term care and support to trial participants help to overcome several ethical concerns",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 7,
+    "number": 14,
+    "stem": "Which of the following can be considered as an advantage of a double blinding in a randomized controlled trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Equally distributes known and unknown confounders in experiment and control arm",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ensures that participants adhere to the protocol",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Gives benefits of an intervention to some of the study participants",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Prevent bias that arises from researchers being able to influence the data due to knowledge of allocated groups",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 7,
+    "number": 15,
+    "stem": "Biased outcome ascertainment results from:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Participants reporting symptoms or outcomes differently",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Investigators eliciting symptoms or outcomes following a standardized technique",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "None of the above",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Both \"a\" and \"b\"",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 7,
+    "number": 16,
+    "stem": "In a clinical trial, what is the main purpose of randomization?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To get more power for data analysis",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "To reduce investigator bias",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "To get groups with comparable baseline characteristics",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "To ensure optimum number of participants in each trial arm",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 7,
+    "number": 17,
+    "stem": "Which of the following can eliminate the problem of Co-intervention?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Random sampling",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Allocation concealment",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Informed consent",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Blinding",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 7,
+    "number": 18,
+    "stem": "Which of the following is not true in case of a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Clinical trials are planned experiments designed to assess the efficacy of an intervention",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Clinical trials usually involve comparing the outcomes in two or more groups of individuals",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Clinical trials are usually free from selection bias",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Clinical trials are usually prospective in nature",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 7,
+    "number": 19,
+    "stem": "Which of the following trials assesses effectiveness of a new vaccine?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Phase 1 trial done in healthy volunteers",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Phase 2 trial done in a susceptible population",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Phase 3 trial done in healthy volunteers",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Phase 3 trial done in a susceptible population",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 7,
+    "number": 20,
+    "stem": "Which of the following is not true about a randomized control trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Baseline characteristics of intervention and control groups must be similar",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Investigator bias can be minimized by double blinding",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The sample size depends on the hypothesis being tested",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Drop outs should be excluded from the analysis",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 7,
+    "number": 21,
+    "stem": "State whether true or false. In a randomized controlled trial, the investigator is unaware of the sequence of allocation of the participants to one of the study arms before and until the assignment is complete. This process is known as allocation concealment.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 7,
+    "number": 22,
+    "stem": "Which of the following is NOT a feature of randomized controlled trials?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Simple random sampling",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Randomization",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Allocation concealment",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Blinding",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 7,
+    "number": 23,
+    "stem": "A research group from a medical college in Lucknow conducted a study to assess the efficacy of a new herbal medicine for the prevention of pneumonia in elderly. What type of randomized controlled trial is this study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Screening RCT",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Diagnostic RCT",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Therapeutic RCT",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Prophylactic RCT",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 7,
+    "number": 24,
+    "stem": "In which type of population is a phase-I vaccine trial conducted?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Healthy volunteers",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "High risk group",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Diseased population",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Laboratory animals",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 7,
+    "number": 25,
+    "stem": "State whether true or false. Randomization is a process, where the participants have an equal chance of being assigned to any one of the study groups.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 7,
+    "number": 26,
+    "stem": "Which of the following is NOT an advantage of randomized controlled trials?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Provides high quality evidence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Controls for selection and confounding bias",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Establishes temporality of association",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Entails minimal ethical issues",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 7,
+    "number": 27,
+    "stem": "Post-marketing surveillance is done in which of the clinical trial phases?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Phase",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Phase",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Phase",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Phase",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 7,
+    "number": 28,
+    "stem": "State whether true or false. Randomized controlled trials are retrospective in nature.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 7,
+    "number": 29,
+    "stem": "In a clinical trial conducted by the Orthopaedic department of a medical college in Bhubaneshwar, the investigators compared the wound healing time between conventional suturing technique and stapling technique for open fractures. The investigators, patients and data analysts were aware about the treatment assignment. What best describes this study design?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Open-label RCT",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Single blind RCT",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Double blind RCT",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Triple blind RCT",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 7,
+    "number": 30,
+    "stem": "Blinding in a randomized controlled trial addresses which of the following biases?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Ascertainment bias",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Recall bias",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Volunteer bias",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Attrition bias",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 8,
+    "number": 1,
+    "stem": "Obtaining an estimate that is generalizable to relevant study population in a research study is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "External validity",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Internal validity",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Bias",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Confounding",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 8,
+    "number": 2,
+    "stem": "Any process that tends to produce results that depart systematically from true values in a research study",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Chance",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Bias",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Random error",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Effect Modification",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 3,
+    "stem": "Systematic selection of more number of expose participants with the higher risk of outcome in a cohort study will result in",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Selection bias",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Information bias",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Confounding",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Random error",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 8,
+    "number": 4,
+    "stem": "The effect of the exposure of interest on the outcome is distorted because of the effect of extraneous factors that are related to both the exposure and outcome. This phenomenon is called",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Correlation effect",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Confounding",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Recall bias",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Measurement error",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 5,
+    "stem": "Biases can occur during which stage of research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Study design",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Study implementation",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Data analysis",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "At any of the above stages",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 8,
+    "number": 6,
+    "stem": "All are true regarding measures to reduce information bias, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Precise operational definitions of all variables",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Detailed measurement protocols",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Adequate sample size",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Training, Certification and re-certification of data collectors",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 8,
+    "number": 7,
+    "stem": "Variability in estimation due to unknown/uncontrollable factors",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Chance",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Bias",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Confounding",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Effect modification",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 8,
+    "number": 8,
+    "stem": "All are true regarding confounding in an epidemiological study, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "May simulate an association that does not exist",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "May increase or decrease the strength of association",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "May not reveal an association that does exist",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Always change the direction of effect",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 8,
+    "number": 9,
+    "stem": "The method which can used to alleviate confounding during data analysis in an epidemiological study",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Multivariate analysis",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Restriction",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Matching",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Randomization",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 8,
+    "number": 10,
+    "stem": "To reduce selection bias in case-control studies, all of the following are true EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Use population based design",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Apply different eligibility criteria for selecting cases and controls",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Both cases and controls undergo the same diagnostic procedures",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Avoid hospital based design",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 11,
+    "stem": "Obtaining an accurate estimate of disease frequency and effect of exposure on health outcomes in study population pertains to",
+    "options": [
+      {
+        "letter": "a",
+        "text": "External Validity",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Internal Validity",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Bias",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Confounding",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 12,
+    "stem": "Blinding in an epidemiological study is a way to deal with",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Chance",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Selection Bias",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Information Bias",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Sampling Error",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 13,
+    "stem": "Better recall of exposure only among the cases in a case control study can result in",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Information bias",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Confounding",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Investigator bias",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Selection bias",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 8,
+    "number": 14,
+    "stem": "The ability of a tool to correctly measure what it is supposed to measure is called as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Precision",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Validity",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Reliability",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Consistency",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 15,
+    "stem": "Bias may distort the association between exposure and outcome among the study participants",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 8,
+    "number": 16,
+    "stem": "A case control study was conducted to know the effect of smoking on lung cancer among hospitalized patients. The controls were recruited from patients admitted to the respiratory ward for other conditions. What type of bias will be introduced by virtue of recruiting controls from the hospital who are potentially different from the general population?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Selection bias",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Information bias",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Confounding",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Random error",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 8,
+    "number": 17,
+    "stem": "A researcher studied the effect of coffee drinking on Myocardial Infarction. The effect of coffee drinking on Myocardial Infarction was distorted because of the presence of a third factor, ie. smoking. This phenomenon is called as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Correlation effect",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Confounding",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Recall bias",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Measurement error",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 18,
+    "stem": "Which of the following method is used to address for known confounders at the designing stage of a study",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Matching",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Regression",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Stratification",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Adjusted analysis",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 8,
+    "number": 19,
+    "stem": "Systematic distortion of the truth by study subjects is called as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Plagiarism",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Chance",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Confounding",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Prevarication",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 8,
+    "number": 20,
+    "stem": "Crude association in the presence of a confounder is the actual causal association",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 21,
+    "stem": "Which of the following is the best method of ensuring that the experimental and control arms in an experimental study are similar with regard to known and unknown confounders at the planning stage?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Matching",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Randomization",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Stratification",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Multivariate analysis",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 22,
+    "stem": "When the study finding is generalizable to the target population, then it is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Internally valid",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Reliable",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Accurate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Externally valid",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 8,
+    "number": 23,
+    "stem": "Which of the following can introduce selection bias in a case control study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Differential recall about exposure by the cases",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Collecting data differently from the exposed and unexposed",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Inclusion of controls not representative of the target population",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Systematic distortion of the truth by the study participants",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 8,
+    "number": 24,
+    "stem": "Which of the following is TRUE about information bias in a cohort study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is caused by higher attrition rate among the exposed group",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It can be caused by selecting controls from the community",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It can be avoided by uniform outcome ascertainment",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It can be minimised by reducing loss to follow-up",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 8,
+    "number": 25,
+    "stem": "Which of the following is NOT a systematic error in an epidemiological study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Random error",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Confounding",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Selection bias",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Information bias",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 8,
+    "number": 26,
+    "stem": "Which of the following measure is related to ensuring the internal validity of a study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Using a validated study questionnaire to assess outcomes",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Including an adequate number of study participants",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Complying strictly with the study protocol",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 8,
+    "number": 27,
+    "stem": "Which of the following is FALSE about confounding in epidemiological studies?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Confounding may simulate an association when it does not exist",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Confounding does not increase or decrease the strength of the association",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Confounding may hide an association that exists",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Confounding may change the direction of an exposure-outcome association",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 28,
+    "stem": "Systematic collection of data by an investigator supporting an expected conclusion in an epidemiological study may result in",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Confounding",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Information bias",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Selection bias",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Random error",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 29,
+    "stem": "Which of the following is NOT a method of dealing with confounding during the design stage?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Restriction",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Stratification",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Matching",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Randomization",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 8,
+    "number": 30,
+    "stem": "A cohort study was conducted to examine the association between obesity and cardiovascular disease. During analysis, gender was suspected to be a confounder. Which of the following methods will help in examining the confounding effect due to gender?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Matching",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Restriction",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Randomization",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Multivariate regression",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 9,
+    "number": 1,
+    "stem": "Which methods in qualitative research use flexible interview guide?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "In depth Interviews and participant observation",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Focus Group Discussions and In-depth interviews",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Participant Observation and focus group discussions",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Structure interviews and surveys",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 9,
+    "number": 2,
+    "stem": "Which of the following study designs can be used as a tool a generate ideas/hypotheses?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Qualitative study",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Case-control study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Experimental study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Cohort study",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 3,
+    "stem": "The qualitative data analysis method in which investigators code text into categories and build theoretical models",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Content analysis",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Grounded theory",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Schema analysis",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Hermeneutics",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 9,
+    "number": 4,
+    "stem": "Open-ended, one-to-one interviews to discover interviewee's own framework of meanings",
+    "options": [
+      {
+        "letter": "a",
+        "text": "In-depth Interviews",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Focus Group Discussions",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Participant observation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Structured interviews",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 5,
+    "stem": "Audio recordings during Focus Group Discussions",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Can be done without any prior informed written consent",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Cannot be done",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Should always be done",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Can be done with prior informed consent",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 9,
+    "number": 6,
+    "stem": "All of the following are situations in which qualitative research methods can be used, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Familiar and sufficiently researched matter",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "To seek the depth of understanding",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Exploration of behaviors",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "View the social phenomenon holistically",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 7,
+    "stem": "The main methods used in qualitative research method include all EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "In-depth Interviews",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Focus Group Discussions",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Participant observation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Structured questionnaire based interviews",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 9,
+    "number": 8,
+    "stem": "The observer becomes a part of the group or event in this method of qualitative study",
+    "options": [
+      {
+        "letter": "a",
+        "text": "In-depth Interviews",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Focus Group Discussions",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Participant observation",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Structured interviews",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 9,
+    "number": 9,
+    "stem": "All the statements regarding Participant Observation is true EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Observer becomes a part of the event/group",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Systematic collection of data is easy",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Analytic methods for observation are not well described",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Data is very detailed",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 9,
+    "number": 10,
+    "stem": "The qualitative data analysis method which uses theoretical framework as the basis for analysis",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Content analysis",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Grounded theory",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Schema Analysis",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Hermeneutics",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 11,
+    "stem": "Which of the following are characteristics of qualitative research methods?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Objective, measurable, reliable and repeatable",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Subjective, measurable, credible and repeatable",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Subjective, credible, inductive and interpretation of responses",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Objective, credible, inductive and interpretation of responses",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 9,
+    "number": 12,
+    "stem": "The research method which is best suited for collection of information regarding highly sensitive matters such as alcohol use",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Focus Group Discussions",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Participant Observation",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "In-Depth Interview",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Group discussions",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 9,
+    "number": 13,
+    "stem": "Which of the following is not the utility of qualitative research",
+    "options": [
+      {
+        "letter": "a",
+        "text": "To provide insight to why people behave in a certain way",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "To estimate the prevalence of disease",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "To help understand the results of a quantitative study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "For developing a questionnaire",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 9,
+    "number": 14,
+    "stem": "Which of the following statement is true regarding Participant Observation",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Observer becomes a part of the event/group",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Systematic collection of data is easy",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Analytic methods for observation are well described",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Data is brief as compared to in-depth interviews",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 15,
+    "stem": "Open ended group interviews that promotes discussion among participants is called as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "In depth Interviews",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Focus Group Discussions",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Participant Observation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Structured interviews",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 9,
+    "number": 16,
+    "stem": "A researcher decided to conduct a study to explore the child feeding practices among mothers of under five children in a community. Which of the following qualitative techniques can the researcher employ to gather wide range of information on the topic in a short span of time?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Structured interview",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "In depth Interview",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Participant Observation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Focus Group Discussion",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 9,
+    "number": 17,
+    "stem": "In qualitative research, researchers interpret the social reality from the participants’ point of view.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 18,
+    "stem": "Which of the following statements is “Incorrect” about in-depth interviews?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Findings are always generalizable",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "The transcripts are time consuming to analyze",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Helps understand sensitive issues",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Useful when participants are knowledgeable on a particular topic",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 19,
+    "stem": "Which of the following statement is “False” about focus group discussion.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Focus group discussions help understand local terminologies",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Group interaction is integral for an effective discussion",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Heterogeneity of the group is a pre- requisite",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Audio and video recordings are done with prior consent",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 9,
+    "number": 20,
+    "stem": "Triangulation is the use of multiple methods, multiple theories and or multiple sources for a comprehensive understanding of the topic in question",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 21,
+    "stem": "Which of the following characteristics is NOT related to qualitative research data?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Subjective validity",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Data is in text form",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Hypothesis testing is a goal",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It involves interpretation of responses",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 9,
+    "number": 22,
+    "stem": "Which of the following CANNOT be done using qualitative research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Viewing a social phenomenon holistically",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Estimating the burden of a disease",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Seeking in-depth understanding of a phenomenon",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Unfamiliar subject matter",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 9,
+    "number": 23,
+    "stem": "A researcher wants to estimate the prevalence of exclusive breast feeding in a remote tribal population. She also wants to understand the myths and taboos associated with breast feeding. Which of the following approaches can be employed in this scenario?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Qualitative study",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Clinical trial",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Mixed-methods study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Cross-sectional study",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 24,
+    "stem": "Which of the following is NOT a data collection method used in qualitative research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Interviews",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Sociogram",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Participant observation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Focus group discussion",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 9,
+    "number": 25,
+    "stem": "Which of the following is NOT a feature of ‘In-depth interviews’?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It involves two or more participants at a time",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "It follows an interview guide",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is suitable for a highly sensitive topic",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It obtains rich contextualized information",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 26,
+    "stem": "Which of the following is an advantage of conducting ‘in-depth interviews’?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It expresses the ‘Emic’ perspective",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "It is generalizable",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is a quick process",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It uses a systematic sampling approach",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 27,
+    "stem": "State whether true or false. In a focus group discussion, it is easy to obtain personal behaviors on a sensitive issue",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 9,
+    "number": 28,
+    "stem": "Which of the following is TRUE regarding ‘participant observation’ method?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is easy to analyze the data",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The researcher himself becomes a part of the study group",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Data obtained is very concise",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "The researcher interviews each participant in detail",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 9,
+    "number": 29,
+    "stem": "State whether true or false. Data obtained from Focus Group Discussion may be sensitive to biased analysis.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 9,
+    "number": 30,
+    "stem": "The analytical approach where the researcher proceeds to develop a theory based on learnings obtained from the data is called",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Grounded theory analysis",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Content analysis",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Schema analysis",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Factor analysis",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 10,
+    "number": 1,
+    "stem": "In a study on hypertension, patients are categorized based on their systolic blood pressure as normal, pre-hypertension, stage 1 hypertension and stage 2 hypertension. What type of variable is this?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Qualitative",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Descriptive",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Nominal",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Ordinal",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 10,
+    "number": 2,
+    "stem": "Most commonly used measure of central tendency is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Mode",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Median",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Mean",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Range",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 10,
+    "number": 3,
+    "stem": "First quartile (Q1) is equivalent to __________ percentile",
+    "options": [
+      {
+        "letter": "a",
+        "text": "25th",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "50th",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "75th",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "1st",
+        "correct": false
+      }
+    ],
+    "correct": "a",
+    "variants": [
+      {
+        "stem": "The median is equivalent to __________ percentile",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25th",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50th",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "75th",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "1st",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "Third quartile (Q3) is equivalent to __________ percentile",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25th",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50th",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "75th",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "1st",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "The minimum value in a dataset is equivalent to the __________ percentile",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25th",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50th",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "75th",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0th",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 10,
+    "number": 4,
+    "stem": "Find the median in the following sample of observations: 12, 26, 10, 29, 48",
+    "options": [
+      {
+        "letter": "a",
+        "text": "29",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "48",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "26",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "25",
+        "correct": false
+      }
+    ],
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "Find the median: 12, 15, 29, 35, 48",
+        "options": [
+          {
+            "letter": "a",
+            "text": "29",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "48",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "26",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Find the median: 10, 15, 48, 50, 55",
+        "options": [
+          {
+            "letter": "a",
+            "text": "29",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "48",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "26",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "Find the median: 8, 10, 25, 29, 48",
+        "options": [
+          {
+            "letter": "a",
+            "text": "29",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "48",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "26",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 10,
+    "number": 5,
+    "stem": "The following measure is not influenced by extreme values in a data set",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Arithmetic Mean",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Inter-quartile range",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Range",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'b' and 'c'",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 10,
+    "number": 6,
+    "stem": "Which of the following statistic does not belong with the others?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Range",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Variance",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Mode",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Standard deviation",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 10,
+    "number": 7,
+    "stem": "Number of children per household' is an example of a continuous variable",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 10,
+    "number": 8,
+    "stem": "In a study, researchers are interested in measuring the cholesterol levels of participants. Cholesterol level is a ________ variable",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Ordinal",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Nominal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Continuous",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Discrete",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 10,
+    "number": 9,
+    "stem": "In the following set of data, what is the mean? 4,1,9,7,3,8,2,6",
+    "options": [
+      {
+        "letter": "a",
+        "text": "5",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "4.5",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "9",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "8",
+        "correct": false
+      }
+    ],
+    "correct": "a",
+    "variants": [
+      {
+        "stem": "What is the mean? 2, 4, 5, 6, 3, 7, 4, 5",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "4.5",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "9",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "8",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "What is the mean? 6, 8, 10, 12, 7, 9, 11, 9",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "4.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "9",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "8",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "What is the mean? 10, 6, 8, 12, 4, 9, 7, 8",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "4.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "9",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "8",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 10,
+    "number": 10,
+    "stem": "Difference between the minimum value and the maximum value of the observations",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Variance",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Inter-quartile range",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Range",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Standard Deviation",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 10,
+    "number": 11,
+    "stem": "All the following are measures of dispersion except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Mean",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Variance",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Standard deviation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Range",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 10,
+    "number": 12,
+    "stem": "Which percentile is equivalent to the median?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "25",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "50",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "75",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "100",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Which percentile is equivalent to the first quartile (Q1)?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "75",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "100",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Which percentile is equivalent to the third quartile (Q3)?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "75",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "100",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Which percentile represents the maximum value in a dataset?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "75",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "100",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 10,
+    "number": 13,
+    "stem": "All the following are true for standard deviation (SD) EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is the square root of the average of the squared deviations of the observations from the arithmetic mean",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It is the most important measure of dispersion",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is expressed in the same units of measurement as the observation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "The square of the standard deviation is called mean deviation",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 10,
+    "number": 14,
+    "stem": "A researcher measures fasting blood level of glucose of 100 participants. The mean blood sugar level was measured as 110 mg/dl. The standard deviation was 11 mg/dl. Calculate the coefficient of variance.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "20%",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "14%",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "10%",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "25%",
+        "correct": false
+      }
+    ],
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "Fasting blood glucose of 100 participants. Mean=110 mg/dl, SD=22 mg/dl. Calculate CV.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "20%",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "14%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "10%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25%",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Fasting blood glucose of 100 participants. Mean=110 mg/dl, SD=15.4 mg/dl. Calculate CV.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "20%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "14%",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "10%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25%",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "Fasting blood glucose of 100 participants. Mean=110 mg/dl, SD=27.5 mg/dl. Calculate CV.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "20%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "14%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "10%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "25%",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 10,
+    "number": 15,
+    "stem": "A researcher measures the height of 100 school going children for his study. What type of variable is ‘height’?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Nominal",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ordinal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Continuous",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Discrete",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 10,
+    "number": 16,
+    "stem": "A chest physician observed the distribution of forced expiratory volume (FEV) in 100 Chronic Obstructive Pulmonary disease (COPD) patients and calculated a median value of 2.0 litres. The value of first and third quartile of the distribution was 1.5 litres and 3.0 litres respectively. Based on this data how many patients in the sample are expected to have a FEV between 1.5 and 3.0 litres?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "100",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "50",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "25",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "75",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "In 100 COPD patients, FEV: median=2.0L, Q1=1.5L, Q3=3.0L, min=1.0L, max=4.0L. How many patients have FEV between 1.0 and 4.0 L (all data)?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "75",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "In 100 COPD patients, FEV: median=2.0L, Q1=1.5L, Q3=3.0L. How many patients have FEV below Q1 (below 1.5L)?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "75",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "In 100 COPD patients, FEV: median=2.0L, Q1=1.5L, Q3=3.0L. How many patients have FEV below Q3 (below 3.0L)?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "50",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "75",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 10,
+    "number": 17,
+    "stem": "The average of the absolute deviations of the observations from the arithmetic mean is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Variance",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Inter-quartile range",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Mean deviation",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Standard deviation",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 10,
+    "number": 18,
+    "stem": "In a study, a researcher was interested in measuring the hemoglobin levels of 10 participants. The values are 10.0, 8.5, 12.0, 14.0, 11.5, 13.5, 9.0, 12.0, 11.3, 7.5. What is the mode of this distribution?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "7.5",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "12.0",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "10.9",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "14.0",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Hemoglobin levels of 10 participants: 7.5, 8.5, 12.0, 7.5, 11.5, 13.5, 9.0, 7.5, 11.3, 10.0. What is the mode?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7.5",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "12.0",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "10.9",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "14.0",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Hemoglobin levels of 10 participants: 10.0, 8.5, 10.9, 14.0, 11.5, 10.9, 9.0, 12.0, 11.3, 10.9. What is the mode?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7.5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "12.0",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "10.9",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "14.0",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Hemoglobin levels of 10 participants: 10.0, 8.5, 14.0, 14.0, 11.5, 13.5, 9.0, 12.0, 11.3, 14.0. What is the mode?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "7.5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "12.0",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "10.9",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "14.0",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 10,
+    "number": 19,
+    "stem": "All the following are examples of a nominal variable EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Gender",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Age",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Place of residence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Colour of eyes",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 10,
+    "number": 20,
+    "stem": "Which of the following is true about inter- quartile range?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It describes the middle value of the distribution",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It divides the distribution into two halves",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It covers the middle 50% of observations",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It is affected by the extreme values in the distribution",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 10,
+    "number": 21,
+    "stem": "When the data set contains too many extreme values, the most representative average value is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Mean",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Mode",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Median",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Variance",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 10,
+    "number": 22,
+    "stem": "The age of ten pregnant women who visited an ANC clinic is given. What is the mean age of this group? (26, 31, 25, 26, 30, 27, 25, 32, 25 and 33 years).",
+    "options": [
+      {
+        "letter": "a",
+        "text": "45",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "28",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "25",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "32",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Ages of ten pregnant women: 45, 45, 45, 45, 45, 45, 45, 45, 45, 45. What is the mean age?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "45",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "28",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "32",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Ages of ten pregnant women: 25, 25, 25, 25, 25, 25, 25, 25, 25, 25. What is the mean age?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "45",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "28",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "32",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Ages of ten pregnant women: 32, 32, 32, 32, 32, 32, 32, 32, 32, 32. What is the mean age?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "45",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "28",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "25",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "32",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 10,
+    "number": 23,
+    "stem": "Which of the following is a relative measure of dispersion when comparing variables which are measured in different units?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Inter-quartile range",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Coefficient of variation",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Range",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Standard deviation",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 10,
+    "number": 24,
+    "stem": "The following scores were obtained by ten medical students in a quiz: (5, 3, 6, 8, 7, 8, 3, 11, 6, 3) What is the median score of this group?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "3",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "6",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "8",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "11",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Ten medical students' scores: (1, 1, 1, 3, 3, 3, 3, 5, 7, 9). What is the median?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "6",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "8",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "11",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Ten medical students' scores: (1, 2, 3, 4, 8, 8, 9, 10, 11, 12). What is the median?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "6",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "8",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "11",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Ten medical students' scores: (1, 2, 3, 4, 11, 11, 12, 13, 14, 15). What is the median?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "6",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "8",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "11",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 10,
+    "number": 25,
+    "stem": "Height of the students in a particular class measured in centimeter’ is an example of a continuous variable",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 10,
+    "number": 26,
+    "stem": "What is the appropriate measure of dispersion to report when median is reported as the measure of central tendency for a given set of data?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Standard deviation",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Inter-quartile range",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Variance",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Coefficient of variance",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 10,
+    "number": 27,
+    "stem": "In the NCD clinic of a primary health Centre, fasting blood sugar (in g/dL) of 11 patients was measured. The following values were obtained - (85, 93, 104, 108, 105, 120, 129, 202, 160, 400, 410). What is the most appropriate measure of central tendency for this data?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Mean =",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Median =",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Mean = 174.1",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Median = 174.1",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 10,
+    "number": 28,
+    "stem": "Which of the following about ‘Range’ is TRUE?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It indicates the way in which values cluster about a particular point",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It gives the number of observations bearing the same value",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is the difference between the minimum and maximum value",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It shows the degree to which the mean value differs from its expected value.",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 10,
+    "number": 29,
+    "stem": "In a survey, socio-economic status (SES) was collected in the following manner – ‘Lower, Lower Middle, Upper Middle and Upper’. What type of variable is SES?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Ordinal",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Nominal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Continuous",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Discrete",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 10,
+    "number": 30,
+    "stem": "Body weights of 11 children who attended a pediatric OPD was measured. For this group, the first quartile, median, mean and third quartile were 8.5, 12, 11.9 and 16, respectively. Calculate the Interquartile Range.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "3.5",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "7.5",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "0.1",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "24.5",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Body weights of 11 children: Q1=8.5, median=12, mean=11.9, Q3=12.0. Calculate IQR.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3.5",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "7.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "24.5",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Body weights of 11 children: Q1=12.0, median=16, mean=15.5, Q3=12.1. Calculate IQR.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3.5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "7.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "24.5",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Body weights of 11 children: Q1=8.5, median=20, mean=19.0, Q3=33.0. Calculate IQR.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "3.5",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "7.5",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "24.5",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 11,
+    "number": 1,
+    "stem": "The process by which some members of a population are selected as representative of the entire population is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Census",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Sampling",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Survey",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Randomization",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 11,
+    "number": 2,
+    "stem": "Sampling based upon equal chance of selection is called",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Stratified random sampling",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Simple random sampling",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Systematic sampling",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Subjective sampling",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 11,
+    "number": 3,
+    "stem": "A researcher wishing to draw a sample from sequentially numbered houses uses a random starting point and then selects every th houses, s/he has thus drawn a ________ sample",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Sequential",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Systematic",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Simple random",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Stratified",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 11,
+    "number": 4,
+    "stem": "The following statement is correct regarding sampling error",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Sampling error is difficult to measure in simple random sampling",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Sampling error is easy to measure in stratified sampling",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The magnitude of error can be measured in non-probability samples",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "The magnitude of error can be measured in probability samples",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 11,
+    "number": 5,
+    "stem": "The only sampling method allows to draw valid conclusions about the population is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Non-probability sampling",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Convenience sampling",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Probability sampling",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Subjective sampling",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 11,
+    "number": 6,
+    "stem": "All the following are true regarding cluster sampling EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It needs a complete list of units",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "The sampling unit is group of subjects",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Sampling error is difficult to measure",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Resources required are less",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 11,
+    "number": 7,
+    "stem": "Methods used in probability samples are",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Stratified sampling",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Multi-stage sampling",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Cluster sampling",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 11,
+    "number": 8,
+    "stem": "All the following statements are true regarding simple random sampling EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Sampling error is easily measurable",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It needs a complete list of all units",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It ensures equal chance of selection for each unit",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It always achieves best representativeness",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 11,
+    "number": 9,
+    "stem": "People who volunteer or who can be easily recruited are used in a sampling method called",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cluster sampling",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Multi-stage sampling",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Convenience sampling",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Systematic sampling",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 11,
+    "number": 10,
+    "stem": "Based on the number of cigarettes per day, a researcher divides the population into three risk groups for lung cancer (low, moderate, high risk). If the researcher then draws a random sample from each of these risk groups independently, s/he has created a _________ sample",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Systematic",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Simple random",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Stratified",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Group data",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 11,
+    "number": 11,
+    "stem": "All the following are non-probability sampling methods EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Convenience sampling",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Snowball sampling",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Quota sampling",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Systematic sampling",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 11,
+    "number": 12,
+    "stem": "In a study to measure the prevalence of fluorosis in a district, towns are sampled first. This is followed by a sample of wards within the selected towns, and finally a sample of households within the selected wards. What is the type of the sampling used here?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Multistage sampling",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Systematic random sampling",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Simple random sampling",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Convenience sampling",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 11,
+    "number": 13,
+    "stem": "The magnitude of sampling error can be measured in probability sampling.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 11,
+    "number": 14,
+    "stem": "All the following statements are true regarding stratified sampling EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It classifies population into homogeneous subgroups",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The probability of a participant being selected is unknown",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "The sampling error is difficult to measure",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It allows inclusion of representative participants from all subgroups",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 11,
+    "number": 15,
+    "stem": "Which of the following is true about non- probability sampling?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It removes the possibility of bias in selection of participants",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Sampling error can be measured",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Quota sampling is a type of non- probability sampling",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Inferences drawn from non-probability sampling can be generalized",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 11,
+    "number": 16,
+    "stem": "Random sampling in probability samples reduces the possibility of selection bias",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 11,
+    "number": 17,
+    "stem": "Which of the following statement is true regarding systematic random sampling?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Sampling error cannot be measured",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The chance of selection for each sampling unit is unknown",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The selected sampling units are likely to be more representative than simple random sampling",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It is a type of non-probability sampling",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 11,
+    "number": 18,
+    "stem": "A researcher planned a cross-sectional study to assess the level of satisfaction of patients attending a clinic. For this, the researcher selected the first 100 patients who visited the clinic starting from a fixed date. What is the type of the sampling mentioned in this case?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Snowball sampling",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Purposive sampling",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Simple random sampling",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Stratified random sampling",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 11,
+    "number": 19,
+    "stem": "The list of all individuals in the study population from whom study participants in a research are to be selected is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Sampling frame",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Study population",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Sampling unit",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Study sample",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 11,
+    "number": 20,
+    "stem": "Which of the following is an advantage of multistage sampling?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Sampling error is easy to measure",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It does not require a complete list of the total population",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "It requires only one sampling list",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It always achieve the best representative sample",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 11,
+    "number": 21,
+    "stem": "Which of the following sampling method ensures that valid conclusions can be drawn about different subgroups in a population?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Simple random sample",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Systematic random sample",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Stratified random sample",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Cluster random sample",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 11,
+    "number": 22,
+    "stem": "Which of the following about simple random sampling method is FALSE?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It needs a complete list of the units in the target population",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Purposive sampling is a type of simple random sample",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "It draws units from the target population randomly",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It gives equal chance of selection to every unit in the target population",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 11,
+    "number": 23,
+    "stem": "Sampling achieves",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Efficient utilization of resources",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Elimination of random error",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Low non-response rate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Complete enumeration of population",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 11,
+    "number": 24,
+    "stem": "In simple random sampling, the probability of selection of each individual is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Unequal",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Equal",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Unknown",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "One",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 11,
+    "number": 25,
+    "stem": "Which one of the following biases is prevented by an appropriate sampling technique?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Volunteer bias",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Interviewer’s bias",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Social desirability bias",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Recall bias",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 11,
+    "number": 26,
+    "stem": "In a neighborhood with 5000 houses, a researcher wants to obtain a systematic random sample of 50 houses. What will be the sampling interval in this case?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "1000",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "100",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "0.1",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "0.01",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "In a neighborhood with 5000 houses, a researcher wants a systematic random sample of 5 houses. What is the sampling interval?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1000",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.01",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "In a neighborhood with 5000 houses, a researcher mistakenly calculates the sampling interval as population divided by desired sample. If desired sample is 50000, what interval would they get?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1000",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "0.01",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "In a neighborhood with 5000 houses, a researcher mistakenly calculates the sampling interval. If desired sample is 500000, what interval would they get?",
+        "options": [
+          {
+            "letter": "a",
+            "text": "1000",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "0.1",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.01",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 11,
+    "number": 27,
+    "stem": "Which one of the following statement about cluster sampling is FALSE?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Units within a cluster are heterogeneous",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Sampling frame of the entire study area is not required",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Variability between clusters is assumed to be high",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Sampling error is difficult to measure",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 11,
+    "number": 28,
+    "stem": "Which one of the following statements about multistage sampling is TRUE?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It saves resources as compared to simple random sampling",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "It requires a complete listing of the entire population",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It’s sampling error can be easily measured",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It is not suitable for sampling from a large population",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 11,
+    "number": 29,
+    "stem": "Which one of the following about stratified random sampling is FALSE?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Units within a strata are homogenous",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Sample is taken from every strata",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Precision improves with low numbers sampled in each stratum",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Stratum specific estimates are weighted to obtain the overall estimate",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 11,
+    "number": 30,
+    "stem": "State whether True or False: Commonly used statistical inferences have the assumption of a probability sample.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 12,
+    "number": 1,
+    "stem": "Statistical power is defined as the probability of",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Accepting a null hypothesis when it is false",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Rejecting a null hypothesis when it is true",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Rejecting a null hypothesis when it is false",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Failing to reject a null hypothesis when it is false",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 12,
+    "number": 2,
+    "stem": "Steps in the estimation of sample size included all of the following EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Identify major study variable",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Decide on the desired precision of the estimate",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Adjust for population size",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Adjust for selection bias",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 12,
+    "number": 3,
+    "stem": "A type-II error occurs when",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The null hypothesis is rejected when it is false",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The null hypothesis is not rejected when it is false",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "The null hypothesis is not rejected when it is true",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "The null hypothesis is rejected when it is true",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 12,
+    "number": 4,
+    "stem": "Exact calculation of design effect for a study parameter can take place you after study completion",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 12,
+    "number": 5,
+    "stem": "Population variance can be estimated from",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A pilot study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Reports of previous studies",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Guessing",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'b'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 12,
+    "number": 6,
+    "stem": "The recommended minimum level of power for an analytical study",
+    "options": [
+      {
+        "letter": "a",
+        "text": "5%",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "95%",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "80%",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "0.05%",
+        "correct": false
+      }
+    ],
+    "correct": "c",
+    "variants": [
+      {
+        "stem": "The recommended level of significance (alpha) for an analytical study",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5%",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "95%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "80%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.05%",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "The recommended confidence level for an analytical study",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "95%",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "80%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "0.05%",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "The probability of Type I error (alpha) in a hypothesis test is typically set at",
+        "options": [
+          {
+            "letter": "a",
+            "text": "5%",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "95%",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "80%",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "1%",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 12,
+    "number": 7,
+    "stem": "In general, sample size formula takes into account the crude association between exposure and outcome as well as the confounders",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 12,
+    "number": 8,
+    "stem": "Design effect of 'more than 1' needs to be considered in studies involving",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cluster sampling",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Simple random sampling",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Stratified random sampling",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Non-probability sampling",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 12,
+    "number": 9,
+    "stem": "Which of the following is necessary in sample size determination?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Desired confidence level",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Desired precision",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Magnitude of the population variance",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 12,
+    "number": 10,
+    "stem": "Which one of the following statements is false?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Design effect is a relative change in the variance due to use of clusters",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "As the magnitude of the expected effect increases, the required sample size increases",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "The population variance is unknown in general and has to be estimated",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Larger the sample size, smaller the sampling error",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 12,
+    "number": 11,
+    "stem": "A type-I error occurs when",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The null hypothesis is rejected when it is false",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The null hypothesis is not rejected when it is false",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The null hypothesis is not rejected when it is true",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "The null hypothesis is rejected when it is true",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 12,
+    "number": 12,
+    "stem": "Which of the following is true about β error?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is the probability of correctly rejecting the null hypothesis when it is false",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It is the probability of accepting the null hypothesis when it is false",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "It is the probability of rejecting the null hypothesis when it is true",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It is the probability of making a Type I error",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 12,
+    "number": 13,
+    "stem": "All the following are essential statistical considerations for sample size calculation EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Desired precision",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Anticipated proportion of factor of interest",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Sampling method",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Allocated budget",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 12,
+    "number": 14,
+    "stem": "For each confounder/variable added in the study empirically 10% increase in the sample size should be made.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 12,
+    "number": 15,
+    "stem": "The design effect should be calculated after completion of the study and it, need not be counted at the design stage.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 12,
+    "number": 16,
+    "stem": "When estimating sample size for a cross- sectional study, we need to account for",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Expected proportion of characteristic of interest",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Estimated design effect, in case of cluster sampling",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Population size",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 12,
+    "number": 17,
+    "stem": "The power of a study",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Does not influence the sample size",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Represented as ‘α’",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Can be defined as the probability of correctly rejecting null hypothesis when it is false",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Represented as the probability of making a Type I error",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 12,
+    "number": 18,
+    "stem": "The following are needed to calculate sample size for analytical studies using simple random sampling method EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Desired value for the probability of α",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Magnitude of the expected effect based on previous studies",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Desired value for the probability of β",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Estimated design effect",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 12,
+    "number": 19,
+    "stem": "A researcher wants to estimate the prevalence of surgical site infection following cesarean section at a tertiary care hospital. What would be the minimum number of sample size to estimate the magnitude of surgical site infection following cesarean section if it is estimated that the proportion of surgical site infection will be 10% in the hospital considering 5% absolute precision and 95% confidence level (Z α/2 = 1.96).",
+    "options": [
+      {
+        "letter": "a",
+        "text": "100",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "138",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "148",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "158",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Estimate prevalence of SSI after C-section. Expected proportion 15%, absolute precision 7%, 95% confidence (Z=1.96). Calculate minimum sample size. (n = Z^2 * p * (1-p) / d^2)",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "138",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "148",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "158",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Estimate prevalence of SSI after C-section. Expected proportion 50%, absolute precision 8.05%, 95% confidence (Z=1.96). Calculate minimum sample size.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "138",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "148",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "158",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Estimate prevalence of SSI after C-section. Expected proportion 50%, absolute precision 7.8%, 95% confidence (Z=1.96). Calculate minimum sample size.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "100",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "138",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "148",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "158",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 12,
+    "number": 20,
+    "stem": "Precision is described as a measure of how close an estimate is to the true value of a population parameter.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 12,
+    "number": 21,
+    "stem": "In a cross-sectional study, a group of researchers wanted to estimate the prevalence of cephalosporin-resistant E.coli among adult males with urinary tract infections. From previous literature, the prevalence was found to be 6.5%. If the researchers want to estimate the prevalence with a 20% relative precision and 95% significance level, what is the minimum sample size required?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "1042",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "1381",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "6",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "600",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 12,
+    "number": 22,
+    "stem": "Which of the following factors is NOT essential for calculating sample size for a single mean estimation?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Need for statistical significance",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Assumptions about population standard deviation",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Precision",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Significance level",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 12,
+    "number": 23,
+    "stem": "Adjustments to a calculated sample size need NOT be done for which of the following reasons?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Non-response rate",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Finite population size",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Cluster design",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Hospital-based study",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 12,
+    "number": 24,
+    "stem": "State whether true or false. A pilot study can be conducted to get an estimate of the expected prevalence of the disease being studied to calculate the minimum required sample size.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 12,
+    "number": 25,
+    "stem": "A cross-sectional study aims to estimate the prevalence of Hydatid liver disease among patients undergoing Ultrasonography in a tertiary care hospital. Which of the following is NOT required for calculating the minimum required sample size for this objective?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Significance level",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Assumed prevalence",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Precision",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Population variance",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 12,
+    "number": 26,
+    "stem": "What is Type I error?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The probability of accepting the null hypothesis when it is false",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The probability of rejecting the null hypothesis when it is true",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "The probability of rejecting the null hypothesis when it is false",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "The probability of accepting the null hypothesis when it is true",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 12,
+    "number": 27,
+    "stem": "Ability of a study to detect correctly the presence of an association is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Precision",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Power",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Confidence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Significance",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 12,
+    "number": 28,
+    "stem": "Standard deviation of a sampling distribution is called systematic error",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 12,
+    "number": 29,
+    "stem": "Design effect is considered for which of the following sampling strategy?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cluster sampling",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Simple random sampling",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Stratified random sampling",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Non-probability sampling",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 12,
+    "number": 30,
+    "stem": "In a hospital based cross-sectional study, it is planned to estimate the mean D-dimer level among COVID-19 patients. From previous literature, the standard deviation was found to be 200 ng/mL. If the researchers want to estimate the mean with a 50 ng/mL precision and 95% significance level, what is the minimum sample size required?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "62",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "16",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "31",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "248",
+        "correct": false
+      }
+    ],
+    "correct": "a",
+    "variants": [
+      {
+        "stem": "Estimate mean D-dimer in COVID patients. SD=200 ng/mL, precision=98 ng/mL, 95% confidence (Z=1.96). Calculate minimum sample size.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "62",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "16",
+            "correct": true
+          },
+          {
+            "letter": "c",
+            "text": "31",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "248",
+            "correct": false
+          }
+        ],
+        "correct": "b"
+      },
+      {
+        "stem": "Estimate mean D-dimer in COVID patients. SD=200 ng/mL, precision=70 ng/mL, 95% confidence (Z=1.96). Calculate minimum sample size.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "62",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "16",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "31",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "248",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Estimate mean D-dimer in COVID patients. SD=200 ng/mL, precision=24.9 ng/mL, 95% confidence (Z=1.96). Calculate minimum sample size.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "62",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "16",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "31",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "248",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 13,
+    "number": 1,
+    "stem": "Selection of study participants depends on",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Representativeness",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Acceptable cost",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Adequate size",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 13,
+    "number": 2,
+    "stem": "Target population is determined by",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Demographic characteristics",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Temporal characteristics",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Clinical characteristics",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'c'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 13,
+    "number": 3,
+    "stem": "Study sample is a subset of accessible population",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 13,
+    "number": 4,
+    "stem": "Representativeness of a study sample refers to",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The extent to which the characteristics of the sample accurately reflect the characteristics of the population",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "The size of the sample which is large enough",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Volunteering nature of the subjects from the population",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "The extent to which the characteristics of exposed population accurately reflect the characteristics of unexposed sample",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 13,
+    "number": 5,
+    "stem": "Non-response in a study can be minimized by",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Repeat contact of the study participants",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Providing compensation for participants time",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Less invasive and less sensitive questionnaires",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 13,
+    "number": 6,
+    "stem": "External validity means",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The degree to which the inferences drawn from a study can be generalized to a broader population beyond the study population",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "The degree to which the observed findings lead to correct inferences about phenomena taking place in the study sample",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The degree to which a test actually measures what it is designed to measure",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "The degree to which the findings are reliable",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 13,
+    "number": 7,
+    "stem": "Participants may be excluded from the study because of",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Interference with the success of study follow-up",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ethical concerns",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Interference with the quality of data collection or non-acceptance to participate in the study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 13,
+    "number": 8,
+    "stem": "While choosing the accessible population and the sampling approach for selection of study population, an important factor that we need to consider is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Simplicity",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Technology",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Feasibility",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Reliability",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 13,
+    "number": 9,
+    "stem": "If your research question is related to diagnosis, treatment or prognosis of a severe medical condition, then it is an easy and cost- effective way to recruit the study population from the community",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 13,
+    "number": 10,
+    "stem": "Reasons for interference with the success of follow-up in a study may include",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Migration of some study participants from the study area",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Marriage of some of the female study participants because of which they might move out of the study area",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Refusals for follow-up",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 13,
+    "number": 11,
+    "stem": "The population defined by clinical and demographic characteristics is called",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Target population",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Accessible population",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Subset",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Study sample",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 13,
+    "number": 12,
+    "stem": "The population defined by geographical and temporal characteristics is called as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Target population",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Accessible population",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Subset",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Sample size",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 13,
+    "number": 13,
+    "stem": "Random errors can be effectively handled by",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Randomisation",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Representativeness",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Adequate sample size",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 13,
+    "number": 14,
+    "stem": "A researcher found an inference about a particular disease of interest. If he/she wants to generalize the results, it is important to have",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Internal validity",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "External validity",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Feasibility",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Accuracy",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 13,
+    "number": 15,
+    "stem": "Reasons for interference with the success of follow-up in a study may include",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Out-migration of some study participants from the study area",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Marriage of some of the female study participants because of which they might move out of the study area",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Refusals for follow-up",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 13,
+    "number": 16,
+    "stem": "Less invasive and less sensitive questionnaires will",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Increase the power",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Decrease the power",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Improve the significance",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Reduce the non-response",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 13,
+    "number": 17,
+    "stem": "The external validity in a research study means",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The degree to which the observed findings lead to correct inferences about phenomena taking place in the study sample",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The degree to which a test actually measures what it is designed to measure",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The degree to which the inferences drawn from a study can be generalized to a broader population beyond the study population",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "The degree to which the findings are reliable",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 13,
+    "number": 18,
+    "stem": "The degree to which the observed findings lead to correct inferences about phenomena of interest in the study sample is",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Reliability",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Feasibility",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Internal validity",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "External validity",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 13,
+    "number": 19,
+    "stem": "Which factor is important to consider while choosing the accessible population and the sampling approach?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Feasibility",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Sensitivity",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Specificity",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Reliability",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 13,
+    "number": 20,
+    "stem": "The participants may be excluded from the study because of",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Interference with the success of study follow-up",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ethical concerns",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Interference with the quality of data collection",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 13,
+    "number": 21,
+    "stem": "Which of the following helps to minimize the random error in a research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Limited study duration",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Adequate sample size",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Adequate budget",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "More than six investigators",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 13,
+    "number": 22,
+    "stem": "Representativeness of the study participants similar to the population of interest can help in which of the following aspects of a research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Generalizability of the findings",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Internal validity",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Reduce information bias",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Minimize recall bias",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 13,
+    "number": 23,
+    "stem": "An investigator intends to estimate the prevalence of Urinary Tract Infection (UTI) among circumcised children (<5 years old) in Jaipur city. However, the researcher selects the study participants from one government hospital. Which of the following is the target population in this study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "All children aged <5 years in the city",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "All circumcised children aged <5 years in the city",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "All circumcised children aged <5 years attending the government hospital",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All children having UTI in the city",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 13,
+    "number": 24,
+    "stem": "Which of the following is the accessible population in the above study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "All children aged <5 years in the city",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "All circumcised children aged <5 years in the city",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "All circumcised children aged <5 years attending the government hospital",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "All children having UTI in the city",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 13,
+    "number": 25,
+    "stem": "State whether true or false. High non-response rate in a study may affect the internal validity.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 13,
+    "number": 26,
+    "stem": "Which of the following is TRUE about study validity?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "An internally valid study result is always generalizable to the target population",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "An internally valid study result may or may not be generalizable to the target population",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "An externally valid study result is not generalizable to the target population",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "A study without internal validity can be generalized to the target population",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 13,
+    "number": 27,
+    "stem": "Which of the following statements on study populations is TRUE?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Study sample is a subset of the accessible population",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Target population is a subset of the accessible population",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Accessible population is a subset of the study sample",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Target population is a subset of the study sample",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 13,
+    "number": 28,
+    "stem": "State whether true or false. Biases can affect both internal and external validity.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 13,
+    "number": 29,
+    "stem": "In a community based vaccine trial, which aims to compare the year incidence of intussusception in children receiving/not receiving rotavirus vaccine, which of the following can be a likely exclusion criterion?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Children who may leave the study area within a month",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Children aged 0 months to 24 months",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Children without pre-existing intestinal anomalies",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Children who have not received rotavirus vaccine previously",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 13,
+    "number": 30,
+    "stem": "In a cohort study planned to estimate the incidence of birth defects among Zika virus infected pregnant women in Chennai city, which of the following CANNOT be an inclusion criterion?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "First trimester pregnant women with lab- confirmed Zika virus infection",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Pregnant women who are permanent residents of Chennai city",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Pregnant women aged above 18 years",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Pregnant women taking drugs known to cause birth defects",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 1,
+    "stem": "Which of the following statements regarding study objectives is correct?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Objectives should be defined at the planning stage of study",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Objectives can be defined at any time of the study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Objectives can be changed even at the end of the study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Objectives should be defined before identifying the research question",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 14,
+    "number": 2,
+    "stem": "Which of the following is (are) required to determine the key indicators for planned research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Frame study objectives",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Identify parameters needed for the key indicators",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Choose the right study design",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 3,
+    "stem": "Which of the following can improve efficiency of a research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Time management",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Planning and scheduling activities",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Budgeting",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 4,
+    "stem": "Which of the following represents the correct sequence in a life cycle of a study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Identifying data needs, formulating study objectives, planning analysis, spelling out research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Formulating study objectives, planning analysis, spelling out research question, identifying data needs",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Identifying data needs, spelling out research question, formulating study objectives, planning analysis",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Formulating study objects, spelling out research question, identifying data needs, planning analysis",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 14,
+    "number": 5,
+    "stem": "It should be ensured that products/deliverables of health research projects are delivered within the",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Defined timeframe",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Defined budget",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Expected quality standards",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 6,
+    "stem": "Which of the following statements best describes the study objectives?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "They should be minimum, achievable and clear",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "They can be primary and / or secondary",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Adding objectives during study implementation is a good practice",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'b'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 7,
+    "stem": "Principles to be followed while collecting the information elements are",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Use the variables that will best reflect the information element",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Adopt standardize case definitions and laboratory criteria/normal ranges",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Choose the most accurate ways of collecting information on various elements",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 8,
+    "stem": "Study conducted following an ad hoc approach may lead to the following consequences",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Generation of useful data in programs or for policy making",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Efficient utilization of resources",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Serious difficulties in analysis and interpretation",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 14,
+    "number": 9,
+    "stem": "Common reasons for research study failures",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Poorly defined research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Vague timelines",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Lack of supervision",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 10,
+    "stem": "Sample size for a cross-sectional study is decided based on the following",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Assumed/reported prevalence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Confidence interval",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Acceptable precision",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 11,
+    "stem": "Which of the following is a criterion for a good research question?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Long and self-explanatory question using complex terms",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "A question based on ill-defined hypothesis",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "A question based on strong hunch on part of the investigator",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "A question based on established theory and some research evidence",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 12,
+    "stem": "Which of the following can be considered true in case of ad hoc approach to conduct a research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Its advantages are the low development effort and possibility of getting results in a short time span",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Its advantage is that the accuracy of the results is usually high",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Only 'a'",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Both 'a' and 'b'",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 14,
+    "number": 13,
+    "stem": "A cross sectional study is carried out to examine whether naval medical personnel of a higher rank have more positive copying skills than those of a lower rank. Which of the following statement is true of this study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Neither variable is dependent as the researcher cannot manipulate them",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The independent variable is rank and the dependent variable is copying skills",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "The independent variable is copying skills and the dependent variable is rank",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 14,
+    "number": 14,
+    "stem": "Indicators are considered positive when they have a direct relationship (association, correlation) with the state of health. Which of the following are the examples of positive indicators?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The proportion of cured tuberculosis cases",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Incidence of AIDS",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Life expectancy at birth",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'c'",
+        "correct": true
+      },
+      {
+        "letter": "e",
+        "text": "'b' and 'd'",
+        "correct": false
+      },
+      {
+        "letter": "f",
+        "text": "'a', 'b', 'c' and 'd'",
+        "correct": false
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 15,
+    "stem": "Which of the following techniques is preferentially used when the population is finite?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Purposive sampling technique",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Area sampling technique",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Systematic sampling technique",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 14,
+    "number": 16,
+    "stem": "A study began in 1980 with enrollment of a group of 7000 adults in Pondicherry who were asked about their alcohol consumption, smoking, diet, environmental risk factors etc. All the participants were periodically examined and evaluated for evidence of various types of cancers between 1990-1995. Which of the following study designs was used by the investigators?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Case-control study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Prospective cohort study",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Ecological study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Retrospective cohort study",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 14,
+    "number": 17,
+    "stem": "An increased number of postoperative wound infections were recorded in patients who underwent incision appendectomy compared with those who had a laparoscopic procedure. Which of the following statement/s is/are true in such a scenario?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "This association may simply be owing to the presence of a confounding factor",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Association between the two can be better studied in randomized controlled clinical trials",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b'",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 14,
+    "number": 18,
+    "stem": "In a study to evaluate the effectiveness of a new medication, which of the following will generate a stronger evidence?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Comparing outcomes among those receiving medication with those not receiving the same.",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Comparing outcomes among those receiving higher doses of medication with those receiving lower doses",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Comparing adverse events and drug reactions among those receiving medication and those not receiving medication",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 19,
+    "stem": "Smart objectives are goals that are designed to be be specific, measurable, achievable, relevant and time-bound. Which of the following is an illustration of non- measurable objective?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Incidence of colorectal cancers in Indian adult men",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Experiences shared by victims of domestic violence",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "To determine if regular skin emollients applied from 2 weeks of age reduced development of atopic dermatitis by age 12 months in the general infant population",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 14,
+    "number": 20,
+    "stem": "Validity of a research can be improved by:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Taking the true representative sample of the population",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Eliminating extraneous factors and collecting detailed information on confounding factors",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "'a' and 'b'",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None of these",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 14,
+    "number": 21,
+    "stem": "Which of the following is ideally the first step in developing a study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Fixing the title",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Formulating the research question",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Writing the background",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Planning for analysis",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 14,
+    "number": 22,
+    "stem": "Which of the following is a reason for the failure of a study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Poorly stated research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Unrealistic timeline",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Inadequate supervision",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 23,
+    "stem": "Which of the following represents the correct sequence in the life cycle of a study? i. Developing research question ii. Planning the data analysis iii. Data collection iv. Data analysis",
+    "options": [
+      {
+        "letter": "a",
+        "text": "i, iii, iv, ii",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "i, ii, iii, iv",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "i, iii, ii, iv",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "ii, iii, iv, i",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 14,
+    "number": 24,
+    "stem": "Which of the following factor is NOT essential for effective planning and management of a study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Time management",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Financial management",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Reduction of sample size",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Team work",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 14,
+    "number": 25,
+    "stem": "Which of the following is to be followed while collecting the information elements?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Use of variables that best reflect the information element",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Standardized case definitions",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Use of validated and standardized methods",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 26,
+    "stem": "State whether true or false. Framing several study objectives improves the study planning and management",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 14,
+    "number": 27,
+    "stem": "State whether true or false. Selection of study design should be related to the objectives.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 14,
+    "number": 28,
+    "stem": "A postgraduate wants to do a community based thesis. Which of the following is a part of the planning and program management of the study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Calculating sample size",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Arranging transport to community",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Writing thesis",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 14,
+    "number": 29,
+    "stem": "Which of the following can be used to represent the duration, timeline and sequence of activities and milestones of a research project?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Bar chart",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Histogram",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Gantt chart",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Pie chart",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 14,
+    "number": 30,
+    "stem": "Who is primarily responsible for resource allocation and time management in a study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Institute where the research is conducted",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Principal investigator",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Funding agency",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Scientific committee",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 15,
+    "number": 1,
+    "stem": "Which component of the data collection instrument is constituted by open, closed and semi-open items?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Introduction",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Identifier",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Questions",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Concluding statement",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 15,
+    "number": 2,
+    "stem": "Self-administered questionnaire can be",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Paper-based or computer-assisted",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Used in face-to-face interviews",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Used in telephonic interviews",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 15,
+    "number": 3,
+    "stem": "While formulating the questions, all the following need to be followed, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Short and clear questions",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Avoid ambiguities",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Avoid words of every-day language",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Avoid negatives and double negatives",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 15,
+    "number": 4,
+    "stem": "Structured observation guide",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Is useful to document certain processes",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Use checklist of items",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Can be used for in-depth interviews",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'b'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 15,
+    "number": 5,
+    "stem": "The interviewer does not provide options for responses in",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Open-ended questions",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Close-ended questions",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Semi-open questions",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 15,
+    "number": 6,
+    "stem": "What is the disadvantage of closed questions with dichotomous options in a study questionnaire?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Detailed information available",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Oversimplifies the issues",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Forces an unclear position",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "May not be useful for key well framed issues",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 15,
+    "number": 7,
+    "stem": "The information about participant's attitudes for behaviors such as wearing helmets, washing hands before eating, constitute",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Facts",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Knowledge",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Judgments",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Texts",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 15,
+    "number": 8,
+    "stem": "The type of questions in which there is a possibility to add other answer in addition to the options suggested",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Open questions",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Semi-open questions",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Closed questions",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Close questions with multiple options",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 15,
+    "number": 9,
+    "stem": "The type of questions in a questionnaire which allow creation of continuous variables as responses",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Closed questions with quantitative answers",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Open questions with quantitative answers",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both of the above",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 15,
+    "number": 10,
+    "stem": "All are true regarding the order of questions in a data collection tool EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "From intimate to casual",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "From general to specific",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "From simple to complicate",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "In chronological order, if questions related to sequence of events",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 15,
+    "number": 11,
+    "stem": "A question was framed by an ophthalmologist as a part of data collection tool for her research- “Which of the following symptoms you had in the last one week?” The options were 1. Eye pain 2. Redness of eye 3. Watering of eye 4. Low vision Given that a study participant may have multiple complaints, which of the following best describes the type of question?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Open question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Closed questions with dichotomous options",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Closed question with multiple options",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Closed question with quantitative answers",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 15,
+    "number": 13,
+    "stem": "Which of the following is correct in relation to an open question?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Answers are suggested",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Stimulate memory",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Easy to code and analysis",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Freedom to respond is compromised",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 15,
+    "number": 14,
+    "stem": "Glasgow coma Scale (GCS) is a scoring system to understand the consciousness level of a person. The score varies between 3 and 15. A researcher has included a question in research tool- “What is the GCS score during admission?” This question is an example of:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Open question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Closed question with dichotomous option",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Closed question with multiple option",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Closed question with quantitative answers",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 15,
+    "number": 15,
+    "stem": "An investigator wanted to study the clinical profile of patients presented with foreign body in nose, attended in the emergency department in the last 2 years in a hospital. Which of the following is the most suitable way to collect data?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Review of records",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Cohort study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Randomized trial",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Focus group discussion",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 15,
+    "number": 16,
+    "stem": "Order of a question should be all, except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "From simple to complicated",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "From general to specific",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "From intimate to casual",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "In chronological order",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 15,
+    "number": 17,
+    "stem": "Structured observation guide",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Is useful to document certain process",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Uses checklist of items",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b'",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 15,
+    "number": 18,
+    "stem": "Which of the following factors related to data collection may lead to study failures?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Poorly defined research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Vague timelines",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Lack of supervision",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 15,
+    "number": 19,
+    "stem": "In which of the following type of question the interviewer does not provide options for responses?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Open-ended questions",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Close-ended questions",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Semi-open questions",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Closed question with multiple options",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 15,
+    "number": 20,
+    "stem": "Age in years' is commonly a continuous variable. However, a resident doctor decided to ask age as a closed question with dichotomous options (If age>65 years or <65 years). What is the disadvantage of such type of ques in a study questionnaire?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Detailed information available",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Oversimplifies the issues",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Forces an unclear position",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It is easy to convert a dichotomous variable to a continuous variable",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 15,
+    "number": 21,
+    "stem": "Which one of the following is NOT a component of a data collection tool?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Informed consent",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Concluding statements",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Identifiers",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Tabulated results",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 15,
+    "number": 22,
+    "stem": "Which of the following is TRUE about a data abstraction form?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is used to collect data by going through records",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "It is more valid than a questionnaire",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It can be self-administered by the participants",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It is also called an observational checklist",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 15,
+    "number": 23,
+    "stem": "Which of the following is FALSE about a questionnaire?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It can contain instructions or prompts for data collectors",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It should contain unique participant identifiers",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It should avoid skip patterns",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It can contain a mix of open and closed questions",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 15,
+    "number": 24,
+    "stem": "Identify the type of the question given below. “How do you spend your leisure time?_____________",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Open ended",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Closed",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Semi-open",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Open question with closed answers",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 15,
+    "number": 25,
+    "stem": "Which of the following is TRUE about ‘Open question with closed answers’?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Its answers are not suggested to the participants",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "It can be used in a self-administered questionnaire",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is analyzed like an open ended question",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It is expressed as a closed question to the participants",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 15,
+    "number": 26,
+    "stem": "What is the type of the question given below? From where do you usually get health- related information? i. Television ii. Radio iii. Newspaper iv. Magazine v. Others (specify)________________",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Open ended",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Closed",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Semi-open",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Open question with closed answers",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 15,
+    "number": 27,
+    "stem": "Which of the following is FALSE about formulating questions in a study tool?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "They must be concise and precise",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "They must use scientific terms",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "They must use a neutral tone",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "They must avoid double negatives",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 15,
+    "number": 28,
+    "stem": "Which rule is NOT followed in the framing of the question given below? \"When and where did you get tested for COVID-19 infection?\"",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Using a neutral tone",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Avoiding use of double negatives",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Asking a single question at a time",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Using simple words of everyday language",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 15,
+    "number": 29,
+    "stem": "State whether true or false. Before using a data collection tool in the study, it will be useful to get it reviewed by a statistician.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 15,
+    "number": 30,
+    "stem": "What is FALSE about pilot testing of a study questionnaire?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It checks the tool for clarity and acceptability",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It is conducted among persons who will be included in the study",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "It provides an estimate of the duration of interview",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Changes are made to the questionnaire based on its findings",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 16,
+    "number": 1,
+    "stem": "Reliability denotes",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Precision",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Repeatability",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Reproducibility",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 16,
+    "number": 2,
+    "stem": "This should not be done in data collection",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Training of staff members",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Review of collected data for quality and completeness",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Manipulation of data",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Validation",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 16,
+    "number": 3,
+    "stem": "Supportive supervision is essential for a good data collection process",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 16,
+    "number": 4,
+    "stem": "The collected data should be",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Complete",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Readable",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Consistent",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 16,
+    "number": 5,
+    "stem": "Which of the following is (are) true about the training of data collection staff?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Conduct on-site training",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Conduct mock training sessions",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Training is always optional",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'b'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 16,
+    "number": 6,
+    "stem": "Which one of the following is the proper way of validating the data?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Repetition of full data collection in the same population",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Data collection in new population",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Repetition of data collection in a randomly selected subset in the same population",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Repeat data collection is not required",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 16,
+    "number": 7,
+    "stem": "Appropriate means to troubleshoot the difficulties in data collection process",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Regular review meetings",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Facilitate the discussion to identify issues during the review",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Clarify the issues experienced by staff during data collection",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 16,
+    "number": 8,
+    "stem": "There is no need to present the study and its objectives to the field investigators",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 16,
+    "number": 9,
+    "stem": "Which of the following statement is (are) true regarding data collection for an epidemiological study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Reliability refers to consistency of information",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Accuracy is the ability of a measurement to be correct on an average",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Feasibility is the ability of investigator to understand the data",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'b'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 16,
+    "number": 10,
+    "stem": "Time pressure during data collection may result in dilution of data quality",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 16,
+    "number": 11,
+    "stem": "A data collection tool should be _____________",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Valid",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Reliable",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b'",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 16,
+    "number": 12,
+    "stem": "A neurosurgeon is planning for a hospital- based study on the patients coming to the emergency department with head injury. The collected data should be",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Complete",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Readable",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Consistent",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 16,
+    "number": 13,
+    "stem": "Which of the following should not be done in relation to data collection?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Training of staff members",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Review of collected data for quality and completeness",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Validation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 16,
+    "number": 14,
+    "stem": "State whether true or false: Piloting a data collection tool should be done under supervision",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 16,
+    "number": 15,
+    "stem": "All of the following are true about a ‘question by question guide’, except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is a document for the data collectors",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It helps in maintaining uniformity of the data collection",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It helps participants on how to respond",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It clarifies doubts on data collection",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 16,
+    "number": 16,
+    "stem": "Time pressure during data collection may result in dilution of the data quality",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 16,
+    "number": 17,
+    "stem": "Which one of the following is the proper way of validating the data?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Repetition of full data collection in the same population",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Data collection in a new population",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Repetition of data collection in a randomly selected subset in the same population",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Repeat data collection not required",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 16,
+    "number": 18,
+    "stem": "Which of the following statement is true regarding data collection for an epidemiological study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Reliability refers to consistency of information",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Accuracy is the ability of a measurement to be correct on an average",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both ‘a’ and ‘b’",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 16,
+    "number": 19,
+    "stem": "Who is mainly responsible to check the accuracy of data collection instruments before leaving the location?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Field investigator",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Field supervisor",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Principle investigator",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Study participant",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 16,
+    "number": 20,
+    "stem": "All the following statements are true about training of the data collectors, except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Essential to ensure good quality data",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The investigators should choose the right people",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Communication skill is important for the data collectors",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Onsite training is not essential for data collectors",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 16,
+    "number": 21,
+    "stem": "The ability of an instrument to produce similar results on repeated measurement is called",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Validity",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Reliability",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Accuracy",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Sensitivity",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 16,
+    "number": 22,
+    "stem": "The mean value of fasting blood sugar among healthy volunteers in a community was found to be 90 g/dL with a standard deviation of 5 mg/dL using a new diagnostic test. In the same volunteers, the gold standard test found a mean of 88 g/dL with standard deviation of 4.7 g/dL. What can be said about the new diagnostic test?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The new diagnostic test is valid",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The new diagnostic test is reliable",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The new diagnostic test is valid and reliable",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "The new diagnostic test is invalid and unreliable",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 16,
+    "number": 23,
+    "stem": "Which of the following is NOT used as a criterion to judge the quality of data collected in a study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Accuracy",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Repeatability",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Precision",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "External validity",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 16,
+    "number": 24,
+    "stem": "Which of the following should NOT be done during data collection in a study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Referring to the data collection guide",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Checking the quality of data",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Modifying the study objectives",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Validating the data collection process",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 16,
+    "number": 25,
+    "stem": "State whether true or false. Accuracy of an instrument is the ability to measure what it intends to measure.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 16,
+    "number": 26,
+    "stem": "Which of the following is the correct sequence of steps of data collection? i. Preparation of data collection guide ii. Checking the collected data for completeness iii. Training of the data collector iv. Validating the collected data",
+    "options": [
+      {
+        "letter": "a",
+        "text": "i, iv, iii, ii",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "ii, iii, iv, i",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "i, iii, ii, iv",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "iii, i, iv, iii",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 16,
+    "number": 27,
+    "stem": "State whether true and false. A data collection guidebook can be revised time to time as issues in the data collection process are identified.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 16,
+    "number": 28,
+    "stem": "Which of the following should NOT be done during training of data collectors?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Simulating the data collection procedure",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Discussing the study objectives with them",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Using an early version of the questionnaire for training",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Revising the question guide according to queries",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 16,
+    "number": 29,
+    "stem": "Which of the following does NOT apply in checking the quality of filled forms during data collection?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Completeness",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Consistency",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Readability",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Statistical significance",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 16,
+    "number": 30,
+    "stem": "During data collection in a study, a data collector is faced with a situation where the participant refuses to answer a particular question in the middle of the interview. What is the appropriate action in this situation?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "End the interview and report to the investigator",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Continue the interview with the remaining questions",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Seek the answer to that question from family members",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Try to persuade the participant to answer the question somehow",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 17,
+    "number": 1,
+    "stem": "Steps in data management include",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Defining a variable, creating a study database and dictionary",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Enter data, correct errors and create data set for analysis",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Backup and archive data set",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 2,
+    "stem": "When we are creating variable name, it should be",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Clearly understandable and should refer to the questionnaire",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Long and can have spaces",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Consistent and without duplicates",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'c'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 3,
+    "stem": "In a data management system, each row represents a",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Variable",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Record",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Heading",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Appendix",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 17,
+    "number": 4,
+    "stem": "What is (are) the specifications that we need to check before doing data entry?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Minimum and maximum values, legal codes, skip patterns",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Record name and description of record",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Automatic coding, coping data from preceding record and calculations",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'c'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 5,
+    "stem": "Identifier in the database is (are)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Unique",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Maintained by a computerized index",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Secured by quality assurance procedures",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 6,
+    "stem": "Key elements of data management",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Data structure and data entry",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Individual and aggregated databases",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Mother and daughter databases",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 7,
+    "stem": "The design of data collection instrument",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Data entry friendly",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Outline of major data collection topics/items",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Auto coding function",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 8,
+    "stem": "When we are coding for data entry, we should",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Prefer numerical coding",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Use highly complex codes",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Decide on the codes for 'missing values' and 'not applicable' items",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'c'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 9,
+    "stem": "When information is available at various levels (e.g. at Village, Household, Individual and Illness episode), we can store information at each level in separate databases and link when necessary",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 17,
+    "number": 10,
+    "stem": "Which of the following is (are) not true about normalized database?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Normalized database facilitates further aggregation",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It has only one count by record",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Normalized database does not facilitate further data aggregation",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'b'",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 17,
+    "number": 11,
+    "stem": "A post-graduate researcher has completed the data collection for her thesis. During data management, she should do all the following, except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Applying for the ethics committee clearance",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Create study database",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Create dataset for analysis",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Back-up dataset",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 17,
+    "number": 12,
+    "stem": "Data documentation includes information about the following items",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Structure (Name, number of records etc) alone",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Storage information (Media, location, backup information)",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Structure (Name, number of records etc), Variables (Name, values, coding), History (Creation, modification), and Storage information (Media, location, backup information)",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Structure (Name, number of records etc), Storage information (Media, location, backup information), and Variables (Name, values, coding)",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 17,
+    "number": 13,
+    "stem": "A variable name should be",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Clearly understandable and should refer to the questionnaire",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Short, no space",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Consistent and without duplicates",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 14,
+    "stem": "Design of data entry can be broadly outlined as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Identifier, Demographics, Outcome, and Exposure",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Informed consent, Identifier, and Demographics",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Identifier, Demographics, Outcome and data analysis plan",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Informed consent, Identifier, Demographics, Outcome and data analysis plan",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 17,
+    "number": 15,
+    "stem": "All of the following are true about ‘Coding’ a new variable, except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Prefer numerical coding",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Decide on missing values while coding",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Avoid cumbersome codes",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Coding with ‘0’ and ‘1’ should be avoided for dichotomous variables",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 16,
+    "stem": "Data entry can be considered as an opportunity to partially clean the data",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 17,
+    "number": 17,
+    "stem": "A researcher in diabetes expected that that the fasting blood sugar levels may take any value between 50 and 150 gm/dL. In this research any coding of missing value as 99 may lead to an erroneous result.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 17,
+    "number": 18,
+    "stem": "While documenting the storage information of the database, we need to document",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Investigators information",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Time, place, person information",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Media, location and backup information",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Hardware configuration",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 17,
+    "number": 19,
+    "stem": "Which of the following is incorrect in relation to the data catalogue?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It describes all the variable for any future reference",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It is useful if we share the data with others",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is useful to know how a variable has been coded",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It is advisable to exclude the missing values from data catalogue",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 20,
+    "stem": "Which of the following is incorrect about normalized database?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Normalized database facilitates further aggregation",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It has only one count by record",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Normalized database does not facilitate further data aggregation",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Both ‘b’ and ‘c’",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 17,
+    "number": 21,
+    "stem": "Which of the following is FALSE about Unique Identifier (ID)?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It can be same for more than one participant in a study",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "It can be alphanumeric",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It can be a composite number",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It can be used to maintain the anonymity of participants",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 17,
+    "number": 22,
+    "stem": "Which of the following is NOT a quality assurance measure in designing a data entry form?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Using legal values",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Using minimum and maximum values",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Avoiding skip patterns",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Use of automatic coding",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 17,
+    "number": 23,
+    "stem": "In a data management system each column represents a(n)-",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Variable",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Record",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Heading",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Appendix",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 17,
+    "number": 24,
+    "stem": "Which of the following is FALSE about Mother-Daughter databases?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Information is collected at various levels",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Information of each level is stored in a different database",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "They can be linked by a common index identifier",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Each database cannot have its own unique identifier system",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 17,
+    "number": 25,
+    "stem": "State whether true or false. Coding with ‘0’ and ‘1’ should be avoided for dichotomous variables.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 17,
+    "number": 26,
+    "stem": "Which of the following is FALSE about data dictionary?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is created after the data entry is started",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "It contains the values assigned to the variables",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It gives a brief description of the variables",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It links the variables in the database to the questionnaire",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 17,
+    "number": 27,
+    "stem": "Identify the type of variable in this question. “Have you ever smoked cigarettes? i. Yes ii. No",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Categorical",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Ordinal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Continuous",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Discrete",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 17,
+    "number": 28,
+    "stem": "In a study on cancer, the ‘stage of cancer’ was recorded as Stage I, Stage II, Stage III and Stage IV. Which of the following variable types best describes the ‘stage of cancer’?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Nominal",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ordinal",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Categorical",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Continuous",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 17,
+    "number": 29,
+    "stem": "In a study with 100 participants, age was recorded as a continuous variable. During data entry, it was seen that age was missing in the forms for 13 people. Which of the following is TRUE in this situation?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Missing values can be coded as ‘999’",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Age variable should be removed from the study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "An arbitrary value can be assigned by the data entry operator",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Participants with missing age should be removed from the study",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 17,
+    "number": 30,
+    "stem": "State whether true or false. While entering the systolic blood pressure (expected value 60 to 200) value in a database, coding the missing value as 99 may lead to an erroneous result.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 1,
+    "stem": "The three stages of data analysis are in the following order",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Descriptive stage, analytical stage and recoding stage",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Recoding stage, descriptive stage and analytical stage",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Analytical stage, descriptive stage and recoding stage",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Descriptive stage, coding stage, recoding stage",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 2,
+    "stem": "We need to avoid the following while performing data analysis",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Post hoc analysis",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Data drenching",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Stratified data analysis",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'b'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 18,
+    "number": 3,
+    "stem": "In the descriptive stage of analysis, we use logistic regression models",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 4,
+    "stem": "Epi-Info\" is a software used for data entry and data analysis",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 5,
+    "stem": "In analytical stage of data analysis, we perform the following in order",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Stratified analysis, univariate analysis and multivariate analysis",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Univariate analysis, stratified analysis and multivariate analysis",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Multivariate analysis, univariate analysis and stratified analysis",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Frequency analysis and univariate analysis",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 6,
+    "stem": "Among the seven steps of data analysis strategy, the sequence of data analysis is as follows A. Conduct advanced analysis B. Identify main variables C. Become familiar with the data D. Identify study type E. Examine outcome/exposure association F. Characterize study population G. Create additional two-way tables",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A, B, C, D, E, F, G",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "G, E, F, D, A, B, C",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "D, B, C, F, E, G, A",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "E, F, G, C, A, B, D",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 18,
+    "number": 7,
+    "stem": "In case of descriptive studies, which of the following is wrong?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "We describe the study outcome for 1 group",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "We compare the study outcome for 2 groups",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "We calculate the incidence for cohort or surveillance data",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "We calculate prevalence for cross sectional survey",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 8,
+    "stem": "If we are doing an analytical study and the study outcome is of acute nature and rare condition what is the appropriate (i) study design and (ii) measure of association?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cohort study - Relative risk",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case-control study - Odds ratio",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Cross-sectional study - Prevalence ratio",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Surveillance - Incidence",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 9,
+    "stem": "Analysis plan depends on",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Objectives of the study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Budget",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Study type (Descriptive or analytical)",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'c'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 18,
+    "number": 10,
+    "stem": "Use of spreadsheets, such as Excel, should be avoided for data management and analysis",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 11,
+    "stem": "Multivariate regression models are used during the descriptive stage of analysis",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 12,
+    "stem": "Epi-Info” is a software that can be used to create data collection instrument format",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 13,
+    "stem": "In a research study the analysis plan depends on",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Objectives and study type",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Allocated budget",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Availability of the statistician",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Existing time for analysis",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 14,
+    "stem": "At the time of data cleaning, which of the following is not done?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Checking and removing duplicates",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Dealing with missing observations",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Calculating strength of association",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Checking range and legal values",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 18,
+    "number": 15,
+    "stem": "To describe the study population characteristics we need to",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Calculate the frequency distribution",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Calculate measures of association",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Look for correlation between variables",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "perform multivariable regression",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 16,
+    "stem": "While examining the association between exposure and outcome based on a priori hypotheses, we compare frequency of exposures between cases and controls using appropriate measure of association",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 17,
+    "stem": "If we are doing an analytical study and the study outcome is of acute nature and a frequent condition what is the appropriate (i) study design and (ii) measure of association?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cohort study - relative risk",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Case-control study – odds ratio",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Cross sectional study - Prevalence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Surveillance - Incidence",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 18,
+    "stem": "Which of the following statements are CORRECT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Plan for data analysis is made at the end of the study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Recoding can be done for key variables",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Multivariate analysis is done before doing a univariate analysis",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Data drenching is acceptable",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 19,
+    "stem": "Which of the following is the correct sequence for data analysis i. Multivariate analysis ii. Recoding iii. Measures of association iv. Frequency distribution",
+    "options": [
+      {
+        "letter": "a",
+        "text": "ii, iii, iv, i",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "i, iii, iv ii",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "ii, iv, iii, i",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "iii, iv, i, ii",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 18,
+    "number": 20,
+    "stem": "Spreadsheets are ideal tools for data entry and analysis",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 21,
+    "stem": "All the following are done to characterize the study population EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Provide frequency distribution of age",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Provide percentages of gender",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Compare baseline characteristics of study groups",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Conduct logistic regression analysis",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 18,
+    "number": 22,
+    "stem": "Which of the following is the appropriate measure of association in a case-control study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Odds ratio",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Prevalence ratio",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Relative risk",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Incidence",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 23,
+    "stem": "State whether true or false. Prevalence ratio is one of the measures of association calculated in an analytical cross-sectional study.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 24,
+    "stem": "State whether true or false. Hypothesis testing is conducted in an analytical epidemiological study.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 18,
+    "number": 25,
+    "stem": "Identify the correct sequence in the steps of data analysis. i. Identify exposure, outcome and other variables ii. Check data for consistency, duplicates and missing values iii. Examine association between outcome and exposure iv. Examine baseline characteristics of the study population",
+    "options": [
+      {
+        "letter": "a",
+        "text": "i, ii, iii, iv",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "i, ii, iv, iii",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "ii, iv, i, iii",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "iii, i, ii, iv",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 26,
+    "stem": "Which of the following is NOT done during the analytic stage of data analysis?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Calculating frequency of the outcome in one group",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Calculating frequency of the outcome by age and gender",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Calculating odds ratio between exposure and outcome",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Applying logistic regression",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 18,
+    "number": 27,
+    "stem": "Relative risk is calculated in which of the following study designs?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cross-sectional study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Cohort study",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Case study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Case control study",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 28,
+    "stem": "State whether true or false. Risk ratio can be calculated in a descriptive cross- sectional study.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 18,
+    "number": 29,
+    "stem": "In a case-control study to examine the association between mobile phone use and acoustic neuroma, 24 cases of acoustic neuroma and 72 hospital controls were recruited from the ENT department of a medical college in Gilgit. History of mobile phone use (>6 hours/day) was ascertained using a standard questionnaire. Exposure was present among 16 cases and 18 controls. Calculate the measure of association.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Odds ratio 1.5",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Relative risk 1.5",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Odds ratio 6",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Relative risk 6",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 18,
+    "number": 30,
+    "stem": "In a case control conducted taking 100 autism children and 200 normal children in Bhopal city, it was found that 90 autism children and 60 normal children had a history of instrumental delivery. Calculate the measure of association between instrumental delivery and autism.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "12",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "21",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "6",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "9",
+        "correct": false
+      }
+    ],
+    "correct": "b",
+    "variants": [
+      {
+        "stem": "Case-control: 100 autism children, 200 normal children. 75 autism children and 40 normal children had history of instrumental delivery. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "12",
+            "correct": true
+          },
+          {
+            "letter": "b",
+            "text": "21",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "6",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "9",
+            "correct": false
+          }
+        ],
+        "correct": "a"
+      },
+      {
+        "stem": "Case-control: 100 autism children, 200 normal children. 40 autism children and 20 normal children had history of instrumental delivery. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "12",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "21",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "6",
+            "correct": true
+          },
+          {
+            "letter": "d",
+            "text": "9",
+            "correct": false
+          }
+        ],
+        "correct": "c"
+      },
+      {
+        "stem": "Case-control: 100 autism children, 200 normal children. 50 autism children and 20 normal children had history of instrumental delivery. Calculate the odds ratio.",
+        "options": [
+          {
+            "letter": "a",
+            "text": "12",
+            "correct": false
+          },
+          {
+            "letter": "b",
+            "text": "21",
+            "correct": false
+          },
+          {
+            "letter": "c",
+            "text": "6",
+            "correct": false
+          },
+          {
+            "letter": "d",
+            "text": "9",
+            "correct": true
+          }
+        ],
+        "correct": "d"
+      }
+    ]
+  },
+  {
+    "assignment": 19,
+    "number": 1,
+    "stem": "In which of the following guidelines, discussion on rationale and justification of risk benefit analysis of research and voluntary consent in research was initiated?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Belmont report",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Helsinki declaration",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Nuremberg code",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "CIOMS guidelines",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 19,
+    "number": 2,
+    "stem": "In which type of the following study/studies is (are) informed consent not necessary?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Investigation of an outbreak",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Analysis of mortality data of 2001-2010",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Using verbal autopsy to determine the cause of death",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 19,
+    "number": 3,
+    "stem": "In which of the following type of research, ethical review is (are) mandatory?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Prevalence of HIV infection using blood investigation",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Awareness about diabetes using questionnaire only",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Calculate out of pocket expenditure using secondary data",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 19,
+    "number": 4,
+    "stem": "Which of the following is not important in the context of an informed consent document?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Detailed description of study procedures",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Budget of the study",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Details regarding compensation and post-trial access to care",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Contact details of the Principal Investigator",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 19,
+    "number": 5,
+    "stem": "In the middle of a clinical trial, one participant decides to withdraw from the trial. But, the investigator pressurizes the participant to continue in the study till it completes. Which of the following ethical principles does the investigator violate?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Justice",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Autonomy",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Beneficence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Non-Maleficence",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 19,
+    "number": 6,
+    "stem": "Which of the following are not ethical practices in health research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Taking informed consent from participants prior to study participation",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Giving lot of money to increase study participation",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Lack of adherence to study protocol",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'b' and 'c'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 19,
+    "number": 7,
+    "stem": "Do no harm\" concept was emphasized in which of the following ethical principles?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Justice",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Autonomy",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Beneficence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Non-Maleficence",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 19,
+    "number": 8,
+    "stem": "Genetic research that involves human participants and conducted by a private research institute should follow",
+    "options": [
+      {
+        "letter": "a",
+        "text": "ICMR Guidelines",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Genome Policy and Genetic Research [2000]",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b'",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Neither 'a' nor 'b'",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 19,
+    "number": 9,
+    "stem": "While conducting research among tribal populations, which of the following is recommended?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Consent from the tribal head (Group consent) is desirable",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Group consent can replace individual consent",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Women can be excluded from informed consent process",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Confidentiality not required",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 19,
+    "number": 10,
+    "stem": "In a clinical research, the researcher knowingly excludes recruitment of female participants without any compelling indications. Which of the following ethical principle does the investigator violate?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Justice",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Autonomy",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Beneficence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Non-Maleficence",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 19,
+    "number": 11,
+    "stem": "In which of the following situations is ethics review essential?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "When already available or archived data are used for research",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Involving some risk when some questions are asked, some samples are collected or some drugs are given",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "‘a’ and ‘b’",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Only ‘b’",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 19,
+    "number": 12,
+    "stem": "A study participant can be forced by the investigator to continue in a trial against his will. This is in conflict with which of the following ethical principles?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Autonomy",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Justice",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Beneficence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 19,
+    "number": 13,
+    "stem": "The physician should do what is medically indicated, do good than possible harm. This principle is encompassed in the ethical dimension of:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Beneficence",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Justice",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Nonmaleficence",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Autonomy",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 19,
+    "number": 14,
+    "stem": "Study monitors, regulators and ethics committee members have an authority to verify the consent documentation of research participants.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 19,
+    "number": 15,
+    "stem": "Which of the following is not true about an Informed Consent?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "IC helps participants take an informed decision about participation in the research study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "IC has information on potential risks and benefits of the study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "IC process intends to protect the study participants",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "IC taken by coercion is considered valid",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 19,
+    "number": 16,
+    "stem": "Which of the following have the guidance in the Belmont report?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The procedure of ‘informed consent’",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The basic ethics principles of autonomy, justice and beneficence",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Review by ethics committee",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      },
+      {
+        "letter": "e",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 19,
+    "number": 17,
+    "stem": "Which of the following is typically not within the domain of ethical review of the proposed research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Novelty of research",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Competence of researchers",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Relevance of research",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "To advocate for the study in the community",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 19,
+    "number": 18,
+    "stem": "The process of Informed consent can be repeated several times during the research study if necessary.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 19,
+    "number": 19,
+    "stem": "As part of evaluation of a new vaccine which requires taking a daily oral dose of a refrigerated vaccine, the research team offers to provide a refrigerator to families of participants who don’t have one. Which of the following ethical issues the Institutional Ethics Committee will have to deal with while reviewing the research study?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Undue inducement",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Coercion",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Compromising principle of justice",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 19,
+    "number": 20,
+    "stem": "In an observational study on menstrual hygiene among school going girls aged 14 to 16 years, informed assent will be required to be taken from the adolescent girls. In addition, informed consent will be required from:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Parent of adolescent girls",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Institutional Head",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 19,
+    "number": 21,
+    "stem": "State whether true or false. Review of health records for research does NOT require approval of institute ethics committee",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 19,
+    "number": 22,
+    "stem": "A participant wants to withdraw from a study before its completion. Which of the following principles of ethics entitles him/her to do so?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Autonomy",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Justice",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Beneficence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Non-maleficence",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 19,
+    "number": 23,
+    "stem": "Which of the following does NOT describe ethical principles in research?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Nuremberg code",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Helsinki declaration",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Council for International Organization and Medical Sciences",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Bhore report",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 19,
+    "number": 24,
+    "stem": "When a research study is planned among adolescents (12-15 years), the following is NOT required?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Assent from participant",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Consent from participant",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Consent from parent",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Consent from legally accepted representative",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 19,
+    "number": 25,
+    "stem": "Non-Maleficence means",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Self-respect",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Do no harm",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Fair and correct",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Doing good",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 19,
+    "number": 26,
+    "stem": "State whether true or false. Once a participant has provided informed consent, it cannot be withdrawn.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 19,
+    "number": 27,
+    "stem": "Which of these is NOT a part of informed consent process?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Confidentiality",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Disclosure of risks and benefits",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Compensation for lost wages",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Encouraging the person to consent",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 19,
+    "number": 28,
+    "stem": "Which of the following statement is NOT correct?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Compensation for participants is offered for trial related injury",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Research participants can be paid for travel expenses",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Payment can be offered to encourage participation",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Wage loss of the participants can be compensated",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 19,
+    "number": 29,
+    "stem": "Which of the following is NOT a responsibility of the Institutional Ethics Committee?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Evaluate the potential benefit from the study to the community",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Protect the rights of the study participants",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Sanction funding for the study",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Re-evaluate the study if and when modified",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 19,
+    "number": 30,
+    "stem": "When a particular ethnic group is excluded from a research study without any valid, scientific reason(s), this is breach of -",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Autonomy",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Justice",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Beneficence",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Non maleficence",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 20,
+    "number": 1,
+    "stem": "A study design that randomly assigns participants into an experimental group or a control group is call as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Cohort study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Case-control study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Randomized controlled trials",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Cross-sectional study",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 20,
+    "number": 2,
+    "stem": "Which of the following statements is (are) true in case of adverse events in a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "An unexpected clinical/familial/social problem that occurs during treatment with a drug or other therapy is termed as adverse event",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Adverse events do not have to be caused by the drug or therapy under trial",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Temporal relationship between study product administration and adverse events is critically important",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 20,
+    "number": 3,
+    "stem": "To ensure that safety and welfare of the research participants is adequately protected, it is important that the clinical trial protocol is critically reviewed for the following",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Scientific content",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ethical issues",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Regulatory norms",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 20,
+    "number": 4,
+    "stem": "Informed consent is provided after explanation of",
+    "options": [
+      {
+        "letter": "a",
+        "text": "All study procedures",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Risks",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Benefits",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 20,
+    "number": 5,
+    "stem": "Bodies like Drug Controller General of India (DCGI) and Health Ministry Screening Committee (HMSC) are concerned with the following",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Regulatory review",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Scientific review",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Ethics review",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 20,
+    "number": 6,
+    "stem": "Which of the following is (are) monitored in a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Adherence to Good Clinical Practice (GCP)",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Documentation of informed consent, randomization and study product administration",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Adverse events reporting",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 20,
+    "number": 7,
+    "stem": "The primary responsibilities of the Data Safety Monitoring Body (DSMB) are to",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Periodically review and evaluate the accumulated study data for participant safety, study conduct and progress of trial",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Periodically review and evaluate the accumulated study data for participant safety, study conduct and progress and make recommendation concerning the continuation, modification, or termination of the trial",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Periodically make recommendations concerning the continuation, modification, or termination of the trial",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Decide the randomization sequence",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 20,
+    "number": 8,
+    "stem": "Which of the following best describes the advantages of conducting a Randomized controlled trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is only effective design for overcoming selection bias of participants",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "The result can be readily generalized",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is a simple, uncomplicated and nonregulated study design",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It requires small sample size",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 20,
+    "number": 9,
+    "stem": "When is the Informed consent obtained from the subjects in a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Prior to participation in the trial",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Just after the trial has started",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "At any point during the conduct of a trial",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "At the end of the trial",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 20,
+    "number": 10,
+    "stem": "Investigators are required to report adverse events occurring during a clinical trial to which of the following agencies?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Regulatory authority",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Sponsor",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Institutional Ethics Committee",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 20,
+    "number": 11,
+    "stem": "A method of allocating treatment such that each subject has an equal chance of receiving any of the possible treatments in a clinical trial is known as:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Blinding",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Randomization",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Allocation concealment",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above.",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 20,
+    "number": 12,
+    "stem": "Which of the following statements regarding document storage and archival after the conclusion of a trial; is correct?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "If the data is computerized, there is no need to archive paper based records.",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The investigator has a right to refuse to show the data even to regulatory authorities",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Archival for a period of 5 - 15 years as per the requirement of the sponsor may be necessary",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 20,
+    "number": 13,
+    "stem": "Which of the following is not true?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Data Safety Monitoring Body (DSMB) is an independent entity.",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "DSMB is appointed by the Investigators",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "DSMB periodically reviews and evaluates the accumulated study data for participants’ safety",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "DSMB assures that the scientific integrity of the trial is maintained during the period of interim analysis",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 20,
+    "number": 14,
+    "stem": "An unexpected clinical/ familial/ social problem that occurs while on treatment with a drug or other therapy during participation in a clinical trial without any judgment about causality or relationship to the drug is known as:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Serious adverse event",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Adverse event",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Reportable event",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 20,
+    "number": 15,
+    "stem": "Clinical trials require review at various levels as per the in-country guidelines. State whether true or false.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 20,
+    "number": 16,
+    "stem": "The most common method of preventing potential harm to study participants is by adhering to ‘trial stoppage rules’ based on evidence on unacceptable toxicity or adverse effects rates seen during monitoring. State whether true or false.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 20,
+    "number": 17,
+    "stem": "Which of the following is true about screening protocol of a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Those who are interested in participating in the trial participate in an interview may have to undergo medical examination",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Eligibility of the potential participant is determined in screening",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Information on study related procedures and inclusion and exclusion criteria are provided by the study investigators to the potential participants",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above three statements are true",
+        "correct": true
+      },
+      {
+        "letter": "e",
+        "text": "None of the above is true",
+        "correct": false
+      },
+      {
+        "letter": "f",
+        "text": "Only ‘a’ is true",
+        "correct": false
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 20,
+    "number": 18,
+    "stem": "Reimbursements for which of the following raise no ethical questions?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Compensating for the time spent in coming over and the loss of daily wages due to participation",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "For the travel cost involved",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "For food expenses",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Only ‘a’ and ‘b’",
+        "correct": false
+      },
+      {
+        "letter": "e",
+        "text": "‘a’, ‘b’ and ‘c’",
+        "correct": true
+      }
+    ],
+    "correct": "e"
+  },
+  {
+    "assignment": 20,
+    "number": 19,
+    "stem": "Which of the following statements is wrong?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Drug Controller General of India is a Regulatory Authority in India",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Institutional Governing Board is responsible for scientific review of projects",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Institutional Ethics Committee is responsible for ethics review of a proposal",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 20,
+    "number": 20,
+    "stem": "Which of the following are NOT methods for identifying and preventing potential harm to study participants?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Adverse and serious adverse events reporting",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Periodic review of the project by Data Safety Monitoring Board",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Close watch on enrolment targets",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Regular monitoring of the trial by a pre- identified monitoring agency",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 20,
+    "number": 21,
+    "stem": "State whether true or false. The scientific advisory committee examines the safety and welfare of the research participants in a trial.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 20,
+    "number": 22,
+    "stem": "If the project is getting funded internationally, which of the following committees looks at the regulatory affairs?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Health ministry screening committee",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Genetic engineering approval committee",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Ethics committee",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 20,
+    "number": 23,
+    "stem": "State whether true or false. In order for a clinical trial to be ethically appropriate, participants must give their informed voluntary consent.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 20,
+    "number": 24,
+    "stem": "Which of the following is FALSE with regard to data analysis in clinical trials?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Baseline characteristics of participants should be compared across study arms",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Interim analysis can be performed if pre- stated in the protocol",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Analyses in clinical trials are only descriptive in nature",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "People who are lost to follow up can be included in the analysis",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 20,
+    "number": 25,
+    "stem": "Which of the following is FALSE when dealing with serious adverse events in a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Making provision for free treatment",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Informing the regulatory authorities",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Taking action only if 1% are affected by the adverse events",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Withdrawing the implicated intervention for the affected",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 20,
+    "number": 26,
+    "stem": "A trial can be pre-maturely stopped if",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A significant unanticipated risk is demonstrated",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "The investigators lose interest",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The principal investigator retires",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Minor adverse events are reported",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 20,
+    "number": 27,
+    "stem": "Data Safety Monitoring Body (DSMB) is primarily responsible for which of the following?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Periodically review and evaluate the accumulated study data for participant safety",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Periodically review and evaluate the study conduct and progress",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Make recommendations concerning the continuation, modification, or termination of a clinical trial",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 20,
+    "number": 28,
+    "stem": "Which of the following is NOT an advantage of a Randomized Controlled Trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Controls for confounding bias effectively",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Provides high level of evidence",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Can be conducted in the community or hospital",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Blinding in trial eliminates selection bias",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 20,
+    "number": 29,
+    "stem": "Which of the following statement is FALSE with regards to a Randomized Controlled Trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Adverse events should be reported to the Data Safety Monitoring Board",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Trial related documents must be archived after the trial is over",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Drug trials ideally should have a pre- defined stoppage rule",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Ethics committee clearance cannot be withdrawn after initial approval",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 20,
+    "number": 30,
+    "stem": "State whether true or false. It is unethical to use a placebo for the control arm instead of the current standard of care in a clinical trial.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 1,
+    "stem": "If there are many study objectives, it may be necessary to differentiate the objectives into primary and secondary or general and specific objectives",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 2,
+    "stem": "Which among the following is not a component of concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Background and Justification",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Objectives and Methods",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Expected benefits, Key references and Budget",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Conclusion",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 21,
+    "number": 3,
+    "stem": "Which of the following is NOT true about references in the concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "We can cite references in Introduction and Methods section",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It is important to write references following standard guidelines",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Statements should be linked to references",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "We can have as many references as possible",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 21,
+    "number": 4,
+    "stem": "The \"Background and Justification\" section in the concept paper should be written in the following sequence",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Known and unknown aspects of the problem, information that needs to be generated to address the problem in an effective manner and statement of objectives",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Known and unknown aspects of the problem, Importance of the study problem and information that needs to be generated to address the problem in an effective manner",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Importance of the study problem, known and unknown aspects of the problem and information that needs to be generated to address the problem in an effective manner",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Information that needs to be generated to address the problem in an effective manner, known and unknown aspects of the problem and statement of objectives",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 21,
+    "number": 5,
+    "stem": "Advantages of writing a concept paper include",
+    "options": [
+      {
+        "letter": "a",
+        "text": "You may be able to organize your ideas",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It gives an opportunity to stand out and receive a positive response from reviewers",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "You are sure to get funding",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'b'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 21,
+    "number": 6,
+    "stem": "The elements of the methods section in the concept proposal needs to be adopted according to the study design chosen",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 7,
+    "stem": "The ethics section of the concept proposal should include information about",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Key measures taken to protect the study participants",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The ethics committee to which the study will be submitted for approval",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Scientific committee that will review the study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "'a' and 'b'",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 21,
+    "number": 8,
+    "stem": "Which of the following needs to be spelt out in \"Expected benefits\" section of the concept proposal?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Expected outputs that the study will generate with timeline",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Proposed immediate action based on research findings",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "How this research may set agenda for further research",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 21,
+    "number": 9,
+    "stem": "Budget estimate is not mandatory in the concept proposals. However, it would be very useful to prepare the indicative budget for key items",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 10,
+    "stem": "While writing the concept papers for intervention studies, the methods section must have the following details",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Primary and secondary outcome definitions",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Randomization, sequence allocation and allocation concealment",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Dose, frequency, nature of Intervention",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 21,
+    "number": 11,
+    "stem": "Immediately after identification of research topic and statement of objectives, it may be preferable to",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Write protocol",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Outline one-page concept paper",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Prepare dummy tables as per the analysis plan",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Seek review by an institutional ethics committee",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 21,
+    "number": 12,
+    "stem": "References need to be written following standard guidelines such as International Committee of Medical Journal Editors (ICMJE)",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 13,
+    "stem": "Which of the following is the guideline that can be used for drafting protocols for a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "SPIRIT",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "PRISMA",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "CARE",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "STROBE",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 14,
+    "stem": "Why is concept paper necessary for a research project?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It helps to finish the data collection rapidly",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It helps to organize the ideas",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "It helps to get instant approval of ethics committee",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It helps to publish the research quickly",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 21,
+    "number": 15,
+    "stem": "Which of the following components are included in the background and justification section of the concept paper",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Context of the study problem",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Operational definitions",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Sampling technique",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Study procedure",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 16,
+    "stem": "Which of the following information is not addressed in the ethics section of the concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Information about sample and data storage",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Key measures taken to protect the study participants",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The ethics committee to which the study will be submitted for approval",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Budget for salary of the projects staff",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 21,
+    "number": 17,
+    "stem": "Which of the following is a component of concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Abstract",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Objectives and Methods",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Conclusion",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Discussion",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 21,
+    "number": 18,
+    "stem": "What is the basis for writing a one page concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Lack of time to draft a complete protocol",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Overcomes inhibitions in drafting a complete protocol",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "It is mandatory for scientific committee protocol",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "For ethics committee approval",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 21,
+    "number": 19,
+    "stem": "The indicative budget in a concept paper includes salaries, per diem, travel, equipment and supplies",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 20,
+    "stem": "The concept paper helps agencies for",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Screening the proposal for funding",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Scientific committee approval",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Ethics committee approval",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Publishing the manuscript",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 21,
+    "stem": "Which of the following is NOT included in the background section of a concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Importance of a health problem",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Known fact about the health problem",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Prior contribution of the researcher in the topic",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Knowledge gap in that topic",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 21,
+    "number": 22,
+    "stem": "The methods section of the concept paper contains the following:",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Key operational definitions",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Conclusions",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Context of study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Novelty of the study",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 23,
+    "stem": "Which of the following best describes the ‘Expected Benefits’ section of a concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Financial benefit to the funding agency",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Policy changes based on the study findings",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Financial benefit to the researcher",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Academic improvement of the researchers",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 21,
+    "number": 24,
+    "stem": "Which of the following are components of a concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Study title and references",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Study title, abstract and references",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Abstract and references",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Study title, results and references",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 25,
+    "stem": "Sampling strategy is discussed in which of the following section of a concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Background",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Objectives",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Methodology",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Results",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 21,
+    "number": 26,
+    "stem": "Which of the following statement is true about the ‘Reference’ section of a concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "References must be written following standard guidelines",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Unlimited references are preferred in a concept paper",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Reference section is usually an optional component",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "References are usually required for the results section",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 21,
+    "number": 27,
+    "stem": "A post graduate has mentioned the estimated budget for her thesis to be 50,000 INR in the concept paper. Which of the following components of the budget may not be justified?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Salary for data collectors",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Travel cost for data collection",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Equipment cost",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Remuneration for the thesis guide",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 21,
+    "number": 28,
+    "stem": "Identify the INCORRECT statement about protocol writing?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "A protocol is a must for obtaining the ethics committee approval",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "A well-written protocol is often helpful to draft a one-page concept proposal",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "All known facts in a protocol must be supported by appropriate reference",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Peer review helps in improving the quality of a protocol",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 21,
+    "number": 29,
+    "stem": "All the followings are recommended while writing a concept paper, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Preparing a concise document",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Presenting mostly in bullet forms",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Describing the methods section in detail",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Restricting the number of objectives",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 21,
+    "number": 30,
+    "stem": "Which of the following is a consideration in framing the objectives of a concept paper?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Choosing appropriate action verbs",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Calculating sample size based on the secondary objectives",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Stating broad objectives",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 22,
+    "number": 1,
+    "stem": "Description of the intervention is essential in a research protocol for",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Experimental study",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Case-control study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Cohort study",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Cross-sectional study",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 22,
+    "number": 2,
+    "stem": "Inclusion and exclusion criteria should be included under the following section in the protocol",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Sampling",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Study population",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Study design",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Sample size",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 22,
+    "number": 3,
+    "stem": "The details regarding data quality assurance should be written in the following section in the protocol",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Data collection",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Data analysis",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Project implementation",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Data entry",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 22,
+    "number": 4,
+    "stem": "The following annexure in the study protocol deals with toxicity management",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Study management forms",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Standard operating procedures",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Consent forms",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Adverse event management form",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 22,
+    "number": 5,
+    "stem": "Study population, sample size and sampling are included in the following section of the protocol",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Introduction",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Methods",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Objectives",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Expected Benefits",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 22,
+    "number": 6,
+    "stem": "First step for writing a successful protocol",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Write a one page concept paper",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Identify topic, research question and objectives",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Write a draft protocol",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Seek ethics approval",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 22,
+    "number": 7,
+    "stem": "Key outcomes and exposures should be explained under",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Data analysis",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Data collection tools",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Sampling",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Operational definitions",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 22,
+    "number": 8,
+    "stem": "Human participant protection paragraph addresses all except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Confidentiality",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Risks",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Compensation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Sample size calculation",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 22,
+    "number": 9,
+    "stem": "Willingness of 'study participants' to participate in the study is obtained by",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Informed consent",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Oral commitment",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Willingness not necessary",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 22,
+    "number": 10,
+    "stem": "The section that guides how the objectives lead to indicators",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Introduction",
+        "correct": undefined
+      },
+      {
+        "letter": "b",
+        "text": "Study design",
+        "correct": undefined
+      },
+      {
+        "letter": "c",
+        "text": "Budget",
+        "correct": undefined
+      },
+      {
+        "letter": "d",
+        "text": "Objectives",
+        "correct": undefined
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 22,
+    "number": 11,
+    "stem": "Which of the following statements is True regarding the first draft of the protocol",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The draft is the final document and has to be adhered to as it is.",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The concept paper can be used as an outline for drafting the first draft of the protocol.",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Background with justification, method of conducting the study and expected benefits are stated briefly as in the concept paper.",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Additional references must not be added.",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 22,
+    "number": 12,
+    "stem": "It is ideal that the first draft of the protocol",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Exceeds >2000 words",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Does not exceed >2000 words",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Exceeds >3000 words",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Does not exceed >3000 words",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 22,
+    "number": 13,
+    "stem": "Data collection paragraph in the protocol should specify all, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The kind of data that will be collected",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Information about the data collector involved in data collection",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The detailed manner in which the data collector is going to collect the data",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "The details of how the collected data will be used for policy recommendations",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 22,
+    "number": 14,
+    "stem": "Mode of data entry, software for data analysis and plan for data analysis are included in the following section of the protocol",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Introduction",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Methods",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Objectives",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Expected Benefits",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 22,
+    "number": 15,
+    "stem": "Which of the following is a step for drafting a successful protocol?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Writing an abstract",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Submitting for peer review",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Seeking consent from participants",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Data analysis",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 22,
+    "number": 16,
+    "stem": "Which of the following statements is true?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is sufficient to mention whether the study is quantitative or qualitative in study design section",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The concept paper can contain more than 20 references relating to the study",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Sample size calculation is not necessary for conducting research",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Human subject protection statement should be included in the methods section",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 22,
+    "number": 17,
+    "stem": "The introduction can be 40% of the content of the protocol",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 22,
+    "number": 18,
+    "stem": "Which of the following sections mentions about the detailed plan for conducting the study",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Introduction",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Results",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Methods",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Discussion",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 22,
+    "number": 19,
+    "stem": "Which of the following is a part of introduction section of the protocol?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Inclusion and Exclusion criteria",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Detailed budget",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Participant safety and protection",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Background with justification",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 22,
+    "number": 20,
+    "stem": "Informed consent, procedures for minimizing participant risk and compensations are included in which of the following sections",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Introduction",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Abstract",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Human subject protection",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Study procedure",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 22,
+    "number": 21,
+    "stem": "Which of the following is NOT an appropriate step of protocol development?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Development of research question",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Preparation of the analysis plan",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Development of study tool",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Initiation of data collection",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 22,
+    "number": 22,
+    "stem": "In which of the following section of a protocol, is the analysis plan written?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Objective",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Results",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Budget",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Methods",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 22,
+    "number": 23,
+    "stem": "State whether true or false. Study population and the study sample are same.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 22,
+    "number": 24,
+    "stem": "Which of the following is CORRECT about operational definitions in a study protocol?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is part of the background section",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It spells out the key research gaps",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It should be broad and non-specific",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It may be supported by appropriate references",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 22,
+    "number": 25,
+    "stem": "Which of the following component is LEAST appropriate for a project implementation plan?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Calculating sample size",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Coordinating project activities",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Assigning job responsibilities",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Preparing project timeline",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 22,
+    "number": 26,
+    "stem": "Human subjects are protected by all the following mechanisms, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Obtaining informed consent from the participants",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Reviewing proposal by the ethics committee",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Incentivizing target population for participation",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Compensating participants for loss of wages",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 22,
+    "number": 27,
+    "stem": "Which section of a protocol describes the need to maintain anonymity of study participants while sharing data to others?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Human subject protection",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Data collection methods",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Data analysis plan",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Expected benefits",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 22,
+    "number": 28,
+    "stem": "In the methods section of a protocol, a researcher can include all the following, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Analysis plan",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Supportive reference",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Expected benefits",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Quality assurance",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 22,
+    "number": 29,
+    "stem": "The number of study participants required for a research study can be decided by",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Pilot study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Sample size calculation",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Sampling procedure",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 22,
+    "number": 30,
+    "stem": "State whether true or false. Researchers can amend a research protocol after re- obtaining the ethics committee clearance for the amendments made.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 23,
+    "number": 1,
+    "stem": "All of the following statements regarding research publications are correct, Except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Publishing paper is important for getting promotion in academic institutions",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Publishing research findings help to identify the research gaps",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Negative findings in a research should not be published",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Publishing research findings improves the credibility of a researcher",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 23,
+    "number": 2,
+    "stem": "A senior resident of Psychiatry department of a medical college wrote a manuscript based on his thesis work. He has put his wife's name as a co-author who is working in the Physiology department of the same college. Which of the following statements supports the act of the senior resident in providing authorship to his wife?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "He can give authorship to anyone since it is his research work",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The guide should decide on who should be the authors",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "His wife has contributed in designing the residents’ thesis work",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It is not a good practice to include researcher from different department as authors",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 23,
+    "number": 3,
+    "stem": "Which of the following is incorrect about authorship?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Authorship confers credit, implies responsibility and accountability of the published work",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "International Committee of Medical Journal Editors recommends criteria on authorship",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is mandatory to declare the contribution of each author",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "It is not mandatory that all authors should approve the final version of the manuscript",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 23,
+    "number": 4,
+    "stem": "Which of the following is false about plagiarism?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It can be copying and pasting of contents from a published manuscript",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It can be copying someone's idea",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is not considered as a serious publication misconduct",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "'Urkund' is one of the software used to check plagiarism",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 23,
+    "number": 5,
+    "stem": "Which of the following is (are) the consequence(s) of plagiarism of manuscript?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The journal can retract the manuscript",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Institute can take action on the author/researcher",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The researcher loses professional reputation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 23,
+    "number": 6,
+    "stem": "You have finished writing a manuscript and plan to publish it. Which of the following is the best practice?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Submit to multiple journals at the same time",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Submit to a journal and wait for the journal's response",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Submit to many journals; once it gets published in one journal, withdraw it from the other journals",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Submit the same manuscript in different languages to different journals",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 23,
+    "number": 7,
+    "stem": "A researcher conducted a study to identify risk factors for exacerbation of bronchial asthma. The researcher was due for job promotion. However, the researcher was lacking enough publications to ensure promotion. Hence, in order to have maximum number of publications from the work, the researcher decided to produce three different manuscripts instead of one manuscript comprehensively covering all aspects of the study. What is this act called?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Plagiarism",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Falsification",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Salami slicing",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Fabrication",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 23,
+    "number": 8,
+    "stem": "Which of the following organizations directly deals with publication ethics?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Indian Medical Association (IMA)",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Committee on Publication Ethics (COPE)",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "World Health Organization (WHO)",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Joint National Committee (JNC)",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 23,
+    "number": 9,
+    "stem": "A group of researchers submitted a manuscript for publication based on a drug trial. Because they did not register under the clinical trial registry of India (CTRI), one reputed journal rejected the paper. The researcher resubmitted the paper in a different journal and this journal published it without asking any queries. Which of the following is the correct statement?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is necessary to register all drug trials under CTRI",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The journal which published the paper is likely to be a predatory journal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Both 'a' and 'b' are correct",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 23,
+    "number": 10,
+    "stem": "Among the following which is the best practice for determining the authorship?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Authorship can be based on the criteria given by ICMJE",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "Authorship should be decided after submission to a journal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is necessary to include head of the department/institution as a co-author",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Authorship can be gifted to friends even if they have not contributed to that study",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 23,
+    "number": 11,
+    "stem": "Which of the following is incorrect about publishing a research work?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Publishing paper is important for getting promotion in academic institutions",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Publishing research findings helps to identify the research gaps",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Common people should not read such research findings",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 23,
+    "number": 12,
+    "stem": "All clinical trials in India should be registered with Clinical Trial Registry of India.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 23,
+    "number": 13,
+    "stem": "A neonatologist planned to conduct a clinical trial to explore the effect of intervention X on hypothermia of the newborn children (Age <7 days) over intervention A (The current practice). All the following are true about the trial, except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Ethics Committee approval is a must to conduct the trial",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The trial should be registered under the Clinical Trial Registry of India",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Informed consent should be taken from either of the parents",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Age appropriate assent is a must in this trial",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 23,
+    "number": 14,
+    "stem": "Manipulating data is known as fabrication",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 23,
+    "number": 15,
+    "stem": "Which of the following is correct about determining the authorship?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The investigators can follow ICMJE guideline to determine authorship",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "The sequence should always be based on alphabetical orders",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The investigators should include the head of the institution’s name irrespective of his/ her contribution",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "None of the above",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 23,
+    "number": 16,
+    "stem": "A group of researchers submitted a manuscript in a reputed journal. Even after 5 months of submission, they did not receive the peer review comments from the journal. The authors decided to submit the manuscript to a different journal without informing the editor of the previous journal. Which of the following term describes the situation best?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Duplicate publication",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Simultaneous submission",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Self-citation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Breach of confidentiality",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 23,
+    "number": 17,
+    "stem": "Dr. D has copied the idea of Dr. A for his thesis. Copying an idea shouldn’t be considered as plagiarism.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 23,
+    "number": 18,
+    "stem": "Dr. A is in the process of writing review of literature for her thesis. Her guide has instructed her to avoid plagiarism. Dr. A should take all the following measures to avoid plagiarism, except",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Avoid copying and pasting",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Acknowledge original sources",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Take help of anti-plagiarism software",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Copy from her own previous work",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 23,
+    "number": 19,
+    "stem": "Which of the following is correct in relation to the conflict of interest?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Conflict of interest is always financial",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Conflict of interest necessarily changes the outcome of interest",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "It is recommended to hide the COI during submission of a manuscript",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Readers can determine the influence of COI on conclusion of the paper",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 23,
+    "number": 20,
+    "stem": "An editor of a reputed journal found that most of the finding of a manuscript matches with a previously published paper by different authors. The editor considered it as a case of plagiarism. Which of the following about plagiarism is true?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "The journal can retract the article, if already published",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "The editor can inform the authors’ institute about it",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "The researchers may lose their reputation",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All of the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 23,
+    "number": 21,
+    "stem": "Which of the following is TRUE regarding a clinical trial?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "It is mandatory to register the trial under ‘Clinical Trials Registry of India’ after completing it.",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Ethical issues are considerably low in clinical trials when compared with descriptive studies.",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Informed consent is a must for recruiting a study participant in a clinical trial",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Both ‘a’ and ‘c’",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 23,
+    "number": 22,
+    "stem": "Altering the original data to obtain a statistically significant result by the researcher is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Fabrication",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Falsification",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Fascination",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Fasciation",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 23,
+    "number": 23,
+    "stem": "All the following help in reducing ethical issues associated with research publication, EXCEPT",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Obtaining the institutional ethics committee permission",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Including a guest author to improve the acceptance of the manuscript",
+        "correct": true
+      },
+      {
+        "letter": "c",
+        "text": "Obtaining permission from the copyright holder to reproduce a figure",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Declaring familial relationship between an author and the CEO of the funding agency",
+        "correct": false
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 23,
+    "number": 24,
+    "stem": "Which of the following is INCORRECT about publishing research finding?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Publication often helps in career progression and academic promotion",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "It is a way to communicate research findings with the peer groups",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Conflicts of interest can be suppressed as it has implication in study findings",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "It identifies research gaps",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 23,
+    "number": 25,
+    "stem": "State whether true or false. The first author is mostly responsible for addressing the comments received from the reviewers of the journal.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": true
+      }
+    ],
+    "correct": "b"
+  },
+  {
+    "assignment": 23,
+    "number": 26,
+    "stem": "Submitting a manuscript to more than one journal at the same time is known as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Duplicate publication",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Self-citation",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Simultaneous publication",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Peer review",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 23,
+    "number": 27,
+    "stem": "Which of the following is NOT an essential criterion for authorship?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Conceptualizing the study",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Drafting the manuscript",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Approval of the final manuscript",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "Being departmental head",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  },
+  {
+    "assignment": 23,
+    "number": 28,
+    "stem": "A Post Graduate in a medical college submitted a proposal to the ethics committee of the institute. The committee found that the proposal is a near copy of an earlier proposal from the same department. This act of the PG can be best termed as",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Fabrication",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Falsification",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Plagiarism",
+        "correct": true
+      },
+      {
+        "letter": "d",
+        "text": "Breach of confidentiality",
+        "correct": false
+      }
+    ],
+    "correct": "c"
+  },
+  {
+    "assignment": 23,
+    "number": 29,
+    "stem": "State whether true or false. Unpublished work must be acknowledged in a manuscript.",
+    "options": [
+      {
+        "letter": "a",
+        "text": "True",
+        "correct": true
+      },
+      {
+        "letter": "b",
+        "text": "False",
+        "correct": false
+      }
+    ],
+    "correct": "a"
+  },
+  {
+    "assignment": 23,
+    "number": 30,
+    "stem": "Direct or indirect influence of which of the following aspect is considered ‘conflict of interest’?",
+    "options": [
+      {
+        "letter": "a",
+        "text": "Financial",
+        "correct": false
+      },
+      {
+        "letter": "b",
+        "text": "Personal",
+        "correct": false
+      },
+      {
+        "letter": "c",
+        "text": "Social",
+        "correct": false
+      },
+      {
+        "letter": "d",
+        "text": "All the above",
+        "correct": true
+      }
+    ],
+    "correct": "d"
+  }
+];

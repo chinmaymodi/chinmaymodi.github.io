@@ -640,6 +640,24 @@ ul {
   }
 }
 
+// Side project link that sits below the cards rather than as a full card.
+.projects-aside {
+  margin: 2.5rem 0 0;
+  font-size: 1.3rem;
+  color: $text-secondary;
+
+  a {
+    color: $text-primary;
+    text-decoration: underline;
+
+    @media (hover: hover) {
+      &:hover {
+        color: $accent-color;
+      }
+    }
+  }
+}
+
 // ===== FOOTER =====
 .portfolio-footer {
   padding: 4rem 0 2rem;
