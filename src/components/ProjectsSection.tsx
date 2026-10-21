@@ -38,10 +38,7 @@ export default function ProjectsSection() {
           )
 
           return (
-            <div
-              className={'project-card' + (href ? ' project-card-link' : '')}
-              key={i}
-            >
+            <div className="project-card" key={i}>
               {href ? (
                 <a
                   className="project-card-body"

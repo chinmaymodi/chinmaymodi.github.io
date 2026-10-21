@@ -517,7 +517,7 @@ ul {
   }
 }
 
-// ===== PROJECTS (Cards are the links: cream highlight on hover) =====
+// ===== PROJECTS (Card body is the link: cream highlight on hover) =====
 .projects-grid {
   display: flex;
   flex-direction: column;
@@ -525,31 +525,28 @@ ul {
 
   .project-card {
     // Text stays on the shared left edge with the other sections; the negative
-    // margin + matching padding makes the hover highlight bleed outward instead
-    // of sitting flush against the text.
+    // margin lets the body's hover highlight bleed outward instead of sitting
+    // flush against the text.
     margin: 0 -2rem;
-    padding: 2.5rem 2rem;
-    border-radius: 10px;
-    transition: $transition-smooth;
 
-    &.project-card-link {
-      display: block;
-      cursor: pointer;
-    }
-
-    &.project-card-link:hover {
-      background-color: $card-hover-bg; // Creamish/whitish warm translucent tint
-    }
-
+    // The padded body is the clickable area, so the hover highlight and the
+    // pointer only apply to it. The note below sits outside the link.
     .project-card-body {
       display: block;
+      padding: 2.5rem 2rem;
+      border-radius: 10px;
       color: inherit;
-    }
+      transition: $transition-smooth;
 
-    // Keyboard-only affordance, never shown on mouse hover.
-    .project-card-body:focus-visible {
-      outline: 2px solid rgba(255, 255, 255, 0.4);
-      outline-offset: 3px;
+      &:hover {
+        background-color: $card-hover-bg; // Creamish/whitish warm translucent tint
+      }
+
+      // Keyboard-only affordance, never shown on mouse hover.
+      &:focus-visible {
+        outline: 2px solid rgba(255, 255, 255, 0.4);
+        outline-offset: 3px;
+      }
     }
 
     .project-header {
@@ -593,8 +590,8 @@ ul {
     // Mirrors the quiz page's footer notice: centered, small, muted, with a
     // top rule and a blue licence link.
     .project-note {
-      margin: 2.4rem 0 0;
-      padding-top: 1.4rem;
+      margin: 0 2rem;
+      padding: 1.4rem 0 2.5rem;
       border-top: 1px solid rgba(255, 255, 255, 0.12);
       font-size: 1.1rem;
       line-height: 1.5;
@@ -637,8 +634,8 @@ ul {
   }
 
   // Reveal the destination label on hover and on keyboard focus.
-  .project-card-link:hover,
-  .project-card-link:focus-visible {
+  .project-card-body:hover,
+  .project-card-body:focus-visible {
     .project-links {
       opacity: 1;
     }
@@ -662,7 +659,7 @@ ul {
       border-color: $accent-color;
     }
 
-    .project-card-link {
+    .project-card-body {
       background-color: $card-hover-bg;
     }
   }
